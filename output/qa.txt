@@ -1,0 +1,44 @@
+﻿Connectathon 20 Test : Validation Results
+=========================================
+
+err = 22, warn = 2, info = 0
+Generated Sat Jan 12 15:44:23 EST 2019. FHIR version 3.6.0 for 3.0.1
+
+ Build Errors : 19 / 0
+ C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\source\resources\implementationguide\ig : 9 / 1
+ C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\source\resources\structuredefinition\eicr-condition : 2 / 0
+</table>
+== n/a ==
+ERROR: C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\output\index.html: The html must include a comment "<!--status-bar-->" that marks the insertion point for the status bar
+ERROR: C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\output\index.html: The html must include a div with an attribute igtool="footer" that marks the footer in the template
+ERROR: C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\output\toc.html: The html must include a comment "<!--status-bar-->" that marks the insertion point for the status bar
+ERROR: C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\output\toc.html: The html must include a div with an attribute igtool="footer" that marks the footer in the template
+ERROR: C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\output\StructureDefinition-eicr-condition.xml.html#/html/head/link/body/div/div/div/p/a at Line 1701, column 57: The link 'http://hl7.org/fhir/STU3/' for "FHIR Version: 3.0.1" cannot be resolved
+ERROR: C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\output\ImplementationGuide-ig.json.html#/html/head/link/body/div/div/div/p/a at Line 434, column 57: The link 'http://hl7.org/fhir/STU3/' for "FHIR Version: 3.0.1" cannot be resolved
+ERROR: C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\output\StructureDefinition-eicr-condition.html#/html/head/link/body/div/div/div/div/div/div/hr/div/div/div/p/a at Line 523, column 57: The link 'http://hl7.org/fhir/STU3/' for "FHIR Version: 3.0.1" cannot be resolved
+ERROR: C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\output\terminology.html#/html/head/link/body/div/div/div/p/a at Line 269, column 57: The link 'http://hl7.org/fhir/STU3/' for "FHIR Version: 3.0.1" cannot be resolved
+ERROR: C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\output\profiles.html#/html/head/link/body/div/div/div/p/a at Line 293, column 57: The link 'http://hl7.org/fhir/STU3/' for "FHIR Version: 3.0.1" cannot be resolved
+ERROR: C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\output\capstatements.html#/html/head/link/body/div/div/div/p/a at Line 270, column 57: The link 'http://hl7.org/fhir/STU3/' for "FHIR Version: 3.0.1" cannot be resolved
+ERROR: C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\output\ImplementationGuide-ig.html#/html/head/link/body/div/div/div/p/a at Line 320, column 57: The link 'http://hl7.org/fhir/STU3/' for "FHIR Version: 3.0.1" cannot be resolved
+ERROR: C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\output\other.html#/html/head/link/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 252, column 6: The link 'CapabilityStatement-ig.html' for "Connectathon 20 Test" cannot be resolved
+ERROR: C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\output\other.html#/html/head/link/body/div/div/div/p/a at Line 286, column 57: The link 'http://hl7.org/fhir/STU3/' for "FHIR Version: 3.0.1" cannot be resolved
+ERROR: C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\output\downloads.html#/html/head/link/body/div/div/div/p/a at Line 283, column 57: The link 'http://hl7.org/fhir/STU3/' for "FHIR Version: 3.0.1" cannot be resolved
+ERROR: C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\output\ImplementationGuide-ig.xml.html#/html/head/link/body/div/div/div/p/a at Line 416, column 57: The link 'http://hl7.org/fhir/STU3/' for "FHIR Version: 3.0.1" cannot be resolved
+ERROR: C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\output\ImplementationGuide-ig.ttl.html#/html/head/link/body/div/div/div/p/a at Line 426, column 57: The link 'http://hl7.org/fhir/STU3/' for "FHIR Version: 3.0.1" cannot be resolved
+ERROR: C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\output\StructureDefinition-eicr-condition.ttl.html#/html/head/link/body/div/div/div/p/a at Line 1549, column 57: The link 'http://hl7.org/fhir/STU3/' for "FHIR Version: 3.0.1" cannot be resolved
+ERROR: C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\output\StructureDefinition-eicr-condition-definitions.html#/html/head/link/body/div/div/div/p/a at Line 578, column 57: The link 'http://hl7.org/fhir/STU3/' for "FHIR Version: 3.0.1" cannot be resolved
+ERROR: C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\output\StructureDefinition-eicr-condition.json.html#/html/head/link/body/div/div/div/p/a at Line 1837, column 57: The link 'http://hl7.org/fhir/STU3/' for "FHIR Version: 3.0.1" cannot be resolved
+== C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\source\resources\implementationguide\ig.xml ==
+ERROR: ImplementationGuide/ig: ImplementationGuide.contained[1]: Profile http://hl7.org/fhir/StructureDefinition/Binary, Element 'ImplementationGuide.contained[1].contentType': minimum required = 1, but only found 0
+WARNING: ImplementationGuide/ig: ImplementationGuide.contained[2].contentType: ValueSet http://hl7.org/fhir/ValueSet/mimetypes not found
+ERROR: ImplementationGuide/ig: ImplementationGuide.extension[1]: The extension https://trifolia-on-fhir.lantanagroup.com/StructureDefinition/extension-ig-dependency is unknown, and not allowed here
+ERROR: ImplementationGuide/ig: ImplementationGuide.extension[1].extension[1]: The extension https://trifolia-on-fhir.lantanagroup.com/StructureDefinition/extension-ig-dependency-name is unknown, and not allowed here
+ERROR: ImplementationGuide/ig: ImplementationGuide.extension[1].extension[2]: The extension https://trifolia-on-fhir.lantanagroup.com/StructureDefinition/extension-ig-dependency-location is unknown, and not allowed here
+ERROR: ImplementationGuide/ig: ImplementationGuide.extension[1].extension[3]: The extension https://trifolia-on-fhir.lantanagroup.com/StructureDefinition/extension-ig-dependency-version is unknown, and not allowed here
+ERROR: ImplementationGuide/ig: ImplementationGuide.extension[2]: The extension https://trifolia-fhir.lantanagroup.com/stu3/StructureDefinition/github-branch is unknown, and not allowed here
+ERROR: ImplementationGuide/ig: ImplementationGuide.extension[3]: The extension https://trifolia-fhir.lantanagroup.com/stu3/StructureDefinition/github-path is unknown, and not allowed here
+ERROR: ImplementationGuide/ig: ImplementationGuide.page.extension: The extension https://trifolia-on-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-content is unknown, and not allowed here
+ERROR: ImplementationGuide/ig: ImplementationGuide.page.page.extension: The extension https://trifolia-on-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-content is unknown, and not allowed here
+== C:\Windows\Temp\tmp-3996rK3CpCyZRCjU\source\resources\structuredefinition\eicr-condition.xml ==
+ERROR: StructureDefinition/eicr-condition: StructureDefinition.extension[1]: The extension https://trifolia-fhir.lantanagroup.com/stu3/StructureDefinition/github-branch is unknown, and not allowed here
+ERROR: StructureDefinition/eicr-condition: StructureDefinition.extension[2]: The extension https://trifolia-fhir.lantanagroup.com/stu3/StructureDefinition/github-path is unknown, and not allowed here

@@ -1,0 +1,12 @@
+﻿{
+  "url": "http://hl7.org/fhir/us/ecr/ImplementationGuide/ig",
+  "name": "Connectathon 20 Test",
+  "package-id": "ig-npm",
+  "ig-ver": "0.0.1",
+  "date": "Sat, 12 Jan, 2019 15:44:08 -0500",
+  "errs": 22,
+  "warnings": 2,
+  "hints": 0,
+  "version": "3.0.1",
+  "tool": "3.6.0-14947"
+}

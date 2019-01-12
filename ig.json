@@ -1,6 +1,6 @@
-{ 
+{
 	"tool": "jekyll",
-	"source": "resources/implementationguide/ig.xml",
+	"source": "implementationguide/ig.xml",
 	"npm-name": "ig-npm",
 	"license": "CC0-1.0",
 	"paths": {
@@ -9,11 +9,17 @@
 		"output": "output",
 		"txCache": "generated_output/txCache",
 		"specification": "http://hl7.org/fhir/STU3",
+		"pages": [
+			"framework",
+			"source/pages"
+		],
 		"resources": [
-			"resources"
+			"source/resources"
 		]
 	},
-	
+	"pages": [
+		"pages"
+	],
 	"extension-domains": [
 		"https://trifolia-on-fhir.lantanagroup.com"
 	],
