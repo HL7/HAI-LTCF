@@ -1,4 +1,4 @@
-{
+{ 
 	"tool": "jekyll",
 	"source": "implementationguide/ig.xml",
 	"npm-name": "ig-npm",
