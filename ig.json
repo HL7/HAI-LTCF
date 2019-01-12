@@ -9,17 +9,11 @@
 		"output": "output",
 		"txCache": "generated_output/txCache",
 		"specification": "http://hl7.org/fhir/STU3",
-		"pages": [
-			"framework",
-			"pages"
-		],
 		"resources": [
 			"resources"
 		]
 	},
-	"pages": [
-		"pages"
-	],
+	
 	"extension-domains": [
 		"https://trifolia-on-fhir.lantanagroup.com"
 	],
