@@ -1,6 +1,6 @@
 { 
 	"tool": "jekyll",
-	"source": "implementationguide/ig.xml",
+	"source": "resources/implementationguide/ig.xml",
 	"npm-name": "ig-npm",
 	"license": "CC0-1.0",
 	"paths": {
