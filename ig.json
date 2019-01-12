@@ -11,10 +11,10 @@
 		"specification": "http://hl7.org/fhir/STU3",
 		"pages": [
 			"framework",
-			"source/pages"
+			"pages"
 		],
 		"resources": [
-			"source/resources"
+			"resources"
 		]
 	},
 	"pages": [
