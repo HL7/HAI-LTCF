@@ -1,14 +1,14 @@
 {
 	"tool": "jekyll",
-	"source": "implementationguide/ig.xml",
-	"npm-name": "ig-npm",
+	"source": "implementationguide/hl7-fhir-us-hai-ltcf.xml",
+	"npm-name": "hl7.fhir.us.nhsn.ltc",
 	"license": "CC0-1.0",
 	"paths": {
 		"qa": "generated_output/qa",
 		"temp": "generated_output/temp",
 		"output": "output",
 		"txCache": "generated_output/txCache",
-		"specification": "http://hl7.org/fhir/STU3",
+		"specification": "http://hl7.org/fhir/R4/",
 		"pages": [
 			"framework",
 			"source/pages"
@@ -27,7 +27,7 @@
 		"https://trifolia-on-fhir.lantanagroup.com"
 	],
 	"sct-edition": "http://snomed.info/sct/731000124108",
-	"canonicalBase": "http://hl7.org/fhir/us/ecr",
+	"canonicalBase": "http://hl7.org/fhir/us/hai",
 	"defaults": {
 		"Location": {
 			"template-base": "ex.html"
@@ -94,17 +94,43 @@
 		}
 	},
 	"resources": {
-		"StructureDefinition/eicr-condition": {
-			"base": "StructureDefinition-eicr-condition.html",
-			"defns": "StructureDefinition-eicr-condition-definitions.html"
+		"Group/hai-ltcf-group-1": {
+			"base": "Group-hai-ltcf-group-1.html",
+			"defns": "Group-hai-ltcf-group-1-definitions.html"
+		},
+		"Patient/hai-ltcf-resident-1": {
+			"base": "Patient-hai-ltcf-resident-1.html",
+			"defns": "Patient-hai-ltcf-resident-1-definitions.html"
+		},
+		"Questionnaire/hai-ltcf-questionnaire-mdro-cdi-summary": {
+			"base": "Questionnaire-hai-ltcf-questionnaire-mdro-cdi-summary.html",
+			"defns": "Questionnaire-hai-ltcf-questionnaire-mdro-cdi-summary-definitions.html"
+		},
+		"Questionnaire/hai-ltcf-questionnaire-mdro-cdi-event": {
+			"base": "Questionnaire-hai-ltcf-questionnaire-mdro-cdi-event.html",
+			"defns": "Questionnaire-hai-ltcf-questionnaire-mdro-cdi-event-definitions.html"
+		},
+		"QuestionnaireResponse/hai-ltcf-questionnaireresponse-mdro-cdi-event": {
+			"base": "QuestionnaireResponse-hai-ltcf-questionnaireresponse-mdro-cdi-event.html",
+			"defns": "QuestionnaireResponse-hai-ltcf-questionnaireresponse-mdro-cdi-event-definitions.html"
+		},
+		"QuestionnaireResponse/hai-ltcf-questionnaireresponse-mdro-cdi-summary": {
+			"base": "QuestionnaireResponse-hai-ltcf-questionnaireresponse-mdro-cdi-summary.html",
+			"defns": "QuestionnaireResponse-hai-ltcf-questionnaireresponse-mdro-cdi-summary-definitions.html"
+		},
+		"Device/hai-ltcf-authoring-device": {
+			"base": "Device-hai-ltcf-authoring-device.html",
+			"defns": "Device-hai-ltcf-authoring-device-definitions.html"
 		}
 	},
-	"version": "3.0.1",
+	"version": "4.0.0",
+	"fixed-business-version": "1.0.0",
 	"dependencyList": [
 		{
 			"location": "http://hl7.org/fhir/us/core",
-			"name": "uscore",
-			"version": "1.0.1"
+			"name": "USCoreR4",
+			"version": "3.0.0",
+			"package": "hl7.fhir.us.core"
 		}
 	]
 }

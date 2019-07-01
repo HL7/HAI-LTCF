@@ -16,23 +16,9 @@ active: profiles
 ---
 <br />
 
-### Profiles
+**No profiles are defined for this implementation guide**
 
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="StructureDefinition-eicr-condition.html">eicr-condition</a></td>
-<td>The Electronic Case Reporting Condition profile is based on the **US Core-Condition** profile and establishes the core elements, extensions, vocabularies and value sets for representing the following for electronic case reporting:
+### Extensions
 
-   -  Initial Case Report signs, symptoms and diagnoses related to an event.</td>
-</tr>
-</tbody>
-</table>
-
+**No extensions are defined for this implementation guide**
 

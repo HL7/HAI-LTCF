@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Questionnaire
+    xmlns="http://hl7.org/fhir">
+    <id value="hai-ltcf-questionnaire-mdro-cdi-summary"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2019-06-25T19:24:07.000-04:00"/>
+    </meta>
+</Questionnaire>

@@ -24,8 +24,32 @@ active: other
 </thead>
 <tbody>
 <tr>
-<td>ImplementationGuide</td>
-<td><a href="CapabilityStatement-ig.html">Connectathon 20 Test</a></td>
+<td>Device</td>
+<td><a href="Device-hai-ltcf-authoring-device.html">hai-ltcf-authoring-device</a></td>
+</tr>
+<tr>
+<td>Group</td>
+<td><a href="Group-hai-ltcf-group-1.html">hai-ltcf-group-1</a></td>
+</tr>
+<tr>
+<td>Patient</td>
+<td><a href="Patient-hai-ltcf-resident-1.html">hai-ltcf-resident-1</a></td>
+</tr>
+<tr>
+<td>Questionnaire</td>
+<td><a href="Questionnaire-hai-ltcf-questionnaire-mdro-cdi-summary.html">hai-ltcf-questionnaire-mdro-cdi-summary</a></td>
+</tr>
+<tr>
+<td>Questionnaire</td>
+<td><a href="Questionnaire-hai-ltcf-questionnaire-mdro-cdi-event.html">Late Onset Sepsis/Meningitis Event (LOS)</a></td>
+</tr>
+<tr>
+<td>QuestionnaireResponse</td>
+<td><a href="QuestionnaireResponse-hai-ltcf-questionnaireresponse-mdro-cdi-event.html">hai-ltcf-questionnaireresponse-mdro-cdi-event</a></td>
+</tr>
+<tr>
+<td>QuestionnaireResponse</td>
+<td><a href="QuestionnaireResponse-hai-ltcf-questionnaireresponse-mdro-cdi-summary.html">hai-ltcf-questionnaireresponse-mdro-cdi-summary</a></td>
 </tr>
 </tbody>
 </table>
