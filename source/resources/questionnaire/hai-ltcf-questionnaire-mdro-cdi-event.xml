@@ -10,10 +10,10 @@
   <text>
     <status value="generated" />
     <div xmlns="http://www.w3.org/1999/xhtml">
-      <p>This Questionnaire instance records the laboratory identification of a MDRO or CDI microorganism. These reports are submitted if the LTC facility is monitoring the organism specified. Each report records a single organism event.
-            <br />Information regarding the resident's care location, type of primary service and date of current admission are recorded.
-        <br /><ul>
-          Key Encounter data in the report includes:
+      <p>
+        This Questionnaire instance records the laboratory identification of a MDRO or CDI microorganism. These reports are submitted if the LTC facility is monitoring the organism specified. Each report records a single organism event.<br />
+        Information regarding the resident's care location, type of primary service and date of current admission are recorded.<br />
+        <ul>Key Encounter data in the report includes:
           <li>The date of the current admission to the facility location where the specimen was collected is required and  is recorded in encompassingEncounter/effectiveTime.</li>
           <li>The date of specimen collection is recorded in effectiveTime in the Specimen Collection Procedure LTCF template</li>
         </ul>

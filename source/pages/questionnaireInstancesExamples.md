@@ -22,8 +22,8 @@ active: other
     </thead>
     <tbody>
       <tr>
-        <td><a href="Questionnaire-hai-ltcf-questionnaire-mdro-cdi-event.html">Late Onset Sepsis/Meningitis Event (LOS) Questionnaire</a></td>
-        <td><a href="QuestionnaireResponse-hai-ltcf-questionnaireresponse-mdro-cdi-event.html">Late Onset Sepsis/Meningitis Event (LOS) QuestionnaireResponse</a></td>
+        <td><a href="Questionnaire-hai-ltcf-questionnaire-mdro-cdi-event.html">HAI Laboratory Identified MDRO or CDI Event Report for LTCF Questionnaire</a></td>
+        <td><a href="QuestionnaireResponse-hai-ltcf-questionnaireresponse-mdro-cdi-event.html">HAI Laboratory Identified MDRO or CDI Event Report for LTCF QuestionnaireResponse</a></td>
       </tr>
       <tr>
         <td><a href="Questionnaire-hai-ltcf-questionnaire-mdro-cdi-summary.html">MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF Questionnaire</a></td>
