@@ -1,9 +1,10 @@
 {
 	"tool": "jekyll",
 	"source": "implementationguide/hl7-fhir-us-hai-ltcf.xml",
-	"npm-name": "hl7.fhir.us.nhsn.ltc",
+	"npm-name": "hl7.fhir.us.hai-ltcf",
 	"license": "CC0-1.0",
 	"paths": {
+	  "history": "http://hl7.org/fhir/us/hai-ltcf/history.cfml",
 		"qa": "generated_output/qa",
 		"temp": "generated_output/temp",
 		"output": "output",
@@ -27,7 +28,7 @@
 		"https://trifolia-on-fhir.lantanagroup.com"
 	],
 	"sct-edition": "http://snomed.info/sct/731000124108",
-	"canonicalBase": "http://hl7.org/fhir/us/hai",
+	"canonicalBase": "http://hl7.org/fhir/us/hai-ltcf",
 	"defaults": {
 		"Location": {
 			"template-base": "ex.html"

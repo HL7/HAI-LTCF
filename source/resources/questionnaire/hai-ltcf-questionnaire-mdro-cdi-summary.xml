@@ -149,7 +149,7 @@
         <value value="hai-questionnaire-opc-sdom-summary-v1"/>
     </identifier>
     <version value="1.0.0"/>
-    <name value="HAI-LTCF-questionnaire-mdro-cdi-summary"/>
+    <name value="HAI_LTCF_questionnaire_mdro_cdi_summary"/>
     <title value="MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF"/>
     <status value="draft"/>
     <experimental value="false"/>
