@@ -22,9 +22,10 @@
 -->
 - [Home](index.html){: .active}
 - [Table of Contents](toc.html)
-- [Profiles, Extensions & Transactions](profiles.html)
+- [Profiles](profiles.html)
+- [Questionnaire Instances & Examples](questionnaireInstancesExamples.html)
+- [Mapping](mapping.html)
 - [Terminology](terminology.html)
-- [Capability Statements](capstatements.html)
 - [Other](other.html)
 - [Downloads](downloads.html)
 
