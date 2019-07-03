@@ -74,11 +74,11 @@
     <status value="completed"/>
     <subject>
         <reference value="Group/hai-group-1"/>
-        <display value="hai-group-1"/>
+        <display value="hai-ltcf-group-1"/>
     </subject>
     <author>
         <reference value="Device/hai-authoring-device"/>
-        <display value="hai-authoring-device"/>
+        <display value="hai-ltcf-authoring-device"/>
     </author>
     <item>
         <linkId value="facility-id"/>

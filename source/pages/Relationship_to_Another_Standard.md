@@ -4,7 +4,7 @@ layout: default
 active: Relationship to Another Standard
 ---
 
-[Previous Page](undefined)
+[Previous Page](index.html)
 
 HL7 has developed this FHIR Implementation Guide in parallel with the existing CDA Implementation Guide.We anticipate several STU releases on the path to a Normative Release 1 of the HL7 Implementation Guide for CDA and FHIR for Healthcare Associated Infection (HAI) Reports from Long Term Care Facilities (LTCF). The FHIR and CDA implementation guides will align. A change to one standard will require the same change in the other standard. 
 

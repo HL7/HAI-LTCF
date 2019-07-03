@@ -167,12 +167,12 @@
     </identifier>
     <status value="completed"/>
     <subject>
-        <reference value="Patient/hai-patient-1"/>
-        <display value="hai-patient-1"/>
+        <reference value="Patient/hai-ltcf-resident-1"/>
+        <display value="hai-ltcf-resident-1"/>
     </subject>
     <author>
-        <reference value="Device/hai-authoring-device"/>
-        <display value="hai-authoring-device"/>
+        <reference value="Device/hai-ltcf-authoring-device"/>
+        <display value="hai-ltcf-authoring-device"/>
     </author>
     <item>
         <linkId value="facility"/>

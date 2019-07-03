@@ -4,7 +4,7 @@
   <meta>
     <versionId value="1" />
     <lastUpdated value="2019-06-25T19:23:13.000-04:00" />
-    <profile value="http://hl7.org/fhir/us/hai/StructureDefinition/hai-single-person-report-questionnaire" />
+    <profile value="http://build.fhir.org/ig/HL7/HAI/StructureDefinition/hai-single-person-report-questionnaire" />
   </meta>
   <language value="en-US" />
   <text>
@@ -365,8 +365,6 @@ For further details see  the NHSN website (https://www.cdc.gov/nhsn/) for report
   </item>
   <item>
     <linkId value="findings-group" />
-    <definition
-      value="Records a laboratory-identified microorganism. It records one microorganism (if more were identified, each is recorded in a separate QuestionnaireResponse), and details about the specimen collection." />
     <code>
       <system value="http://loinc.org" />
       <code value="18769-0" />
@@ -378,7 +376,6 @@ For further details see  the NHSN website (https://www.cdc.gov/nhsn/) for report
     <repeats value="true" />
     <item>
       <linkId value="date-specimen-collected" />
-      <definition value="The date the specimen was collected for this event. Also referred to as the Date of Event." />
       <text value="Date Specimen Collected" />
       <type value="date" />
       <required value="true" />
@@ -386,7 +383,6 @@ For further details see  the NHSN website (https://www.cdc.gov/nhsn/) for report
     </item>
     <item>
       <linkId value="specific-organism-type" />
-      <definition value="Laboratory-identified MDRO identified from the specimen." />
       <text value="Specific Organism Type" />
       <type value="choice" />
       <required value="true" />

@@ -15,10 +15,10 @@ active: other
 
 ### Mapping to CDA
   
-  <p>NOTE to commenters: BEFORE PUBLICATION this mapping will be updated for all 5 new HAI forms - it is incomplete now due to the fact that the mappings will likely change during ballot.</p>
+  <p>NOTE to commenters: BEFORE PUBLICATION this mapping will be updated - it is incomplete now due to the fact that the mappings will likely change during ballot.</p>
   <p>This implementation guide is the first FHIR release of the HAI LCTF reporting profiles and is being balloted in the same cycle as the HL7 CDA® R2 Implementation Guide: **TODO**—US Realm.</p>
   <p>The following table shows the mapping between FHIR Questionnaire items and the corresponding CDA templates</p>
-  <h3><a href="Questionnaire-hai-questionnaire-los-event.html">Late Onset Sepsis/Meningitis Event (LOS) Report</a></h3>
+  <h3><a href="Questionnaire-hai-ltcf-questionnaire-mdro-cdi-event.html">HAI Laboratory Identified MDRO or CDI Event Report for LTCF</a></h3>
   <table class="codes">
     <thead>
       <tr>
