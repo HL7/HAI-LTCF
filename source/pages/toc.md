@@ -4,4 +4,9 @@ layout: default
 active: toc
 ---
 
-[object Object]
+* <a href="index.html">Healthcare Associated Infection Reports (FHIR)</a>
+    * <a href="Relationship_to_Another_Standard.html">Relationship to Another Standard</a>
+    * <a href="Audience.html">Audience</a>
+    * <a href="Design_Considerations.html">Design Considerations</a>
+    * <a href="References.html">References</a>
+    * <a href="Acknowledgements.html">Acknowledgements</a>
