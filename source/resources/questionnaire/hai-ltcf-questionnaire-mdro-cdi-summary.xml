@@ -5,7 +5,7 @@
     <meta>
         <versionId value="1"/>
         <lastUpdated value="2019-06-25T19:23:21.000-04:00"/>
-        <profile value="http://hl7.org/fhir/us/hai/StructureDefinition/hai-population-summary-questionnaire"/>
+        <profile value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-population-summary-questionnaire"/>
         <security>
             <system value="https://trifolia-fhir.lantanagroup.com/security"/>
             <code value="user^s7DIn2HM^read"/>

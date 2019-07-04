@@ -4,7 +4,7 @@
   <meta>
     <versionId value="1" />
     <lastUpdated value="2019-06-25T19:23:13.000-04:00" />
-    <profile value="http://hl7.org/fhir/us/hai/StructureDefinition/hai-single-person-report-questionnaire" />
+    <profile value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-single-person-report-questionnaire" />
   </meta>
   <language value="en-US" />
   <text>
@@ -353,7 +353,7 @@ For further details see  the NHSN website (https://www.cdc.gov/nhsn/) for report
     <code>
       <system value="http://loinc.org" />
       <code value="46240-8" />
-      <display value="History of Encounters" />
+      <display value="Hx of Hospitalizations+OP visits" />
     </code>
     <text value="Encounters Group" />
     <type value="group" />
