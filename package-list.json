@@ -11,10 +11,12 @@
   "current" : true
  },{
   "version" : "1.0.0",  
-  "date" : "2019-04-01", 
+  "date" : "2019-08-01", 
   "desc" : "Ballot for FHIR STU Release 1",   
   "path" : "http://hl7.org/fhir/us/hai-ltcf/2019Sep",    
-  "status" : "ballot",   
-  "sequence" : "STU 1"
+  "status" : "ballot",
+  "sequence" : "STU 1",
+  "fhirversion" : "4.0.0",
+  "current" : true  
  }]
 }
