@@ -167,9 +167,9 @@
                <td/>
             </tr>
             <tr>
-               <tr>
-                  <td colspan="8">The Event Details Group records details about the event.</td>
-               </tr>
+               <td colspan="8">The Event Details Group records details about the event.</td>
+            </tr>
+            <tr>
                <td/>
                <td>Event Details</td>
                <td>event-details-group</td>
@@ -178,16 +178,6 @@
                <td>false</td>
                <td/>
                <td/>
-               <tr>
-                  <td>Event Details</td>
-                  <td>The Event Details Group records details about the event.</td>
-                  <td>event-details-group-display</td>
-                  <td>display</td>
-                  <td/>
-                  <td/>
-                  <td/>
-                  <td/>
-               </tr>
                <tr>
                   <td>Event Details</td>
                   <td>Date Specimen Collected</td>
@@ -234,9 +224,9 @@
                </tr>
             </tr>
             <tr>
-               <tr>
-                  <td colspan="8">The Encounters Group records the first admission date to the facility along with whether or not the resident was transferred from an acute care facility in the past four weeks.</td>
-               </tr>
+               <td colspan="8">The Encounters Group records the first admission date to the facility along with whether or not the resident was transferred from an acute care facility in the past four weeks.</td>
+            </tr>
+            <tr>
                <td/>
                <td>Encounters Group</td>
                <td>encounters-group</td>
@@ -245,16 +235,6 @@
                <td>true</td>
                <td/>
                <td/>
-               <tr>
-                  <td>Encounters Group</td>
-                  <td>The Encounters Group records the first admission date to the facility along with whether or not the resident was transferred from an acute care facility in the past four weeks.</td>
-                  <td>encounters-group-display</td>
-                  <td>display</td>
-                  <td/>
-                  <td/>
-                  <td/>
-                  <td/>
-               </tr>
                <tr>
                   <td>Encounters Group</td>
                   <td>Transfer From Acute Care Facility to LTCF in Past Four Weeks</td>
@@ -287,9 +267,9 @@
                </tr>
             </tr>
             <tr>
-               <tr>
-                  <td colspan="8">The Findings Group records a laboratory-identified microorganism. It records one microorganism (if more were identified, each is recorded in a separate QuestionnaireResponse), and details about the specimen collection.</td>
-               </tr>
+               <td colspan="8">The Findings Group records a laboratory-identified microorganism. It records one microorganism (if more were identified, each is recorded in a separate QuestionnaireResponse), and details about the specimen collection.</td>
+            </tr>
+            <tr>
                <td/>
                <td>Findings Group</td>
                <td>findings-group</td>
@@ -298,16 +278,6 @@
                <td>true</td>
                <td/>
                <td/>
-               <tr>
-                  <td>Findings Group</td>
-                  <td>The Findings Group records a laboratory-identified microorganism. It records one microorganism (if more were identified, each is recorded in a separate QuestionnaireResponse), and details about the specimen collection.</td>
-                  <td>findings-group-display</td>
-                  <td>display</td>
-                  <td/>
-                  <td/>
-                  <td/>
-                  <td/>
-               </tr>
                <tr>
                   <td>Findings Group</td>
                   <td>Specific Organism Type</td>
