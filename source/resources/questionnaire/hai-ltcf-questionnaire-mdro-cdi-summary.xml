@@ -264,7 +264,7 @@
                   <td>Report no labID event - All specimens - Methicillin-sensitive Staphylococcus aureus</td>
                   <td>no-lab-id-event-mssa</td>
                   <td>boolean</td>
-                  <td/>
+                  <td>false</td>
                   <td>false</td>
                   <td/>
                   <td/>
@@ -274,7 +274,7 @@
                   <td>Report no labID event - All specimens - Vancomycin resistant Enterococcus</td>
                   <td>no-lab-id-event-vre</td>
                   <td>boolean</td>
-                  <td/>
+                  <td>false</td>
                   <td>false</td>
                   <td/>
                   <td/>
@@ -284,7 +284,7 @@
                   <td>Report no labID event - All specimens - CephR Klebsiella</td>
                   <td>no-lab-id-event-cephr-klebsiella</td>
                   <td>boolean</td>
-                  <td/>
+                  <td>false</td>
                   <td>false</td>
                   <td/>
                   <td/>
@@ -294,7 +294,7 @@
                   <td>Report no labID event - All specimens - CRE E. coli</td>
                   <td>no-lab-id-event-mrsa-cre-e-coli</td>
                   <td>boolean</td>
-                  <td/>
+                  <td>false</td>
                   <td>false</td>
                   <td/>
                   <td/>
@@ -304,7 +304,7 @@
                   <td>Report no labID event - All specimens - CRE Enterobacter</td>
                   <td>no-lab-id-event-mrsa-cre-enterobacter</td>
                   <td>boolean</td>
-                  <td/>
+                  <td>false</td>
                   <td>false</td>
                   <td/>
                   <td/>
@@ -314,7 +314,7 @@
                   <td>Report no labID event - All specimens - CRE Klebsiella</td>
                   <td>no-lab-id-event-cre-klebsiella</td>
                   <td>boolean</td>
-                  <td/>
+                  <td>false</td>
                   <td>false</td>
                   <td/>
                   <td/>
@@ -324,7 +324,7 @@
                   <td>Report no labID event - All specimens - Acinetobacter</td>
                   <td>no-lab-id-event-mdr-acinetobacter</td>
                   <td>boolean</td>
-                  <td/>
+                  <td>false</td>
                   <td>false</td>
                   <td/>
                   <td/>
@@ -505,8 +505,8 @@
          </code>
          <text value="Report no labID event - All specimens - Methicillin-sensitive Staphylococcus aureus"/>
          <type value="boolean"/>
+         <required value="false"/>
          <repeats value="false"/>
-         <readOnly value="false"/>
       </item>
       <item>
          <linkId value="no-lab-id-event-vre"/>
@@ -517,8 +517,8 @@
          </code>
          <text value="Report no labID event - All specimens - Vancomycin resistant Enterococcus"/>
          <type value="boolean"/>
+         <required value="false"/>
          <repeats value="false"/>
-         <readOnly value="false"/>
       </item>
       <item>
          <linkId value="no-lab-id-event-cephr-klebsiella"/>
@@ -529,8 +529,8 @@
          </code>
          <text value="Report no labID event - All specimens - CephR Klebsiella"/>
          <type value="boolean"/>
+         <required value="false"/>
          <repeats value="false"/>
-         <readOnly value="false"/>
       </item>
       <item>
          <linkId value="no-lab-id-event-mrsa-cre-e-coli"/>
@@ -541,8 +541,8 @@
          </code>
          <text value="Report no labID event - All specimens - CRE E. coli"/>
          <type value="boolean"/>
+         <required value="false"/>
          <repeats value="false"/>
-         <readOnly value="false"/>
       </item>
       <item>
          <linkId value="no-lab-id-event-mrsa-cre-enterobacter"/>
@@ -553,8 +553,8 @@
          </code>
          <text value="Report no labID event - All specimens - CRE Enterobacter"/>
          <type value="boolean"/>
+         <required value="false"/>
          <repeats value="false"/>
-         <readOnly value="false"/>
       </item>
       <item>
          <linkId value="no-lab-id-event-cre-klebsiella"/>
@@ -565,8 +565,8 @@
          </code>
          <text value="Report no labID event - All specimens - CRE Klebsiella"/>
          <type value="boolean"/>
+         <required value="false"/>
          <repeats value="false"/>
-         <readOnly value="false"/>
       </item>
       <item>
          <linkId value="no-lab-id-event-mdr-acinetobacter"/>
@@ -577,8 +577,8 @@
          </code>
          <text value="Report no labID event - All specimens - Acinetobacter"/>
          <type value="boolean"/>
+         <required value="false"/>
          <repeats value="false"/>
-         <readOnly value="false"/>
       </item>
       <item>
          <linkId value="no-lab-id-event-c-difficile"/>
