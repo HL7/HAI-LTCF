@@ -147,3 +147,21 @@ Release 1, STU 1—US Realm.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h3><a href="Questionnaire-hai-ltcf-questionnaire-mdro-cdi-summary.html">MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF</a></h3>
+  <table class="codes">
+    <thead>
+      <tr>
+        <td>
+          <b>FHIR Questionnaire Item</b>
+        </td>
+        <td>
+          <b>FHIR Questionnaire Item linkId</b>
+        </td>
+        <td>
+          <b>CDA Mapping</b>
+        </td>
+      </tr>
+    </thead>
+    
+  </table>
