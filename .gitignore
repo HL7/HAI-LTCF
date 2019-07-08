@@ -15,3 +15,5 @@ validation/
 *.zip
 org.hl7.fhir.publisher.jar
 transform/questionnaire.profile.xsl
+narrative/
+source/resources/html/

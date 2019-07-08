@@ -186,7 +186,7 @@
                            <ul style="list-style:none; padding-left:0; margin:0 0;">
                               <li>Date Specimen Collected</li>
                               <li>date-specimen-collected</li>
-                              <li>2018-12-25</li>
+                              <li>2019-01-19</li>
                            </ul>
                         </td>
                      </tr>
@@ -198,10 +198,10 @@
                            <ul style="list-style:none; padding-left:0; margin:0 0;">
                               <li>Specimen Type</li>
                               <li>specimen-type</li>
-                              <li>Microbial susceptibility tests Set</li>
-                              <li>Code system: <a href="http://loinc.org">http://loinc.org</a>
+                              <li>stool specimen</li>
+                              <li>Code system: <a href="http://snomed.info/sct">http://snomed.info/sct</a>
                               </li>
-                              <li>Code: 18769-0</li>
+                              <li>Code: 119339001</li>
                            </ul>
                         </td>
                      </tr>
@@ -267,7 +267,7 @@
                            <ul style="list-style:none; padding-left:0; margin:0 0;">
                               <li>Date of Last Transfer From Acute Care to LTCF</li>
                               <li>date-of-last-transfer</li>
-                              <li>2018-12-12</li>
+                              <li>2019-01-25</li>
                            </ul>
                         </td>
                      </tr>
@@ -307,10 +307,10 @@
                            <ul style="list-style:none; padding-left:0; margin:0 0;">
                               <li>Specific Organism Type</li>
                               <li>specific-organism-type</li>
-                              <li>CRE-Klebsiella (CREKLEB)</li>
+                              <li>Clostridium difficile (organism)</li>
                               <li>Code system: <a href="http://snomed.info/sct">http://snomed.info/sct</a>
                               </li>
-                              <li>Code: 2017-2</li>
+                              <li>Code: 5933001</li>
                            </ul>
                         </td>
                      </tr>
@@ -387,7 +387,7 @@
       <linkId value="date-of-current-admission-to-facility"/>
       <text value="Date of Current Admission to Facility"/>
       <answer>
-         <valueDate value="2018-12-09"/>
+         <valueDate value="2019-01-15"/>
       </answer>
    </item>
    <item>
@@ -396,16 +396,16 @@
          <linkId value="date-specimen-collected"/>
          <text value="Date Specimen Collected"/>
          <answer>
-            <valueDate value="2018-12-25"/>
+            <valueDate value="2019-01-19"/>
          </answer>
       </item>
       <item>
          <linkId value="specimen-type"/>
          <text value="Specimen Type"/>
          <code>
-            <system value="http://loinc.org"/>
-            <code value="18769-0"/>
-            <display value="Microbial susceptibility tests Set"/>
+            <system value="http://snomed.info/sct"/>
+            <code value="119339001"/>
+            <display value="stool specimen"/>
          </code>
       </item>
       <item>
@@ -440,7 +440,7 @@
          <linkId value="date-of-last-transfer"/>
          <text value="Date of Last Transfer From Acute Care to LTCF"/>
          <answer>
-            <valueDate value="2018-12-12"/>
+            <valueDate value="2019-01-25"/>
          </answer>
       </item>
       <item>
@@ -460,8 +460,8 @@
          <answer>
             <valueCoding>
                <system value="http://snomed.info/sct"/>
-               <code value="2017-2"/>
-               <display value="CRE-Klebsiella (CREKLEB)"/>
+               <code value="5933001"/>
+               <display value="Clostridium difficile (organism)"/>
             </valueCoding>
          </answer>
       </item>

@@ -17,7 +17,7 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
     "valueString" : "C:\\Users\\minigrrl\\Documents\\Work\\SourceControl\\GitHub\\HL7\\FHIR\\nhsn-ltc\\source\\pages"
   }],
-  "url" : "http://hl7.org/fhir/us/hai/ImplementationGuide/hl7-fhir-us-hai-ltcf",
+  "url" : "http://hl7.org/fhir/us/hai-ltcf/ImplementationGuide/hl7-fhir-us-hai-ltcf",
   "version" : "1.0.0",
   "name" : "HealthcareAssociatedInfectionReportsLongTermCareFacilities",
   "title" : "Healthcare Associated Infection Reports (HAI) Long Term Care Facilities (LTCF), FHIR STU 1 Ballot - US Realm",

@@ -340,16 +340,6 @@
                   <td/>
                </tr>
             </tr>
-            <tr>
-               <td/>
-               <td>Comments</td>
-               <td>nhsn-comment</td>
-               <td>text</td>
-               <td>false</td>
-               <td>false</td>
-               <td/>
-               <td/>
-            </tr>
          </table>
       </div>
    </text>
@@ -602,18 +592,5 @@
          <required value="false"/>
          <repeats value="false"/>
       </item>
-   </item>
-   <item>
-      <linkId value="nhsn-comment"/>
-      <code>
-         <system value="http://www.loinc.org"/>
-         <code value="86468-6"/>
-         <display value="Report Comment Section"/>
-      </code>
-      <text value="Comments"/>
-      <type value="text"/>
-      <required value="false"/>
-      <repeats value="false"/>
-      <maxLength value="2000"/>
    </item>
 </Questionnaire>
