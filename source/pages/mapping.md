@@ -16,7 +16,8 @@ active: other
 ### Mapping to CDA
   
   <p>NOTE to commenters: BEFORE PUBLICATION this mapping will be updated - it is incomplete now due to the fact that the mappings will likely change during ballot.</p>
-  <p>This implementation guide is the first FHIR release of the HAI LCTF reporting profiles and is being balloted in the same cycle as the HL7 CDA® R2 Implementation Guide: **TODO**—US Realm.</p>
+  <p>This implementation guide is the first FHIR release of the HAI LCTF reporting profiles and is being balloted in the same cycle as the HL7 CDA® R2 Implementation Guide: NHSN Healthcare Associated Infection (HAI) Long Term Care Facility (LTCF) Reports
+Release 1, STU 1—US Realm.</p>
   <p>The following table shows the mapping between FHIR Questionnaire items and the corresponding CDA templates</p>
   <h3><a href="Questionnaire-hai-ltcf-questionnaire-mdro-cdi-event.html">HAI Laboratory Identified MDRO or CDI Event Report for LTCF</a></h3>
   <table class="codes">
@@ -40,123 +41,108 @@ active: other
         <td>ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/id</td>
       </tr>
       <tr>
-        <td>Event #</td>
-        <td>event-number</td>
-        <td>ClinicalDocument/componentOf/encompassingEncounter/id</td>
+        <td>Resident Id</td>
+        <td>US Core Patient.identifier</td>
+        <td>ClinicalDocument/recordTarget/patientRole/id</td>
       </tr>
       <tr>
-        <td>Event Type</td>
-        <td>event-type</td>
-        <td>Infection-Type Observation/value</td>
+        <td>Social Security #</td>
+        <td>US Core Patient.identifier</td>
+        <td>ClinicalDocument/recordTarget/patientRole/id</td>
       </tr>
       <tr>
-        <td>Date of Event</td>
-        <td>date-of-event</td>
-        <td>Infection-Type Observation/effectiveTime</td>
+        <td>Medicare #</td>
+        <td>US Core Patient.identifier</td>
+        <td>ClinicalDocument/recordTarget/patientRole/id</td>
       </tr>
       <tr>
-        <td>Facility Location</td>
-        <td>facility-location</td>
-        <td>ClinicalDocument/componentOf/encompassingEncounter/location/healthcareFacility/code</td>
+        <td>Resident name: Last</td>
+        <td>US Core Patient.name.family</td>
+        <td>ClinicalDocument/recordTarget/name</td>
       </tr>
       <tr>
-        <td>Date Admitted to Facility</td>
-        <td>date-admitted-to-facility</td>
+        <td>Resident name: First</td>
+        <td>US Core Patient.name.given</td>
+        <td>ClinicalDocument/recordTarget/name</td>
+      </tr>
+      <tr>
+        <td>Resident name: Middle</td>
+        <td>US Core Patient.name.given</td>
+        <td>ClinicalDocument/recordTarget/name</td>
+      </tr>
+      <tr>
+        <td>Gender</td>
+        <td>US Core Patient.gender</td>
+        <td>ClinicalDocument/recordTarget/patientRole/patient/administrativeGenderCode</td>
+      </tr>
+      <tr>
+        <td>Date of Birth</td>
+        <td>US Core Patient.birthDate</td>
+        <td>ClinicalDocument/recordTarget/patientRole/patient/birthTime</td>
+      </tr>
+      <tr>
+        <td>Ethnicity</td>
+        <td>US Core Patient.us-core-ethnicity</td>
+        <td>ClinicalDocument/recordTarget/patientRole/patient/ethnicGroupCode</td>
+      </tr>
+      <tr>
+        <td>Race</td>
+        <td>US Core Patient.us-core-race</td>
+        <td>ClinicalDocument/recordTarget/patientRole/patient/raceCode</td>
+      </tr>
+      <tr>
+        <td>Date First Admitted to Facility</td>
+        <td>date-of-first-admission-to-facility</td>
+        <td>First Admission Encounter in a Lab Identified Report LTCF/effectiveTime/low</td>
+      </tr>
+      <tr>
+        <td>Date of Current Admission to Facility</td>
+        <td>date-of-current-admission-to-facility</td>
         <td>ClinicalDocument/componentOf/encompassingEncounter/effectiveTime/low</td>
       </tr>
       <tr>
-        <td>Select: Inborn or Outborn</td>
-        <td>inborn-outborn-observation</td>
-        <td>Inborn/Outborn Observation</td>
+        <td>Date Specimen Collected</td>
+        <td>date-specimen-collected</td>
+        <td>Specimen Collection Procedure in a Lab Identified Report LTCF/effectiveTime/low</td>
       </tr>
       <tr>
-        <td>Patient</td>
-        <td>questionnaire-patient</td>
-        <td>ClinicalDocument/recordTarget</td>
+        <td>Specimen Type</td>
+        <td>specimen-type</td>
+        <td>Specimen Collection Procedure in a Lab Identified Report LTCF/participant/participantRole/playingEntity/code</td>
       </tr>
       <tr>
-        <td>Risk Factors</td>
-        <td>risk-factors</td>
-        <td>Risk Factors Section (LOS/Men)</td>
+        <td>Specific Organism Type</td>
+        <td>specific-organism-type</td>
+        <td>Pathogen Identified Organism in a Lab Identified Report LTCF/value</td>
       </tr>
       <tr>
-        <td>Central line present prior to event, including umbilical catheter</td>
-        <td>risk-factor-central-line</td>
-        <td>Infection Risk Factors Observation/value="1006-6"</td>
+        <td>Resident Care Location</td>
+        <td>resident-care-location</td>
+        <td>ClinicalDocument/componentOf/encompassingEncounter/location/healthcareFacility/id/@extension</td>
       </tr>
       <tr>
-        <td>Birth Weight (grams)</td>
-        <td>risk-factor-birth-weight</td>
-        <td>Infection Risk Factors Measurement Observation/value</td>
+        <td>Primary Resident Service Type</td>
+        <td>primary-resident-service-type</td>
+        <td>ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/code</td>
       </tr>
       <tr>
-        <td>Gestational Age</td>
-        <td>gestational-age</td>
-        <td>Gestational Age Observation/value</td>
+        <td>Has resident been transferred from acute care facility in past 4 weeks?</td>
+        <td>transfer-from-acute-care-facility</td>
+        <td>Transfer from an Acute Care Facility to LTCF in a Lab Identified Report/value</td>
       </tr>
       <tr>
-        <td>Event Details</td>
-        <td>event-details</td>
-        <td>Infection Details in Late Onset Sepsis Report</td>
+        <td>Date of transfer from acute care to your facility</td>
+        <td>date-of-last-transfer</td>
+        <td>Transfer from an Acute Care Facility to LTCF in a Lab Identified Report/effectiveTime</td>
       </tr>
       <tr>
-        <td>Specific Event</td>
-        <td>infection-condition</td>
-        <td>Infection Condition Observation/value</td>
-      </tr>
-      <tr>
-        <td>Laboratory Criteria Used</td>
-        <td>criteria-used</td>
-        <td>Criterion of Diagnosis Observation/value</td>
-      </tr>
-      <tr>
-        <td>Died</td>
-        <td>died</td>
-        <td>Death Observation in an Infection-type Report/value</td>
-      </tr>
-      <tr>
-        <td>Infection contrubuted to death</td>
-        <td>los-contributed-to-death</td>
-        <td>Infection Contributed to Death Observation</td>
-      </tr>
-      <tr>
-        <td>Discharge Date</td>
-        <td>discharge-date</td>
-        <td>ClinicalDocument/componentOf/encompassingEncounter/effectiveTime/high</td>
-      </tr>
-      <tr>
-        <td>Findings Group</td>
-        <td>findings-group</td>
-        <td>Findings Section in an Infection-Type Report</td>
-      </tr>
-      <tr>
-        <td>Pathogen Identified</td>
-        <td>pathogen-identified</td>
-        <td>Pathogen Identified Observation</td>
-      </tr>
-      <tr>
-        <td>Pathogen Ranking</td>
-        <td>pathogen-ranking</td>
-        <td>Pathogen Ranking Observation</td>
-      </tr>
-      <tr>
-        <td>Drug Susceptibility Test Group</td>
-        <td>drug-susceptibility-test-group</td>
-        <td>Drug Susceptibility Test Observation</td>
-      </tr>
-      <tr>
-        <td>Drug Susceptibility Test</td>
-        <td>drug-susceptibility-test</td>
-        <td>Drug-Susceptibility Test Observation/code</td>
-      </tr>
-      <tr>
-        <td>Drug Susceptibility Test Interpretation</td>
-        <td>drug-susceptibility-test-interpretation</td>
-        <td>Drug-Susceptibility Test Observation/interpretationCode</td>
+        <td>Was resident on antibiotic therapty for this organism thype at the time of transfer to your facility</td>
+        <td>antibiotic-at-time-of-transfer</td>
+        <td>Antibiotic Treatment at time of Transfer in a Lab Identified Report LTCF/value</td>
       </tr>
       <tr>
         <td>NHSN Comment</td>
-        <td>NHSN Comment</td>
+        <td>nhsn-comment</td>
         <td>NHSN Comment Section/NHSN Comment</td>
       </tr>
     </tbody>
