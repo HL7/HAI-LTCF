@@ -9,7 +9,7 @@
    <language value="en-US"/>
    <text>
       <status value="generated"/>
-      <div xmlns="http://www.w3.org/1999/xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
          <h1 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF</h1>
          <p xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <p>This Questionnaire instance defines the questions and possible answers in the MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF. It records the monthly aggregate data for Multi-Drug Resistant Organisms (MDRO) and Clostridium difficile (C. diff, CDI).</p>
@@ -181,7 +181,7 @@
                <td>false</td>
                <td/>
                <td>
-                  <a href="http://hl7.org/fhir/us/hai/ValueSet/2.16.840.1.113883.13.19">http://hl7.org/fhir/us/hai/ValueSet/2.16.840.1.113883.13.19</a>
+                  <a href="ValueSet/2.16.840.1.113883.13.19">ValueSet/2.16.840.1.113883.13.19</a>
                </td>
             </tr>
             <tr>
@@ -345,7 +345,7 @@
    </text>
    <url value="http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-summary"/>
    <identifier>
-      <value value="hai-questionnaire-opc-sdom-summary-v1"/>
+     <value value="hai-ltcf-questionnaire-mdro-cdi-summary-v1"/>
    </identifier>
    <version value="1.0.0"/>
    <name value="HAI_LTCF_questionnaire_mdro_cdi_summary"/>
@@ -401,7 +401,7 @@
       <type value="choice"/>
       <required value="true"/>
       <repeats value="false"/>
-      <answerValueSet value="http://hl7.org/fhir/us/hai/ValueSet/2.16.840.1.113883.13.19"/>
+      <answerValueSet value="ValueSet/2.16.840.1.113883.13.19"/>
    </item>
    <item>
       <linkId value="summary-data-group"/>
