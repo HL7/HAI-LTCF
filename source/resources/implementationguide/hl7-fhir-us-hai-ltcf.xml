@@ -77,6 +77,14 @@
             <name value="Example Device: HAI LTCF Authoring Device"/>
             <exampleBoolean value="true"/>
         </resource>
+      <resource>
+        <reference>
+          <reference value="ValueSet/2.16.840.1.113883.10.20.5.1.5.9.3"/>
+          <display value="NHSNPrimaryResidentServiceType"/>
+        </reference>
+        <name value="NHSNPrimaryResidentServiceType"/>
+        <exampleBoolean value="false"/>
+      </resource>
         <page>
             <nameUrl value="index.html"/>
             <title value="Healthcare Associated Infection Reports (FHIR)"/>

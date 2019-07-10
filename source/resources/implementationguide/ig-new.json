@@ -90,6 +90,14 @@
       },
       "name" : "Example Device: HAI LTCF Authoring Device",
       "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/2.16.840.1.113883.10.20.5.1.5.9.3",
+        "display" : "NHSNPrimaryResidentServiceType"
+      },
+      "name" : "NHSNPrimaryResidentServiceType",
+      "exampleBoolean" : false
     }],
     "page" : {
       "nameUrl" : "index.html",

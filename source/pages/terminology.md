@@ -13,8 +13,7 @@ active: terminology
 
 ### Value Sets
 
-**No value sets are defined for this implementation guide**
-
+- [NHSNPrimaryResidentServiceType](ValueSet-2.16.840.1.113883.10.20.5.1.5.9.3.html)
 
 
 ### Code Systems
