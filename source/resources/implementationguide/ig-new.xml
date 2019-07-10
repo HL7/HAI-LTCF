@@ -96,6 +96,22 @@
       <name value="NHSNPrimaryResidentServiceType"/>
       <exampleBoolean value="false"/>
     </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/2.16.840.1.113883.6.277"/>
+        <display value="cdcNHSN"/>
+      </reference>
+      <name value="cdcNHSN"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/2.16.840.1.113883.6.259"/>
+        <display value="HSLOC"/>
+      </reference>
+      <name value="HSLOC"/>
+      <exampleBoolean value="false"/>
+    </resource>
     <page>
       <nameUrl value="index.html"/>
       <title value="Healthcare Associated Infection Reports (FHIR)"/>

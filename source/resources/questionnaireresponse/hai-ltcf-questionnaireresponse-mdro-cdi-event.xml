@@ -402,11 +402,13 @@
       <item>
          <linkId value="specimen-type"/>
          <text value="Specimen Type"/>
-         <code>
-            <system value="http://snomed.info/sct"/>
-            <code value="119339001"/>
-            <display value="stool specimen"/>
-         </code>
+         <answer>
+            <valueCoding>
+               <system value="http://snomed.info/sct"/>
+               <code value="119339001"/>
+               <display value="stool specimen"/>
+            </valueCoding>
+         </answer>
       </item>
       <item>
          <linkId value="resident-care-location"/>
@@ -446,7 +448,6 @@
       <item>
          <linkId value="antibiotic-at-time-of-transfer"/>
          <text value="Resident on Antibiotic Therapy for Specific Organism at Time of Transfer to Facility"/>
-         <type value="boolean"/>
          <answer>
             <valueBoolean value="true"/>
          </answer>

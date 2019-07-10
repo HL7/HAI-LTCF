@@ -18,7 +18,7 @@ active: terminology
 
 ### Code Systems
 
-**No code systems are defined for this implementation guide**
-
+- [CDC - National Healthcare Safety Network (NHSN) code system](CodeSystem-2.16.840.1.113883.6.277.html)
+- [NHSN Healthcare Facility Patient Care Location](CodeSystem-2.16.840.1.113883.6.259.html)
 
 

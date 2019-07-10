@@ -54,7 +54,7 @@
                <td>
                   <b>Url:</b>
                </td>
-               <td>http://hl7.org/fhir/us/hai/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-event</td>
+               <td>http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-event</td>
             </tr>
             <tr>
                <td>
@@ -304,7 +304,7 @@
          </table>
       </div>
    </text>
-   <url value="http://hl7.org/fhir/us/hai/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-event"/>
+   <url value="http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-event"/>
    <identifier>
       <value value="hai-questionnaire-los-event-v1"/>
    </identifier>

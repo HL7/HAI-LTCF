@@ -351,11 +351,11 @@
    </identifier>
    <status value="completed"/>
    <subject>
-      <reference value="Group/hai-group-1"/>
+      <reference value="Group/hai-ltcf-group-1"/>
       <display value="hai-ltcf-group-1"/>
    </subject>
    <author>
-      <reference value="Device/hai-authoring-device"/>
+      <reference value="Device/hai-ltcf-authoring-device"/>
       <display value="hai-ltcf-authoring-device"/>
    </author>
    <item>

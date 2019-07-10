@@ -98,6 +98,22 @@
       },
       "name" : "NHSNPrimaryResidentServiceType",
       "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/2.16.840.1.113883.6.277",
+        "display" : "cdcNHSN"
+      },
+      "name" : "cdcNHSN",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/2.16.840.1.113883.6.259",
+        "display" : "HSLOC"
+      },
+      "name" : "HSLOC",
+      "exampleBoolean" : false
     }],
     "page" : {
       "nameUrl" : "index.html",

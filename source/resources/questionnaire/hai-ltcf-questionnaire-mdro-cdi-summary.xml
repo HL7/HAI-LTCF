@@ -44,7 +44,7 @@
                <td>
                   <b>Url:</b>
                </td>
-               <td>http://hl7.org/fhir/us/hai/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-summary</td>
+               <td>http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-summary</td>
             </tr>
             <tr>
                <td>
@@ -110,8 +110,8 @@
                </td>
                <td>
                   <ul style="list-style:none; padding-left:0; margin:0 0;">
-                     <li>Summary data reporting outpatient procedure component evetns at a facility</li>
-                     <li>Code system: <a href="http://hl7.org/fhir/us/hai/CodeSystem/2.16.840.1.113883.6.277">http://hl7.org/fhir/us/hai/CodeSystem/2.16.840.1.113883.6.277</a>
+                     <li>Summary data reporting outpatient procedure component events at a facility</li>
+                     <li>Code system: <a href="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277">http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277</a>
                      </li>
                      <li>Code: 1657-6</li>
                   </ul>
@@ -343,12 +343,12 @@
          </table>
       </div>
    </text>
-   <url value="http://hl7.org/fhir/us/hai/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-summary"/>
+   <url value="http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-summary"/>
    <identifier>
       <value value="hai-questionnaire-opc-sdom-summary-v1"/>
    </identifier>
    <version value="1.0.0"/>
-   <name value="HAI-LTCF-questionnaire-mdro-cdi-summary"/>
+   <name value="HAI_LTCF_questionnaire_mdro_cdi_summary"/>
    <title value="MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF"/>
    <status value="draft"/>
    <experimental value="false"/>
@@ -363,9 +363,9 @@
       </coding>
    </jurisdiction>
    <code>
-      <system value="http://hl7.org/fhir/us/hai/CodeSystem/2.16.840.1.113883.6.277"/>
+      <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
       <code value="1657-6"/>
-      <display value="Summary data reporting outpatient procedure component evetns at a facility"/>
+      <display value="Summary data reporting outpatient procedure component events at a facility"/>
    </code>
    <item>
       <linkId value="facility-id"/>
@@ -422,7 +422,7 @@
       <item>
          <linkId value="resident-days"/>
          <code>
-            <system value="http://hl7.org/fhir/us/hai/CodeSystem/2.16.840.1.113883.6.277"/>
+           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
             <code value="1369-8"/>
             <display value="Resident days"/>
          </code>
@@ -434,7 +434,7 @@
       <item>
          <linkId value="resident-admissions"/>
          <code>
-            <system value="http://hl7.org/fhir/us/hai/CodeSystem/2.16.840.1.113883.6.277"/>
+           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
             <code value="1370-6"/>
             <display value="Resident admissions"/>
          </code>
@@ -446,7 +446,7 @@
       <item>
          <linkId value="number-admissions-on-c-diff-treatment"/>
          <code>
-            <system value="http://hl7.org/fhir/us/hai/CodeSystem/2.16.840.1.113883.6.277"/>
+           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
             <code value="1371-4"/>
             <display value="Number of admissions on C. Diff treatment"/>
          </code>
@@ -458,7 +458,7 @@
       <item>
          <linkId value="number-c-diff-treatment-starts"/>
          <code>
-            <system value="http://hl7.org/fhir/us/hai/CodeSystem/2.16.840.1.113883.6.277"/>
+           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
             <code value="1372-2"/>
             <display value="Number of residents started on antibiotic treatment for C. Diff"/>
          </code>
@@ -487,7 +487,7 @@
       <item>
          <linkId value="no-lab-id-event-mrsa"/>
          <code>
-            <system value="http://hl7.org/fhir/us/hai/CodeSystem/2.16.840.1.113883.6.277"/>
+           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
             <code value="3030-4"/>
             <display value="Report no labID event - All specimens - Methicillin-resistant Staphylococcus aureus"/>
          </code>
@@ -499,7 +499,7 @@
       <item>
          <linkId value="no-lab-id-event-mssa"/>
          <code>
-            <system value="http://hl7.org/fhir/us/hai/CodeSystem/2.16.840.1.113883.6.277"/>
+           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
             <code value="1307-8"/>
             <display value="Report no labID event - All specimens - Methicillin-sensitive Staphylococcus aureus"/>
          </code>
@@ -511,7 +511,7 @@
       <item>
          <linkId value="no-lab-id-event-vre"/>
          <code>
-            <system value="http://hl7.org/fhir/us/hai/CodeSystem/2.16.840.1.113883.6.277"/>
+           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
             <code value="3033-8"/>
             <display value="Report no labID event - All specimens - Vancomycin resistant Enterococcus"/>
          </code>
@@ -523,7 +523,7 @@
       <item>
          <linkId value="no-lab-id-event-cephr-klebsiella"/>
          <code>
-            <system value="http://hl7.org/fhir/us/hai/CodeSystem/2.16.840.1.113883.6.277"/>
+           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
             <code value="3036-1"/>
             <display value="Report no labID event - All specimens - CephR Klebsiella"/>
          </code>
@@ -535,7 +535,7 @@
       <item>
          <linkId value="no-lab-id-event-mrsa-cre-e-coli"/>
          <code>
-            <system value="http://hl7.org/fhir/us/hai/CodeSystem/2.16.840.1.113883.6.277"/>
+           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
             <code value="3039-5"/>
             <display value="Report no labID event - All specimens - CRE E. coli"/>
          </code>
@@ -547,7 +547,7 @@
       <item>
          <linkId value="no-lab-id-event-mrsa-cre-enterobacter"/>
          <code>
-            <system value="http://hl7.org/fhir/us/hai/CodeSystem/2.16.840.1.113883.6.277"/>
+           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
             <code value="3042-9"/>
             <display value="Report no labID event - All specimens - CRE Enterobacter"/>
          </code>
@@ -559,7 +559,7 @@
       <item>
          <linkId value="no-lab-id-event-cre-klebsiella"/>
          <code>
-            <system value="http://hl7.org/fhir/us/hai/CodeSystem/2.16.840.1.113883.6.277"/>
+           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
             <code value="3045-2"/>
             <display value="Report no labID event - All specimens - CRE Klebsiella"/>
          </code>
@@ -571,7 +571,7 @@
       <item>
          <linkId value="no-lab-id-event-mdr-acinetobacter"/>
          <code>
-            <system value="http://hl7.org/fhir/us/hai/CodeSystem/2.16.840.1.113883.6.277"/>
+           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
             <code value="3048-6"/>
             <display value="Report no labID event - All specimens - Acinetobacter"/>
          </code>
@@ -583,7 +583,7 @@
       <item>
          <linkId value="no-lab-id-event-c-difficile"/>
          <code>
-            <system value="http://hl7.org/fhir/us/hai/CodeSystem/2.16.840.1.113883.6.277"/>
+            <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
             <code value="3051-0"/>
             <display value="Report no labID event - All specimens - Clostridium difficile"/>
          </code>
