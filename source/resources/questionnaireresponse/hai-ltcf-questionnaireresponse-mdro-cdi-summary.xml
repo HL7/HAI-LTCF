@@ -391,7 +391,7 @@
       <answer>
          <valueCoding>
             <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259"/>
-            <code value="1050-0"/>
+            <code value="1250-0"/>
             <display value="Facility-Wide Inpatient (FacWIDEIn)"/>
          </valueCoding>
       </answer>

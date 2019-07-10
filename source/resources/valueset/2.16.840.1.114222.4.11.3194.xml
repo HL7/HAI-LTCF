@@ -10,7 +10,7 @@
       <system value="http://snomed.info/sct" />
       <concept>
         <code value="5933001" />
-        <display value="Clostridium difficile (organism)" />
+        <display value="Clostridium difficile" />
       </concept>
       <concept>
         <code value="115329001" />
