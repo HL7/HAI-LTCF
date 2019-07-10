@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "CodeSystem/2.16.840.1.113883.6.277",
+      "concept" : [{
+        "code" : "1206-2",
+        "display" : "Float"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------

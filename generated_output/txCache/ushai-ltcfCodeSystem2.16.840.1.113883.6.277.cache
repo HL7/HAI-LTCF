@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277",
+      "concept" : [{
+        "code" : "2010-7",
+        "display" : "Multidrug Resistant - Acinetobacter baumannii (Organism)"
+      },
+      {
+        "code" : "2016-4",
+        "display" : "CephR-Klebsiella (CEPHRKLEB)"
+      },
+      {
+        "code" : "2017-2",
+        "display" : "CRE-Klebsiella (CREKLEB)"
+      },
+      {
+        "code" : "2018-0",
+        "display" : "CRE-Ecoli (CREECOLI)"
+      },
+      {
+        "code" : "2019-8",
+        "display" : "CRE-Enterobacter"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------

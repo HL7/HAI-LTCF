@@ -13,7 +13,10 @@ active: terminology
 
 ### Value Sets
 
+- [NHSNHealthcareServiceLocationCode](ValueSet-2.16.840.1.113883.13.19.html)
 - [NHSNPrimaryResidentServiceType](ValueSet-2.16.840.1.113883.10.20.5.1.5.9.3.html)
+- [NHSNSignificantPathogenCode](ValueSet-2.16.840.1.114222.4.11.3194.html)
+- [NHSNSpecimenTypeCode](ValueSet-2.16.840.1.114222.4.11.3249.html)
 
 
 ### Code Systems

@@ -98,18 +98,42 @@
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/2.16.840.1.113883.6.277"/>
-        <display value="cdcNHSN"/>
-      </reference>
-      <name value="cdcNHSN"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="CodeSystem/2.16.840.1.113883.6.259"/>
         <display value="HSLOC"/>
       </reference>
       <name value="HSLOC"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/2.16.840.1.113883.13.19"/>
+        <display value="NHSNHealthcareServiceLocationCode"/>
+      </reference>
+      <name value="NHSNHealthcareServiceLocationCode"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/2.16.840.1.114222.4.11.3194"/>
+        <display value="NHSNSignificantPathogenCode"/>
+      </reference>
+      <name value="NHSNSignificantPathogenCode"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/2.16.840.1.114222.4.11.3249"/>
+        <display value="NHSNSpecimenTypeCode"/>
+      </reference>
+      <name value="NHSNSpecimenTypeCode"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/2.16.840.1.113883.6.277"/>
+        <display value="CDCNHSN"/>
+      </reference>
+      <name value="CDCNHSN"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

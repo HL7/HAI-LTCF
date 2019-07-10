@@ -101,18 +101,42 @@
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/2.16.840.1.113883.6.277",
-        "display" : "cdcNHSN"
-      },
-      "name" : "cdcNHSN",
-      "exampleBoolean" : false
-    },
-    {
-      "reference" : {
         "reference" : "CodeSystem/2.16.840.1.113883.6.259",
         "display" : "HSLOC"
       },
       "name" : "HSLOC",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/2.16.840.1.113883.13.19",
+        "display" : "NHSNHealthcareServiceLocationCode"
+      },
+      "name" : "NHSNHealthcareServiceLocationCode",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/2.16.840.1.114222.4.11.3194",
+        "display" : "NHSNSignificantPathogenCode"
+      },
+      "name" : "NHSNSignificantPathogenCode",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/2.16.840.1.114222.4.11.3249",
+        "display" : "NHSNSpecimenTypeCode"
+      },
+      "name" : "NHSNSpecimenTypeCode",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/2.16.840.1.113883.6.277",
+        "display" : "CDCNHSN"
+      },
+      "name" : "CDCNHSN",
       "exampleBoolean" : false
     }],
     "page" : {

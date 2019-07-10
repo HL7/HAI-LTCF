@@ -237,7 +237,7 @@
                                  <td>
                                     <b>Value Coding:</b>
                                  </td>
-                                 <td>Code system: <a href="http://hl7.org/fhir/us/hai/CodeSystem/2.16.840.1.113883.6.259">http://hl7.org/fhir/us/hai/CodeSystem/2.16.840.1.113883.6.259</a>Code: 1050-0Facility-Wide Inpatient (FacWIDEIn)</td>
+                                 <td>Code system: <a href="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259">http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259</a>Code: 1050-0Facility-Wide Inpatient (FacWIDEIn)</td>
                               </tr>
                               <tr>
                                  <td>
@@ -391,7 +391,7 @@
       <text value="Facility Location Type"/>
       <answer>
          <valueCoding>
-            <system value="http://hl7.org/fhir/us/hai/CodeSystem/2.16.840.1.113883.6.259"/>
+            <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259"/>
             <code value="1050-0"/>
             <display value="Facility-Wide Inpatient (FacWIDEIn)"/>
          </valueCoding>
