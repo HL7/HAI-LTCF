@@ -1,596 +1,599 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Questionnaire xmlns="http://hl7.org/fhir">
-   <id value="hai-ltcf-questionnaire-mdro-cdi-summary"/>
-   <meta>
-      <versionId value="2"/>
-      <lastUpdated value="2019-07-05T01:19:42.000-04:00"/>
-      <profile value="http://hl7.org/fhir/us/hai/StructureDefinition/hai-population-summary-questionnaire"/>
-   </meta>
-   <language value="en-US"/>
-   <text>
-      <status value="generated"/>
-      <div xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
-         <h1 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF</h1>
-         <p xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-            <p>This Questionnaire instance defines the questions and possible answers in the MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF. It records the monthly aggregate data for Multi-Drug Resistant Organisms (MDRO) and Clostridium difficile (C. diff, CDI).</p>
-         </p>
-         <h2 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">Questionnaire Details</h2>
-         <table xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-            <tr>
-               <td>
-                  <b>Id:</b>
-               </td>
-               <td>hai-ltcf-questionnaire-mdro-cdi-summary</td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Meta:</b>
-               </td>
-               <td>
-                  <ul style="list-style:none; padding-left:0; margin:0 0;">
-                     <li>2</li>
-                     <li>2019-07-05T01:19:42.000-04:00</li>
-                     <li>http://hl7.org/fhir/us/hai/StructureDefinition/hai-population-summary-questionnaire</li>
-                  </ul>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Language:</b>
-               </td>
-               <td>en-US</td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Url:</b>
-               </td>
-               <td>http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-summary</td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Identifier:</b>
-               </td>
-               <td>
-                  <span>hai-questionnaire-opc-sdom-summary-v1</span>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Version:</b>
-               </td>
-               <td>Version: 1.0.0</td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Name:</b>
-               </td>
-               <td>HAI-LTCF-questionnaire-mdro-cdi-summary</td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Status:</b>
-               </td>
-               <td>draft</td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Experimental:</b>
-               </td>
-               <td>false</td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Subject Type:</b>
-               </td>
-               <td>Group</td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Date:</b>
-               </td>
-               <td>2019-08-01</td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Publisher:</b>
-               </td>
-               <td>HL7</td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Jurisdiction:</b>
-               </td>
-               <td>
-                  <span title="Code system: urn:iso:std:iso:3166">Code: US</span>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Code:</b>
-               </td>
-               <td>
-                  <ul style="list-style:none; padding-left:0; margin:0 0;">
-                     <li>Summary data reporting outpatient procedure component events at a facility</li>
-                     <li>Code system: <a href="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277">http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277</a>
-                     </li>
-                     <li>Code: 1657-6</li>
-                  </ul>
-               </td>
-            </tr>
-         </table>
-         <br xmlns:xsl="http://www.w3.org/1999/XSL/Transform"/>
-         <br xmlns:xsl="http://www.w3.org/1999/XSL/Transform"/>
-         <h2 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">Questionnaire Items</h2>
-         <table xmlns:xsl="http://www.w3.org/1999/XSL/Transform" border="1">
-            <tr>
-               <th align="left">Group</th>
-               <th align="left">text</th>
-               <th align="left">linkId</th>
-               <th align="left">type</th>
-               <th align="left">required</th>
-               <th align="left">repeats</th>
-               <th align="left">enableWhen</th>
-               <th align="left">answerValueSet</th>
-            </tr>
-            <tr>
-               <td/>
-               <td>Facility ID</td>
-               <td>facility-id</td>
-               <td>url</td>
-               <td>true</td>
-               <td>false</td>
-               <td/>
-               <td/>
-            </tr>
-            <tr>
-               <td/>
-               <td>First Day of Period Reported</td>
-               <td>report-period-start</td>
-               <td>date</td>
-               <td>true</td>
-               <td>false</td>
-               <td/>
-               <td/>
-            </tr>
-            <tr>
-               <td/>
-               <td>Last Day of Period Reported</td>
-               <td>report-period-end</td>
-               <td>date</td>
-               <td>true</td>
-               <td>false</td>
-               <td/>
-               <td/>
-            </tr>
-            <tr>
-               <td/>
-               <td>Facility Location Id</td>
-               <td>facility-location-id</td>
-               <td>url</td>
-               <td>true</td>
-               <td>false</td>
-               <td/>
-               <td/>
-            </tr>
-            <tr>
-               <td/>
-               <td>Facility Location Type</td>
-               <td>facility-location-type</td>
-               <td>choice</td>
-               <td>true</td>
-               <td>false</td>
-               <td/>
-               <td>
-                 <a href="http://hl7.org/fhir/us/hai-ltcf/ValueSet/2.16.840.1.113883.13.19">http://hl7.org/fhir/us/hai-ltcf/ValueSet/2.16.840.1.113883.13.19</a>
-               </td>
-            </tr>
-            <tr>
-               <td colspan="8">The Summary Data Group a set of summary data for a population in the defined NHSN protocol.</td>
-            </tr>
-            <tr>
-               <td/>
-               <td>Summary Data Group</td>
-               <td>summary-data-group</td>
-               <td>group</td>
-               <td>true</td>
-               <td>false</td>
-               <td/>
-               <td/>
-               <tr>
-                  <td>Summary Data Group</td>
-                  <td>Resident Days</td>
-                  <td>resident-days</td>
-                  <td>integer</td>
-                  <td>true</td>
-                  <td>false</td>
-                  <td/>
-                  <td/>
-               </tr>
-               <tr>
-                  <td>Summary Data Group</td>
-                  <td>Resident Admissions</td>
-                  <td>resident-admissions</td>
-                  <td>integer</td>
-                  <td>true</td>
-                  <td>false</td>
-                  <td/>
-                  <td/>
-               </tr>
-               <tr>
-                  <td>Summary Data Group</td>
-                  <td>Number of Admissions on C. Diff Treatment</td>
-                  <td>number-admissions-on-c-diff-treatment</td>
-                  <td>integer</td>
-                  <td>true</td>
-                  <td>false</td>
-                  <td/>
-                  <td/>
-               </tr>
-               <tr>
-                  <td>Summary Data Group</td>
-                  <td>Number of C. diff Treatment Starts</td>
-                  <td>number-c-diff-treatment-starts</td>
-                  <td>integer</td>
-                  <td>true</td>
-                  <td>false</td>
-                  <td/>
-                  <td/>
-               </tr>
-            </tr>
-            <tr>
-               <td colspan="8">The Report No Events Group contains statements that there are no events to report for a particular type of event.</td>
-            </tr>
-            <tr>
-               <td/>
-               <td>Report no events</td>
-               <td>report-no-events-group</td>
-               <td>group</td>
-               <td>false</td>
-               <td>false</td>
-               <td/>
-               <td/>
-               <tr>
-                  <td>Report no events</td>
-                  <td>Report no labID event - All specimens - Methicillin-resistant Staphylococcus aureus</td>
-                  <td>no-lab-id-event-mrsa</td>
-                  <td>boolean</td>
-                  <td>false</td>
-                  <td>false</td>
-                  <td/>
-                  <td/>
-               </tr>
-               <tr>
-                  <td>Report no events</td>
-                  <td>Report no labID event - All specimens - Methicillin-sensitive Staphylococcus aureus</td>
-                  <td>no-lab-id-event-mssa</td>
-                  <td>boolean</td>
-                  <td>false</td>
-                  <td>false</td>
-                  <td/>
-                  <td/>
-               </tr>
-               <tr>
-                  <td>Report no events</td>
-                  <td>Report no labID event - All specimens - Vancomycin resistant Enterococcus</td>
-                  <td>no-lab-id-event-vre</td>
-                  <td>boolean</td>
-                  <td>false</td>
-                  <td>false</td>
-                  <td/>
-                  <td/>
-               </tr>
-               <tr>
-                  <td>Report no events</td>
-                  <td>Report no labID event - All specimens - CephR Klebsiella</td>
-                  <td>no-lab-id-event-cephr-klebsiella</td>
-                  <td>boolean</td>
-                  <td>false</td>
-                  <td>false</td>
-                  <td/>
-                  <td/>
-               </tr>
-               <tr>
-                  <td>Report no events</td>
-                  <td>Report no labID event - All specimens - CRE E. coli</td>
-                  <td>no-lab-id-event-mrsa-cre-e-coli</td>
-                  <td>boolean</td>
-                  <td>false</td>
-                  <td>false</td>
-                  <td/>
-                  <td/>
-               </tr>
-               <tr>
-                  <td>Report no events</td>
-                  <td>Report no labID event - All specimens - CRE Enterobacter</td>
-                  <td>no-lab-id-event-mrsa-cre-enterobacter</td>
-                  <td>boolean</td>
-                  <td>false</td>
-                  <td>false</td>
-                  <td/>
-                  <td/>
-               </tr>
-               <tr>
-                  <td>Report no events</td>
-                  <td>Report no labID event - All specimens - CRE Klebsiella</td>
-                  <td>no-lab-id-event-cre-klebsiella</td>
-                  <td>boolean</td>
-                  <td>false</td>
-                  <td>false</td>
-                  <td/>
-                  <td/>
-               </tr>
-               <tr>
-                  <td>Report no events</td>
-                  <td>Report no labID event - All specimens - Acinetobacter</td>
-                  <td>no-lab-id-event-mdr-acinetobacter</td>
-                  <td>boolean</td>
-                  <td>false</td>
-                  <td>false</td>
-                  <td/>
-                  <td/>
-               </tr>
-               <tr>
-                  <td>Report no events</td>
-                  <td>Report no labID event - All specimens - Clostridium difficile</td>
-                  <td>no-lab-id-event-c-difficile</td>
-                  <td>boolean</td>
-                  <td>false</td>
-                  <td>false</td>
-                  <td/>
-                  <td/>
-               </tr>
-            </tr>
-         </table>
-      </div>
-   </text>
-   <url value="http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-summary"/>
-   <identifier>
-     <value value="hai-ltcf-questionnaire-mdro-cdi-summary-v1"/>
-   </identifier>
-   <version value="1.0.0"/>
-   <name value="HAI_LTCF_questionnaire_mdro_cdi_summary"/>
-   <title value="MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF"/>
-   <status value="draft"/>
-   <experimental value="false"/>
-   <subjectType value="Group"/>
-   <date value="2019-08-01"/>
-   <publisher value="HL7"/>
-   <description value="This Questionnaire instance defines the questions and possible answers in the MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF. It records the monthly aggregate data for Multi-Drug Resistant Organisms (MDRO) and Clostridium difficile (C. diff, CDI)."/>
-   <jurisdiction>
-      <coding>
-         <system value="urn:iso:std:iso:3166"/>
-         <code value="US"/>
-      </coding>
-   </jurisdiction>
-   <code>
-      <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
-      <code value="1657-6"/>
-      <display value="Summary data reporting outpatient procedure component events at a facility"/>
-   </code>
-   <item>
-      <linkId value="facility-id"/>
-      <text value="Facility ID"/>
-      <type value="url"/>
-      <required value="true"/>
-      <repeats value="false"/>
-   </item>
-   <item>
-      <linkId value="report-period-start"/>
-      <text value="First Day of Period Reported"/>
-      <type value="date"/>
-      <required value="true"/>
-      <repeats value="false"/>
-   </item>
-   <item>
-      <linkId value="report-period-end"/>
-      <text value="Last Day of Period Reported"/>
-      <type value="date"/>
-      <required value="true"/>
-      <repeats value="false"/>
-   </item>
-   <item>
-      <linkId value="facility-location-id"/>
-      <text value="Facility Location Id"/>
-      <type value="url"/>
-      <required value="true"/>
-      <repeats value="false"/>
-   </item>
-   <item>
-      <linkId value="facility-location-type"/>
-      <text value="Facility Location Type"/>
-      <type value="choice"/>
-      <required value="true"/>
-      <repeats value="false"/>
-     <answerValueSet value="http://hl7.org/fhir/us/hai-ltcf/ValueSet/2.16.840.1.113883.13.19"/>
-   </item>
-   <item>
-      <linkId value="summary-data-group"/>
+  <id value="hai-ltcf-questionnaire-mdro-cdi-summary" />
+  <meta>
+    <versionId value="2" />
+    <lastUpdated value="2019-07-05T01:19:42.000-04:00" />
+    <profile value="http://hl7.org/fhir/us/hai/StructureDefinition/hai-population-summary-questionnaire" />
+  </meta>
+  <language value="en-US" />
+  <text>
+    <status value="generated" />
+    <div xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+      <h1 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF</h1>
+      <p xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <p>This Questionnaire instance defines the questions and possible answers in the MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF. It records the monthly aggregate data for Multi-Drug Resistant Organisms (MDRO) and Clostridium difficile (C. diff, CDI).</p>
+      </p>
+      <h2 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">Questionnaire Details</h2>
+      <table xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <tr>
+          <td>
+            <b>Id:</b>
+          </td>
+          <td>hai-ltcf-questionnaire-mdro-cdi-summary</td>
+        </tr>
+        <tr>
+          <td>
+            <b>Meta:</b>
+          </td>
+          <td>
+            <ul style="list-style:none; padding-left:0; margin:0 0;">
+              <li>2</li>
+              <li>2019-07-05T01:19:42.000-04:00</li>
+              <li>http://hl7.org/fhir/us/hai/StructureDefinition/hai-population-summary-questionnaire</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>Language:</b>
+          </td>
+          <td>en-US</td>
+        </tr>
+        <tr>
+          <td>
+            <b>Url:</b>
+          </td>
+          <td>http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-summary</td>
+        </tr>
+        <tr>
+          <td>
+            <b>Identifier:</b>
+          </td>
+          <td>
+            <span>hai-questionnaire-opc-sdom-summary-v1</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>Version:</b>
+          </td>
+          <td>Version: 1.0.0</td>
+        </tr>
+        <tr>
+          <td>
+            <b>Name:</b>
+          </td>
+          <td>HAI-LTCF-questionnaire-mdro-cdi-summary</td>
+        </tr>
+        <tr>
+          <td>
+            <b>Status:</b>
+          </td>
+          <td>draft</td>
+        </tr>
+        <tr>
+          <td>
+            <b>Experimental:</b>
+          </td>
+          <td>false</td>
+        </tr>
+        <tr>
+          <td>
+            <b>Subject Type:</b>
+          </td>
+          <td>Group</td>
+        </tr>
+        <tr>
+          <td>
+            <b>Date:</b>
+          </td>
+          <td>2019-08-01</td>
+        </tr>
+        <tr>
+          <td>
+            <b>Publisher:</b>
+          </td>
+          <td>HL7</td>
+        </tr>
+        <tr>
+          <td>
+            <b>Jurisdiction:</b>
+          </td>
+          <td>
+            <span title="Code system: urn:iso:std:iso:3166">Code: US</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>Code:</b>
+          </td>
+          <td>
+            <ul style="list-style:none; padding-left:0; margin:0 0;">
+              <li>Summary data reporting outpatient procedure component events at a facility</li>
+              <li>Code system: <a href="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"
+                  >http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277</a>
+              </li>
+              <li>Code: 1657-6</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <br xmlns:xsl="http://www.w3.org/1999/XSL/Transform" />
+      <br xmlns:xsl="http://www.w3.org/1999/XSL/Transform" />
+      <h2 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">Questionnaire Items</h2>
+      <table xmlns:xsl="http://www.w3.org/1999/XSL/Transform" border="1">
+        <tr>
+          <th align="left">Group</th>
+          <th align="left">text</th>
+          <th align="left">linkId</th>
+          <th align="left">type</th>
+          <th align="left">required</th>
+          <th align="left">repeats</th>
+          <th align="left">enableWhen</th>
+          <th align="left">answerValueSet</th>
+        </tr>
+        <tr>
+          <td />
+          <td>Facility ID</td>
+          <td>facility-id</td>
+          <td>url</td>
+          <td>true</td>
+          <td>false</td>
+          <td />
+          <td />
+        </tr>
+        <tr>
+          <td />
+          <td>First Day of Period Reported</td>
+          <td>report-period-start</td>
+          <td>date</td>
+          <td>true</td>
+          <td>false</td>
+          <td />
+          <td />
+        </tr>
+        <tr>
+          <td />
+          <td>Last Day of Period Reported</td>
+          <td>report-period-end</td>
+          <td>date</td>
+          <td>true</td>
+          <td>false</td>
+          <td />
+          <td />
+        </tr>
+        <tr>
+          <td />
+          <td>Facility Location Id</td>
+          <td>facility-location-id</td>
+          <td>url</td>
+          <td>true</td>
+          <td>false</td>
+          <td />
+          <td />
+        </tr>
+        <tr>
+          <td />
+          <td>Facility Location Type</td>
+          <td>facility-location-type</td>
+          <td>choice</td>
+          <td>true</td>
+          <td>false</td>
+          <td />
+          <td>
+            <a href="http://hl7.org/fhir/us/hai-ltcf/ValueSet/2.16.840.1.113883.13.19"
+              >http://hl7.org/fhir/us/hai-ltcf/ValueSet/2.16.840.1.113883.13.19</a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="8">The Summary Data Group a set of summary data for a population in the defined NHSN protocol.</td>
+        </tr>
+        <tr>
+          <td />
+          <td>Summary Data Group</td>
+          <td>summary-data-group</td>
+          <td>group</td>
+          <td>true</td>
+          <td>false</td>
+          <td />
+          <td />
+          <tr>
+            <td>Summary Data Group</td>
+            <td>Resident Days</td>
+            <td>resident-days</td>
+            <td>integer</td>
+            <td>true</td>
+            <td>false</td>
+            <td />
+            <td />
+          </tr>
+          <tr>
+            <td>Summary Data Group</td>
+            <td>Resident Admissions</td>
+            <td>resident-admissions</td>
+            <td>integer</td>
+            <td>true</td>
+            <td>false</td>
+            <td />
+            <td />
+          </tr>
+          <tr>
+            <td>Summary Data Group</td>
+            <td>Number of Admissions on C. Diff Treatment</td>
+            <td>number-admissions-on-c-diff-treatment</td>
+            <td>integer</td>
+            <td>true</td>
+            <td>false</td>
+            <td />
+            <td />
+          </tr>
+          <tr>
+            <td>Summary Data Group</td>
+            <td>Number of C. diff Treatment Starts</td>
+            <td>number-c-diff-treatment-starts</td>
+            <td>integer</td>
+            <td>true</td>
+            <td>false</td>
+            <td />
+            <td />
+          </tr>
+        </tr>
+        <tr>
+          <td colspan="8">The Report No Events Group contains statements that there are no events to report for a particular type of event.</td>
+        </tr>
+        <tr>
+          <td />
+          <td>Report no events</td>
+          <td>report-no-events-group</td>
+          <td>group</td>
+          <td>false</td>
+          <td>false</td>
+          <td />
+          <td />
+          <tr>
+            <td>Report no events</td>
+            <td>Report no labID event - All specimens - Methicillin-resistant Staphylococcus aureus</td>
+            <td>no-lab-id-event-mrsa</td>
+            <td>boolean</td>
+            <td>false</td>
+            <td>false</td>
+            <td />
+            <td />
+          </tr>
+          <tr>
+            <td>Report no events</td>
+            <td>Report no labID event - All specimens - Methicillin-sensitive Staphylococcus aureus</td>
+            <td>no-lab-id-event-mssa</td>
+            <td>boolean</td>
+            <td>false</td>
+            <td>false</td>
+            <td />
+            <td />
+          </tr>
+          <tr>
+            <td>Report no events</td>
+            <td>Report no labID event - All specimens - Vancomycin resistant Enterococcus</td>
+            <td>no-lab-id-event-vre</td>
+            <td>boolean</td>
+            <td>false</td>
+            <td>false</td>
+            <td />
+            <td />
+          </tr>
+          <tr>
+            <td>Report no events</td>
+            <td>Report no labID event - All specimens - CephR Klebsiella</td>
+            <td>no-lab-id-event-cephr-klebsiella</td>
+            <td>boolean</td>
+            <td>false</td>
+            <td>false</td>
+            <td />
+            <td />
+          </tr>
+          <tr>
+            <td>Report no events</td>
+            <td>Report no labID event - All specimens - CRE E. coli</td>
+            <td>no-lab-id-event-mrsa-cre-e-coli</td>
+            <td>boolean</td>
+            <td>false</td>
+            <td>false</td>
+            <td />
+            <td />
+          </tr>
+          <tr>
+            <td>Report no events</td>
+            <td>Report no labID event - All specimens - CRE Enterobacter</td>
+            <td>no-lab-id-event-mrsa-cre-enterobacter</td>
+            <td>boolean</td>
+            <td>false</td>
+            <td>false</td>
+            <td />
+            <td />
+          </tr>
+          <tr>
+            <td>Report no events</td>
+            <td>Report no labID event - All specimens - CRE Klebsiella</td>
+            <td>no-lab-id-event-cre-klebsiella</td>
+            <td>boolean</td>
+            <td>false</td>
+            <td>false</td>
+            <td />
+            <td />
+          </tr>
+          <tr>
+            <td>Report no events</td>
+            <td>Report no labID event - All specimens - Acinetobacter</td>
+            <td>no-lab-id-event-mdr-acinetobacter</td>
+            <td>boolean</td>
+            <td>false</td>
+            <td>false</td>
+            <td />
+            <td />
+          </tr>
+          <tr>
+            <td>Report no events</td>
+            <td>Report no labID event - All specimens - Clostridium difficile</td>
+            <td>no-lab-id-event-c-difficile</td>
+            <td>boolean</td>
+            <td>false</td>
+            <td>false</td>
+            <td />
+            <td />
+          </tr>
+        </tr>
+      </table>
+    </div>
+  </text>
+  <url value="http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-summary" />
+  <identifier>
+    <value value="hai-ltcf-questionnaire-mdro-cdi-summary-v1" />
+  </identifier>
+  <version value="1.0.0" />
+  <name value="HAI_LTCF_questionnaire_mdro_cdi_summary" />
+  <title value="MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF" />
+  <status value="draft" />
+  <experimental value="false" />
+  <subjectType value="Group" />
+  <date value="2019-08-01" />
+  <publisher value="HL7" />
+  <description
+    value="This Questionnaire instance defines the questions and possible answers in the MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF. It records the monthly aggregate data for Multi-Drug Resistant Organisms (MDRO) and Clostridium difficile (C. diff, CDI)." />
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166" />
+      <code value="US" />
+    </coding>
+  </jurisdiction>
+  <code>
+    <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277" />
+    <code value="1657-6" />
+    <display value="Summary data reporting outpatient procedure component events at a facility" />
+  </code>
+  <item>
+    <linkId value="facility-id" />
+    <text value="Facility ID" />
+    <type value="url" />
+    <required value="true" />
+    <repeats value="false" />
+  </item>
+  <item>
+    <linkId value="report-period-start" />
+    <text value="First Day of Period Reported" />
+    <type value="date" />
+    <required value="true" />
+    <repeats value="false" />
+  </item>
+  <item>
+    <linkId value="report-period-end" />
+    <text value="Last Day of Period Reported" />
+    <type value="date" />
+    <required value="true" />
+    <repeats value="false" />
+  </item>
+  <item>
+    <linkId value="facility-location-id" />
+    <text value="Facility Location Id" />
+    <type value="url" />
+    <required value="true" />
+    <repeats value="false" />
+  </item>
+  <item>
+    <linkId value="facility-location-type" />
+    <text value="Facility Location Type" />
+    <type value="choice" />
+    <required value="true" />
+    <repeats value="false" />
+    <answerValueSet value="http://hl7.org/fhir/us/hai-ltcf/ValueSet/2.16.840.1.113883.13.19" />
+  </item>
+  <item>
+    <linkId value="summary-data-group" />
+    <code>
+      <system value="http://loinc.org" />
+      <code value="51900-9" />
+      <display value="Population Summary note" />
+    </code>
+    <text value="Summary Data Group" />
+    <type value="group" />
+    <required value="true" />
+    <repeats value="false" />
+    <item>
+      <linkId value="summary-data-group-display" />
+      <text value="The Summary Data Group a set of summary data for a population in the defined NHSN protocol." />
+      <type value="display" />
+    </item>
+    <item>
+      <linkId value="resident-days" />
       <code>
-         <system value="http://loinc.org"/>
-         <code value="51900-9"/>
-         <display value="Population Summary note"/>
+        <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277" />
+        <code value="1369-8" />
+        <display value="Resident days" />
       </code>
-      <text value="Summary Data Group"/>
-      <type value="group"/>
-      <required value="true"/>
-      <repeats value="false"/>
-      <item>
-         <linkId value="summary-data-group-display"/>
-         <text value="The Summary Data Group a set of summary data for a population in the defined NHSN protocol."/>
-         <type value="display"/>
-      </item>
-      <item>
-         <linkId value="resident-days"/>
-         <code>
-           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
-            <code value="1369-8"/>
-            <display value="Resident days"/>
-         </code>
-         <text value="Resident Days"/>
-         <type value="integer"/>
-         <required value="true"/>
-         <repeats value="false"/>
-      </item>
-      <item>
-         <linkId value="resident-admissions"/>
-         <code>
-           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
-            <code value="1370-6"/>
-            <display value="Resident admissions"/>
-         </code>
-         <text value="Resident Admissions"/>
-         <type value="integer"/>
-         <required value="true"/>
-         <repeats value="false"/>
-      </item>
-      <item>
-         <linkId value="number-admissions-on-c-diff-treatment"/>
-         <code>
-           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
-            <code value="1371-4"/>
-            <display value="Number of admissions on C. Diff treatment"/>
-         </code>
-         <text value="Number of Admissions on C. Diff Treatment"/>
-         <type value="integer"/>
-         <required value="true"/>
-         <repeats value="false"/>
-      </item>
-      <item>
-         <linkId value="number-c-diff-treatment-starts"/>
-         <code>
-           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
-            <code value="1372-2"/>
-            <display value="Number of residents started on antibiotic treatment for C. Diff"/>
-         </code>
-         <text value="Number of C. diff Treatment Starts"/>
-         <type value="integer"/>
-         <required value="true"/>
-         <repeats value="false"/>
-      </item>
-   </item>
-   <item>
-      <linkId value="report-no-events-group"/>
+      <text value="Resident Days" />
+      <type value="integer" />
+      <required value="true" />
+      <repeats value="false" />
+    </item>
+    <item>
+      <linkId value="resident-admissions" />
       <code>
-         <system value="http://loinc.org"/>
-         <code value="90252-8"/>
-         <display value="Report no events"/>
+        <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277" />
+        <code value="1370-6" />
+        <display value="Resident admissions" />
       </code>
-      <text value="Report no events"/>
-      <type value="group"/>
-      <required value="false"/>
-      <repeats value="false"/>
-      <item>
-         <linkId value="report-no-events-group-display"/>
-         <text value="The Report No Events Group contains statements that there are no events to report for a particular type of event."/>
-         <type value="display"/>
-      </item>
-      <item>
-         <linkId value="no-lab-id-event-mrsa"/>
-         <code>
-           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
-            <code value="3030-4"/>
-            <display value="Report no labID event - All specimens - Methicillin-resistant Staphylococcus aureus"/>
-         </code>
-         <text value="Report no labID event - All specimens - Methicillin-resistant Staphylococcus aureus"/>
-         <type value="boolean"/>
-         <required value="false"/>
-         <repeats value="false"/>
-      </item>
-      <item>
-         <linkId value="no-lab-id-event-mssa"/>
-         <code>
-           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
-            <code value="1307-8"/>
-            <display value="Report no labID event - All specimens - Methicillin-sensitive Staphylococcus aureus"/>
-         </code>
-         <text value="Report no labID event - All specimens - Methicillin-sensitive Staphylococcus aureus"/>
-         <type value="boolean"/>
-         <required value="false"/>
-         <repeats value="false"/>
-      </item>
-      <item>
-         <linkId value="no-lab-id-event-vre"/>
-         <code>
-           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
-            <code value="3033-8"/>
-            <display value="Report no labID event - All specimens - Vancomycin resistant Enterococcus"/>
-         </code>
-         <text value="Report no labID event - All specimens - Vancomycin resistant Enterococcus"/>
-         <type value="boolean"/>
-         <required value="false"/>
-         <repeats value="false"/>
-      </item>
-      <item>
-         <linkId value="no-lab-id-event-cephr-klebsiella"/>
-         <code>
-           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
-            <code value="3036-1"/>
-            <display value="Report no labID event - All specimens - CephR Klebsiella"/>
-         </code>
-         <text value="Report no labID event - All specimens - CephR Klebsiella"/>
-         <type value="boolean"/>
-         <required value="false"/>
-         <repeats value="false"/>
-      </item>
-      <item>
-         <linkId value="no-lab-id-event-mrsa-cre-e-coli"/>
-         <code>
-           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
-            <code value="3039-5"/>
-            <display value="Report no labID event - All specimens - CRE E. coli"/>
-         </code>
-         <text value="Report no labID event - All specimens - CRE E. coli"/>
-         <type value="boolean"/>
-         <required value="false"/>
-         <repeats value="false"/>
-      </item>
-      <item>
-         <linkId value="no-lab-id-event-mrsa-cre-enterobacter"/>
-         <code>
-           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
-            <code value="3042-9"/>
-            <display value="Report no labID event - All specimens - CRE Enterobacter"/>
-         </code>
-         <text value="Report no labID event - All specimens - CRE Enterobacter"/>
-         <type value="boolean"/>
-         <required value="false"/>
-         <repeats value="false"/>
-      </item>
-      <item>
-         <linkId value="no-lab-id-event-cre-klebsiella"/>
-         <code>
-           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
-            <code value="3045-2"/>
-            <display value="Report no labID event - All specimens - CRE Klebsiella"/>
-         </code>
-         <text value="Report no labID event - All specimens - CRE Klebsiella"/>
-         <type value="boolean"/>
-         <required value="false"/>
-         <repeats value="false"/>
-      </item>
-      <item>
-         <linkId value="no-lab-id-event-mdr-acinetobacter"/>
-         <code>
-           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
-            <code value="3048-6"/>
-            <display value="Report no labID event - All specimens - Acinetobacter"/>
-         </code>
-         <text value="Report no labID event - All specimens - Acinetobacter"/>
-         <type value="boolean"/>
-         <required value="false"/>
-         <repeats value="false"/>
-      </item>
-      <item>
-         <linkId value="no-lab-id-event-c-difficile"/>
-         <code>
-            <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"/>
-            <code value="3051-0"/>
-            <display value="Report no labID event - All specimens - Clostridium difficile"/>
-         </code>
-         <text value="Report no labID event - All specimens - Clostridium difficile"/>
-         <type value="boolean"/>
-         <required value="false"/>
-         <repeats value="false"/>
-      </item>
-   </item>
+      <text value="Resident Admissions" />
+      <type value="integer" />
+      <required value="true" />
+      <repeats value="false" />
+    </item>
+    <item>
+      <linkId value="number-admissions-on-c-diff-treatment" />
+      <code>
+        <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277" />
+        <code value="1371-4" />
+        <display value="Number of admissions on C. Diff treatment" />
+      </code>
+      <text value="Number of Admissions on C. Diff Treatment" />
+      <type value="integer" />
+      <required value="true" />
+      <repeats value="false" />
+    </item>
+    <item>
+      <linkId value="number-c-diff-treatment-starts" />
+      <code>
+        <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277" />
+        <code value="1372-2" />
+        <display value="Number of residents started on antibiotic treatment for C. Diff" />
+      </code>
+      <text value="Number of C. diff Treatment Starts" />
+      <type value="integer" />
+      <required value="true" />
+      <repeats value="false" />
+    </item>
+  </item>
+  <item>
+    <linkId value="report-no-events-group" />
+    <code>
+      <system value="http://loinc.org" />
+      <code value="90252-8" />
+      <display value="Report no events" />
+    </code>
+    <text value="Report no events" />
+    <type value="group" />
+    <required value="false" />
+    <repeats value="false" />
+    <item>
+      <linkId value="report-no-events-group-display" />
+      <text value="The Report No Events Group contains statements that there are no events to report for a particular type of event." />
+      <type value="display" />
+    </item>
+    <item>
+      <linkId value="no-lab-id-event-mrsa" />
+      <code>
+        <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277" />
+        <code value="3030-4" />
+        <display value="Report no labID event - All specimens - Methicillin-resistant Staphylococcus aureus" />
+      </code>
+      <text value="Report no labID event - All specimens - Methicillin-resistant Staphylococcus aureus" />
+      <type value="boolean" />
+      <required value="false" />
+      <repeats value="false" />
+    </item>
+    <item>
+      <linkId value="no-lab-id-event-mssa" />
+      <code>
+        <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277" />
+        <code value="1307-8" />
+        <display value="Report no labID event - All specimens - Methicillin-sensitive Staphylococcus aureus" />
+      </code>
+      <text value="Report no labID event - All specimens - Methicillin-sensitive Staphylococcus aureus" />
+      <type value="boolean" />
+      <required value="false" />
+      <repeats value="false" />
+    </item>
+    <item>
+      <linkId value="no-lab-id-event-vre" />
+      <code>
+        <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277" />
+        <code value="3033-8" />
+        <display value="Report no labID event - All specimens - Vancomycin resistant Enterococcus" />
+      </code>
+      <text value="Report no labID event - All specimens - Vancomycin resistant Enterococcus" />
+      <type value="boolean" />
+      <required value="false" />
+      <repeats value="false" />
+    </item>
+    <item>
+      <linkId value="no-lab-id-event-cephr-klebsiella" />
+      <code>
+        <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277" />
+        <code value="3036-1" />
+        <display value="Report no labID event - All specimens - CephR Klebsiella" />
+      </code>
+      <text value="Report no labID event - All specimens - CephR Klebsiella" />
+      <type value="boolean" />
+      <required value="false" />
+      <repeats value="false" />
+    </item>
+    <item>
+      <linkId value="no-lab-id-event-mrsa-cre-e-coli" />
+      <code>
+        <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277" />
+        <code value="3039-5" />
+        <display value="Report no labID event - All specimens - CRE E. coli" />
+      </code>
+      <text value="Report no labID event - All specimens - CRE E. coli" />
+      <type value="boolean" />
+      <required value="false" />
+      <repeats value="false" />
+    </item>
+    <item>
+      <linkId value="no-lab-id-event-mrsa-cre-enterobacter" />
+      <code>
+        <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277" />
+        <code value="3042-9" />
+        <display value="Report no labID event - All specimens - CRE Enterobacter" />
+      </code>
+      <text value="Report no labID event - All specimens - CRE Enterobacter" />
+      <type value="boolean" />
+      <required value="false" />
+      <repeats value="false" />
+    </item>
+    <item>
+      <linkId value="no-lab-id-event-cre-klebsiella" />
+      <code>
+        <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277" />
+        <code value="3045-2" />
+        <display value="Report no labID event - All specimens - CRE Klebsiella" />
+      </code>
+      <text value="Report no labID event - All specimens - CRE Klebsiella" />
+      <type value="boolean" />
+      <required value="false" />
+      <repeats value="false" />
+    </item>
+    <item>
+      <linkId value="no-lab-id-event-mdr-acinetobacter" />
+      <code>
+        <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277" />
+        <code value="3048-6" />
+        <display value="Report no labID event - All specimens - Acinetobacter" />
+      </code>
+      <text value="Report no labID event - All specimens - Acinetobacter" />
+      <type value="boolean" />
+      <required value="false" />
+      <repeats value="false" />
+    </item>
+    <item>
+      <linkId value="no-lab-id-event-c-difficile" />
+      <code>
+        <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277" />
+        <code value="3051-0" />
+        <display value="Report no labID event - All specimens - Clostridium difficile" />
+      </code>
+      <text value="Report no labID event - All specimens - Clostridium difficile" />
+      <type value="boolean" />
+      <required value="false" />
+      <repeats value="false" />
+    </item>
+  </item>
 </Questionnaire>
