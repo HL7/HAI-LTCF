@@ -6,10 +6,9 @@
       <lastUpdated value="2019-06-25T19:23:35.000-04:00"/>
       <profile value="http://hl7.org/fhir/us/hai/StructureDefinition/hai-population-summary-questionnaireresponse"/>
    </meta>
-   <language value="en-US"/>
    <text>
       <status value="generated"/>
-      <div xmlns="http://www.w3.org/1999/xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
          <table xmlns:xsl="http://www.w3.org/1999/XSL/Transform" class="bare">
             <tr>
                <td>
@@ -345,10 +344,10 @@
          </table>
       </div>
    </text>
-   <identifier>
-      <system value="urn:oid:2.16.840.1.113883.3.117.1.1.5.2.1.1.2"/>
-      <value value="20202201"/>
-   </identifier>
+  <identifier>
+    <value value="hai-ltcf-questionnaireresponse-mdro-cdi-summary-example-1"/>
+  </identifier>
+  <questionnaire value="http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-summary|1.0.0"/>
    <status value="completed"/>
    <subject>
       <reference value="Group/hai-ltcf-group-1"/>
