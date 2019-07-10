@@ -915,3 +915,31 @@ e: {
   "error" : "java.lang.NullPointerException"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "5933001",
+        "display" : "Clostridium difficile"
+      },
+      {
+        "code" : "115329001",
+        "display" : "Methicillin resistant Staphylococcus aureus (organism)"
+      },
+      {
+        "code" : "417943000",
+        "display" : "Methicillin susceptible Staphylococcus aureus (organism)"
+      },
+      {
+        "code" : "113727004",
+        "display" : "Vancomycin resistant enterococcus (organism)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------

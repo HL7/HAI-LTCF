@@ -10,7 +10,7 @@
   <description
     value="CDC - National Healthcare Safety Network (NHSN) code system - A set of patient safety and healthcare personnel safety vocabulary concepts and associated identifiers maintained as a code system by the CDC's National Healthcare Safety Network." />
   <caseSensitive value="true" />
-  <content value="complete" />
+  <content value="fragment" />
   <concept>
     <code value="1369-8" />
     <display value="Resident days" />
