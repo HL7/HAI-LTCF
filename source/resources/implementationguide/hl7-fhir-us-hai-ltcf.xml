@@ -23,7 +23,7 @@
   <dependsOn>
     <uri value="http://hl7.org/fhir/us/hai/ImplementationGuide/hl7-fhir-us-hai" />
     <packageId value="hl7.fhir.us.hai" />
-    <version value="current" />
+    <version value="2.0.0" />
   </dependsOn>
   <definition>
     <resource>
