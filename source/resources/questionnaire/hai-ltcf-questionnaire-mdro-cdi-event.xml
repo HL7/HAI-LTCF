@@ -220,7 +220,7 @@
                   <td>false</td>
                   <td/>
                   <td>
-                     <a href="http://hl7.org/fhir/us/hai-ltcf/ValueSet/2.16.840.1.113883.10.20.5.1.5.9.3">http://hl7.org/fhir/us/hai-ltcf/ValueSet/2.16.840.1.113883.10.20.5.1.5.9.3</a>
+                     <a href="ValueSet/2.16.840.1.113883.10.20.5.1.5.9.3">http://hl7.org/fhir/us/hai-ltcf/ValueSet/2.16.840.1.113883.10.20.5.1.5.9.3</a>
                   </td>
                </tr>
             </tr>
