@@ -4,7 +4,8 @@
   <meta>
     <versionId value="2" />
     <lastUpdated value="2019-07-05T01:19:42.000-04:00" />
-    <profile value="http://hl7.org/fhir/us/hai/StructureDefinition/hai-population-summary-questionnaire" />
+    <!-- **TODO** This needs to be un-commented once the HAI has been published (before publication of the HAI-LTCF IG) -->
+<!--    <profile value="http://hl7.org/fhir/us/hai/StructureDefinition/hai-population-summary-questionnaire" />-->
   </meta>
   <language value="en-US" />
   <text>
