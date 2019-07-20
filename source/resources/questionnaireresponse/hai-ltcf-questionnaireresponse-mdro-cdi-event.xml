@@ -79,19 +79,8 @@
                 <td>Facility ID</td>
               </tr>
               <tr>
-                <td>
-                  <b>Answer:</b>
-                </td>
-                <td>
-                  <table class="bare">
-                    <tr>
-                      <td>
-                        <b>Value:</b>
-                      </td>
-                      <td />
-                    </tr>
-                  </table>
-                </td>
+                <td><b>Answer:</b></td>
+                <td>2.16.840.1.113883.3.117.1.1.5.1.1</td>
               </tr>
             </table>
           </td>

@@ -11,9 +11,9 @@
   <title value="NHSN Healthcare Associated Infection (HAI) Reports Long Term Care Facilities (HAI-LTCF-FHIR), Release 1 - US Realm" />
   <status value="draft" />
   <experimental value="false" />
-  <publisher value="HL7 Public Health Work Group"/>
+  <publisher value="HL7 International - Public Health Work Group"/>
   <contact>
-    <name value="HL7 Public Health Work Group"/>
+    <name value="HL7 International - Public Health Work Group"/>
     <telecom>
       <system value="url"/>
       <value value="http://www.hl7.org/Special/committees/pher/"/>
