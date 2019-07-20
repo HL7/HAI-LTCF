@@ -7,34 +7,34 @@
   <description value="This valueset contains values for NHSN's Primary Resident Service Type" />
   <compose>
     <include>
-      <system value="http://loinc.org" />
+      <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259" />
       <concept>
-        <code value="TEMP_LOINC_SKILLED_NURSING_REHAB" />
-        <display value="Skilled nursing/Short-term rehab (subacute)" />
+        <code value="1257-5" />
+        <display value="Long Term Care Facility Skilled Nursing-Short Term Rehabilitation Unit" />
       </concept>
       <concept>
-        <code value="TEMP_LOINC_LONG_TERM_PSYCHIATRIC" />
-        <display value="Long-term psychiatric" />
+        <code value="1256-7" />
+        <display value="Long Term Care Facility Psychiatric Unit" />
       </concept>
       <concept>
-        <code value="TEMP_LOINC_VENTILATOR" />
-        <display value="Ventilator" />
+        <code value="1259-1" />
+        <display value="Long Term Care Facility Ventilator Dependent Unit" />
       </concept>
       <concept>
-        <code value="TEMP_LOINC_BARIATRIC" />
-        <display value="Bariatric" />
+        <code value="1260-9" />
+        <display value="Long Term Care Facility Bariatric Unit" />
       </concept>
       <concept>
-        <code value="TEMP_LOINC_HOSPICE_PALLIATIVE" />
-        <display value="Hospice/Palliative" />
+        <code value="1254-2" />
+        <display value="Long Term Care Facility Inpatient Hospice Unit" />
       </concept>
       <concept>
-        <code value="TEMP_LOINC_LONG_TERM_GENERAL_NURSING" />
-        <display value="Long-term general nursing" />
+        <code value="1258-3" />
+        <display value="Long Term Care Facility General Nursing Unit" />
       </concept>
       <concept>
-        <code value="TEMP_LOINC_LONG_TERM_DEMENTIA" />
-        <display value="Long-term dementia" />
+        <code value="1255-9" />
+        <display value="Long Term Care Facility Dementia Unit" />
       </concept>
     </include>
   </compose>
