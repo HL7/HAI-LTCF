@@ -13,7 +13,7 @@
      <div xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
          <h1 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">HAI Laboratory Identified MDRO or CDI Event Report for LTCF</h1>
          <p xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-            <p>This Questionnaire instance records the laboratory identification of a MDRO or CDI microorganism. These reports are submitted if the LTC facility is monitoring the organism specified. Each report records a single organism event. Information regarding the resident's care location, type of primary service and date of current admission are recorded. </p>
+            <p>This Questionnaire instance records the laboratory identification of a MDRO or CDI microorganism. These reports are submitted if the LTCF is monitoring the organism specified. Each report records a single organism event. Information regarding the resident's care location, type of primary service and date of current admission are recorded. </p>
             <p>Key Encounter data in the report includes:</p>
             <ul>
                <li>The date of the current admission to the facility location where the specimen was collected.</li>
@@ -21,9 +21,9 @@
             </ul>
             <p>Key Finding data in this report includes:</p>
             <ul>
-               <li>Inormation on the type of organism and the date which it was collected.</li>
+               <li>Information on the type of organism and the date which it was collected.</li>
             </ul>
-            <p>For further details see the NHSN website <a href="https://www.cdc.gov/nhsn/">https://www.cdc.gov/nhsn/</a> for reporting healthcare-associated infections in long-term care facilities. The concepts reported in this Questionnaire are defined for the NHSN "<i>LabID Event Protocol for LTCF</i>" and the corresponding data collection form "<i>57.138 LabID Event Form for LTCF</i>".</p>
+           <p>For further details see the NHSN website <a href="https://www.cdc.gov/nhsn/">https://www.cdc.gov/nhsn/</a> for reporting healthcare-associated infections in long-term care facilities. The concepts reported in this Questionnaire are defined for the NHSN "<i>LabID Event Protocol for LTCF</i>" and the corresponding data collection form "<i>Laboratory-identified MDRO or CDI Event for LTCF (CDC 57.138)</i>".</p>
          </p>
          <h2 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">Questionnaire Details</h2>
          <table xmlns:xsl="http://www.w3.org/1999/XSL/Transform">

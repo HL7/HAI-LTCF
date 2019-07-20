@@ -221,7 +221,7 @@
           </tr>
           <tr>
             <td>Summary Data Group</td>
-            <td>Number of Admissions on C. Diff Treatment</td>
+            <td>Number of Admissions on C. diff Treatment</td>
             <td>number-admissions-on-c-diff-treatment</td>
             <td>integer</td>
             <td>true</td>
@@ -452,9 +452,9 @@
       <code>
         <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277" />
         <code value="1371-4" />
-        <display value="Number of admissions on C. Diff treatment" />
+        <display value="Number of admissions on C. diff treatment" />
       </code>
-      <text value="Number of Admissions on C. Diff Treatment" />
+      <text value="Number of Admissions on C. diff Treatment" />
       <type value="integer" />
       <required value="true" />
       <repeats value="false" />
@@ -464,7 +464,7 @@
       <code>
         <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277" />
         <code value="1372-2" />
-        <display value="Number of residents started on antibiotic treatment for C. Diff" />
+        <display value="Number of residents started on antibiotic treatment for C. diff" />
       </code>
       <text value="Number of C. diff Treatment Starts" />
       <type value="integer" />

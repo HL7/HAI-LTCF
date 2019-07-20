@@ -1,5 +1,5 @@
 ---
-title: Profiles defined as part of this Guide
+title: Profiles Defined as Part of This Guide
 layout: default
 active: profiles
 ---

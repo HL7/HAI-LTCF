@@ -136,7 +136,7 @@ Release 1, STU 1—US Realm.</p>
         <td>Transfer from an Acute Care Facility to LTCF in a Lab Identified Report/effectiveTime</td>
       </tr>
       <tr>
-        <td>Was resident on antibiotic therapty for this organism thype at the time of transfer to your facility</td>
+        <td>Was resident on antibiotic therapy for this organism type at the time of transfer to your facility</td>
         <td>antibiotic-at-time-of-transfer</td>
         <td>Antibiotic Treatment at time of Transfer in a Lab Identified Report LTCF/value</td>
       </tr>
