@@ -887,3 +887,43 @@ e: {
   "error" : "java.lang.NullPointerException"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "CodeSystem/2.16.840.1.113883.6.259",
+      "concept" : [{
+        "code" : "1257-5",
+        "display" : "LTCF Skilled Nursing-Short Term Rehabilitation Unit"
+      },
+      {
+        "code" : "1256-7",
+        "display" : "LTCF Psychiatric Unit"
+      },
+      {
+        "code" : "1259-1",
+        "display" : "LTCF Ventilator Dependent Unit"
+      },
+      {
+        "code" : "1260-9",
+        "display" : "LTCF Bariatric Unit"
+      },
+      {
+        "code" : "1254-2",
+        "display" : "LTCF Inpatient Hospice Unit"
+      },
+      {
+        "code" : "1258-3",
+        "display" : "LTCF General Nursing Unit"
+      },
+      {
+        "code" : "1255-9",
+        "display" : "LTCF Dementia Unit"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------

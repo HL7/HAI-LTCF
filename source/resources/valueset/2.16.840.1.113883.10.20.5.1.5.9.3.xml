@@ -10,31 +10,31 @@
       <system value="CodeSystem/2.16.840.1.113883.6.259" />
       <concept>
         <code value="1257-5" />
-        <display value="Long Term Care Facility Skilled Nursing-Short Term Rehabilitation Unit" />
+        <display value="LTCF Skilled Nursing-Short Term Rehabilitation Unit" />
       </concept>
       <concept>
         <code value="1256-7" />
-        <display value="Long Term Care Facility Psychiatric Unit" />
+        <display value="LTCF Psychiatric Unit" />
       </concept>
       <concept>
         <code value="1259-1" />
-        <display value="Long Term Care Facility Ventilator Dependent Unit" />
+        <display value="LTCF Ventilator Dependent Unit" />
       </concept>
       <concept>
         <code value="1260-9" />
-        <display value="Long Term Care Facility Bariatric Unit" />
+        <display value="LTCF Bariatric Unit" />
       </concept>
       <concept>
         <code value="1254-2" />
-        <display value="Long Term Care Facility Inpatient Hospice Unit" />
+        <display value="LTCF Inpatient Hospice Unit" />
       </concept>
       <concept>
         <code value="1258-3" />
-        <display value="Long Term Care Facility General Nursing Unit" />
+        <display value="LTCF General Nursing Unit" />
       </concept>
       <concept>
         <code value="1255-9" />
-        <display value="Long Term Care Facility Dementia Unit" />
+        <display value="LTCF Dementia Unit" />
       </concept>
     </include>
   </compose>

@@ -227,10 +227,10 @@
                   <ul style="list-style:none; padding-left:0; margin:0 0;">
                     <li>Primary Resident Service Type</li>
                     <li>primary-resident-service-type</li>
-                    <li>Long-term general nursing</li>
-                    <li>Code system: <a href="http://loinc.org">http://loinc.org</a>
+                    <li>LTCF General Nursing Unit</li>
+                    <li>Code system: <a href="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259">http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259</a>
                     </li>
-                    <li>Code: TEMP_LOINC_LONG_TERM_GENERAL_NURSING</li>
+                    <li>Code: 1258-3</li>
                   </ul>
                 </td>
               </tr>
@@ -426,7 +426,7 @@
         <valueCoding>
           <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259" />
           <code value="1258-3" />
-          <display value="Long-term general nursing" />
+          <display value="LTCF General Nursing Unit" />
         </valueCoding>
       </answer>
     </item>
