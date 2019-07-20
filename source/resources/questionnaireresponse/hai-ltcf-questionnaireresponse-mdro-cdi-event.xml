@@ -424,8 +424,8 @@
       <text value="Primary Resident Service Type" />
       <answer>
         <valueCoding>
-          <system value="http://loinc.org" />
-          <code value="TEMP_LOINC_LONG_TERM_GENERAL_NURSING" />
+          <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259" />
+          <code value="1258-3" />
           <display value="Long-term general nursing" />
         </valueCoding>
       </answer>
