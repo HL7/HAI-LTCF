@@ -10,7 +10,7 @@
    <language value="en-US"/>
    <text>
       <status value="generated"/>
-      <div xmlns="http://www.w3.org/1999/xhtml">
+     <div xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
          <h1 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">HAI Laboratory Identified MDRO or CDI Event Report for LTCF</h1>
          <p xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <p>This Questionnaire instance records the laboratory identification of a MDRO or CDI microorganism. These reports are submitted if the LTC facility is monitoring the organism specified. Each report records a single organism event. Information regarding the resident's care location, type of primary service and date of current admission are recorded. </p>
