@@ -870,4 +870,24 @@
     <code value="2543-7" />
     <display value="Hemovigilance Module -  Monthly Reporting Denominator" />
   </concept>
+  <concept>
+    <code value="2010-7" />
+    <display value="Multidrug Resistant - Acinetobacter baumannii (Organism)" />
+  </concept>
+  <concept>
+    <code value="2016-4" />
+    <display value="CephR-Klebsiella (CEPHRKLEB)" />
+  </concept>
+  <concept>
+    <code value="2017-2" />
+    <display value="CRE-Klebsiella (CREKLEB)" />
+  </concept>
+  <concept>
+    <code value="2018-0" />
+    <display value="CRE-Ecoli (CREECOLI)" />
+  </concept>
+  <concept>
+    <code value="2019-8" />
+    <display value="CRE-Enterobacter" />
+  </concept>
 </CodeSystem>
