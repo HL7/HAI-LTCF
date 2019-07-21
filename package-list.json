@@ -11,7 +11,7 @@
   "fhir-version" : "4.0.0",
   "current" : true
  },{
-  "version" : "1.0.0",  
+  "version" : "0.1.0",  
   "date" : "2019-08-01", 
   "desc" : "Ballot for FHIR STU Release 1",   
   "path" : "http://hl7.org/fhir/us/hai-ltcf/2019Sep",    
