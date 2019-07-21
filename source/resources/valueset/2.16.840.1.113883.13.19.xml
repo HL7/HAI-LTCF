@@ -7,7 +7,7 @@
   <description value="A classification of patient care locations within healthcare facilities for public health surveillance purposes." />
   <compose>
     <include>
-      <system value="CodeSystem/2.16.840.1.113883.6.259" />
+      <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259" />
       <concept>
         <code value="1250-0" />
         <display value="All Inpatient Locations [FACWIDEIN]" />
@@ -886,7 +886,7 @@
       </concept>
     </include>
     <include>
-      <system value="CodeSystem/2.16.840.1.113883.6.277" />
+      <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277" />
       <concept>
         <code value="1206-2" />
         <display value="Float" />

@@ -6,7 +6,7 @@
     <lastUpdated value="2019-06-25T20:16:34.000-04:00" />
   </meta>
   <url value="http://hl7.org/fhir/us/hai-ltcf/ImplementationGuide/hl7-fhir-us-hai-ltcf" />
-  <version value="1.0.0" />
+  <version value="0.1.0" />
   <name value="HealthcareAssociatedInfectionReportsLongTermCareFacilities" />
   <title value="NHSN Healthcare Associated Infection (HAI) Reports Long Term Care Facilities (HAI-LTCF-FHIR), Release 1 - US Realm" />
   <status value="draft" />
