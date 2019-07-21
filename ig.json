@@ -122,6 +122,10 @@
 		"Device/hai-ltcf-authoring-device": {
 			"base": "Device-hai-ltcf-authoring-device.html",
 			"defns": "Device-hai-ltcf-authoring-device-definitions.html"
+		},
+		"CodeSystem/2.16.840.1.113883.6.259": {
+			"base": "CodeSystem-2.16.840.1.113883.6.259.html",
+			"defns": "CodeSystem-2.16.840.1.113883.6.259.html"
 		}
 	},
 	"version": "4.0.0",
