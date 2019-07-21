@@ -7,7 +7,7 @@
   <description value="This valueset contains values for NHSN's Primary Resident Service Type" />
   <compose>
     <include>
-      <system value="CodeSystem/2.16.840.1.113883.6.259" />
+      <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259" />
       <concept>
         <code value="1257-5" />
         <display value="LTCF Skilled Nursing-Short Term Rehabilitation Unit" />
