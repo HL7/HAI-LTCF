@@ -126,10 +126,14 @@
 		"CodeSystem/2.16.840.1.113883.6.259": {
 			"base": "CodeSystem-2.16.840.1.113883.6.259.html",
 			"defns": "CodeSystem-2.16.840.1.113883.6.259.html"
+		},
+		"CodeSystem/2.16.840.1.113883.6.277": {
+			"base": "CodeSystem-2.16.840.1.113883.6.277.html",
+			"defns": "CodeSystem-2.16.840.1.113883.6.277.html"
 		}
 	},
 	"version": "4.0.0",
-	"fixed-business-version": "1.0.0",
+	"fixed-business-version": "0.1.0",
 	"dependencyList": [
 		{
 			"location": "http://hl7.org/fhir/us/core",
