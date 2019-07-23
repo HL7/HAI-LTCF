@@ -15,10 +15,9 @@ active: other
 
 ### Mapping to CDA
   
-  <p>NOTE to commenters: BEFORE PUBLICATION this mapping will be updated - it is incomplete now due to the fact that the mappings will likely change during ballot.</p>
   <p>This implementation guide is the first FHIR release of the HAI LCTF reporting profiles and is being balloted in the same cycle as the HL7 CDA® R2 Implementation Guide: NHSN Healthcare Associated Infection (HAI) Long Term Care Facility (LTCF) Reports
 Release 1, STU 1—US Realm.</p>
-  <p>The following table shows the mapping between FHIR Questionnaire items and the corresponding CDA templates</p>
+  <p>The following tables show the mapping between FHIR Questionnaire items and the corresponding CDA templates</p>
   <h3><a href="Questionnaire-hai-ltcf-questionnaire-mdro-cdi-event.html">HAI Laboratory Identified MDRO or CDI Event Report for LTCF</a></h3>
   <table class="codes">
     <thead>
@@ -149,19 +148,106 @@ Release 1, STU 1—US Realm.</p>
   </table>
   
   <h3><a href="Questionnaire-hai-ltcf-questionnaire-mdro-cdi-summary.html">MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF</a></h3>
-  <table class="codes">
-    <thead>
-      <tr>
-        <td>
-          <b>FHIR Questionnaire Item</b>
-        </td>
-        <td>
-          <b>FHIR Questionnaire Item linkId</b>
-        </td>
-        <td>
-          <b>CDA Mapping</b>
-        </td>
-      </tr>
-    </thead>
-    
-  </table>
+<table class="codes">
+  <thead>
+    <tr>
+      <td>
+        <b>FHIR Questionnaire Item</b>
+      </td>
+      <td>
+        <b>FHIR Questionnaire Item linkId</b>
+      </td>
+      <td>
+        <b>CDA Mapping</b>
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Facility ID</td>
+      <td>facility</td>
+      <td>ClinicalDocument/participant/associatedEntity/id/@root</td>
+    </tr>
+    <tr>
+      <td>First Day of Period Reported</td>
+      <td>report-period-start</td>
+      <td>ClinicalDocument/documentationOf/serviceEvent/effectiveTime/low</td>
+    </tr>
+    <tr>
+      <td>Last Day of Period Reported</td>
+      <td>report-period-end</td>
+      <td>ClinicalDocument/documentationOf/serviceEvent/effectiveTime/high</td>
+    </tr>
+    <tr>
+      <td>Facility Location Code</td>
+      <td>facility-location-code</td>
+      <td>ClinicalDocument/participant/associatedEntity/id/@extension</td>
+    </tr>
+    <tr>
+      <td>Resident Days</td>
+      <td>resident-days</td>
+      <td>Summary Data Observation LTCF[code/@code="1369-8']/value</td>
+    </tr>
+    <tr>
+      <td>Resident Admissions</td>
+      <td>resident-admissions</td>
+      <td>Summary Data Observation LTCF[code/@code="1370-6']/value</td>
+    </tr>
+    <tr>
+      <td>Number of Admissions on C. diff Treatment</td>
+      <td>number-admissions-on-c-diff-treatment</td>
+      <td>Summary Data Observation LTCF[code/@code="1371-4']/value</td>
+    </tr>
+    <tr>
+      <td>Number of C. diff Treatment Starts</td>
+      <td>number-c-diff-treatment-starts</td>
+      <td>Summary Data Observation LTCF[code/@code="1372-2']/value</td>
+    </tr>
+    <tr>
+      <td>Report no labID event - All specimens - Methicillin-resistant Staphylococcus aureus</td>
+      <td>no-lab-id-event-mrsa</td>
+      <td>Report No Events[code/@code="3030-4"]/value</td>
+    </tr>
+    <tr>
+      <td>Report no labID event - All specimens - Methicillin-sensitive Staphylococcus aureus</td>
+      <td>no-lab-id-event-mssa</td>
+      <td>Report No Events[code/@code="1307-8"]/value</td>
+    </tr>
+    <tr>
+      <td>Report no labID event - All specimens - Vancomycin resistant Enterococcus</td>
+      <td>no-lab-id-event-vre</td>
+      <td>Report No Events[code/@code="3033-8"]/value</td>
+    </tr>
+    <tr>
+      <td>Report no labID event - All specimens - CephR Klebsiella</td>
+      <td>no-lab-id-event-cephr-klebsiella</td>
+      <td>Report No Events[code/@code="3036-1"]/value</td>
+    </tr>
+    <tr>
+      <td>Report no labID event - All specimens - CRE E. coli</td>
+      <td>no-lab-id-event-mrsa-cre-e-coli</td>
+      <td>Report No Events[code/@code="3039-5"]/value</td>
+    </tr>
+    <tr>
+      <td>Report no labID event - All specimens - CRE Enterobacter</td>
+      <td>no-lab-id-event-mrsa-cre-enterobacter</td>
+      <td>Report No Events[code/@code="3042-9"]/value</td>
+    </tr>
+    <tr>
+      <td>Report no labID event - All specimens - CRE Klebsiella</td>
+      <td>no-lab-id-event-cre-klebsiella</td>
+      <td>Report No Events[code/@code="3045-2"]/value</td>
+    </tr>
+    <tr>
+      <td>Report no labID event - All specimens - Acinetobacter</td>
+      <td>no-lab-id-event-mdr-acinetobacter</td>
+      <td>Report No Events[code/@code="3048-6"]/value</td>
+    </tr>
+    <tr>
+      <td>Report no labID event - All specimens - Clostridium difficile</td>
+      <td>no-lab-id-event-c-difficile</td>
+      <td>Report No Events[code/@code="3051-0"]/value</td>
+    </tr>
+  </tbody>
+</table>
+

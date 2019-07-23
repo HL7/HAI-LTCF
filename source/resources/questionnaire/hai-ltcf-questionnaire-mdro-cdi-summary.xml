@@ -14,6 +14,8 @@
       <h1 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF</h1>
       <p xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <p>This Questionnaire instance defines the questions and possible answers in the MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF. It records the monthly aggregate data for Multi-Drug Resistant Organisms (MDRO) and Clostridium difficile (C. diff, CDI).</p>
+        
+        <p>For further details see the NHSN website <a href="https://www.cdc.gov/nhsn/">https://www.cdc.gov/nhsn/</a> for reporting healthcare-associated infections in long-term care facilities. The concepts reported in this document-type are defined for the NHSN "<i>LabID Event Protocol for LTCF</i>" and the corresponding data collection form "<i>57.139 MDRO and CDI Monthly Monitoring for LTCF</i>".</p>
       </p>
       <h2 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">Questionnaire Details</h2>
       <table xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -166,18 +168,8 @@
         </tr>
         <tr>
           <td />
-          <td>Facility Location Id</td>
-          <td>facility-location-id</td>
-          <td>url</td>
-          <td>true</td>
-          <td>false</td>
-          <td />
-          <td />
-        </tr>
-        <tr>
-          <td />
-          <td>Facility Location Type</td>
-          <td>facility-location-type</td>
+          <td>Facility Location Code</td>
+          <td>facility-location-code</td>
           <td>choice</td>
           <td>true</td>
           <td>false</td>
@@ -393,15 +385,8 @@
     <repeats value="false" />
   </item>
   <item>
-    <linkId value="facility-location-id" />
-    <text value="Facility Location Id" />
-    <type value="url" />
-    <required value="true" />
-    <repeats value="false" />
-  </item>
-  <item>
-    <linkId value="facility-location-type" />
-    <text value="Facility Location Type" />
+    <linkId value="facility-location-code" />
+    <text value="Facility Location Code" />
     <type value="choice" />
     <required value="true" />
     <repeats value="false" />
