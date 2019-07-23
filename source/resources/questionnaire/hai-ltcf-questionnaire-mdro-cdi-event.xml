@@ -356,7 +356,7 @@
          <code value="51899-3"/>
          <display value="Details Document"/>
       </code>
-      <text value="Event Details"/>
+      <text value="Event Details Group"/>
       <type value="group"/>
       <required value="true"/>
       <repeats value="false"/>
