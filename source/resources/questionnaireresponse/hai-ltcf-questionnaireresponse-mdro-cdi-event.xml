@@ -10,7 +10,7 @@
    <language value="en-US"/>
    <text>
       <status value="generated"/>
-     <div xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+      <div xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
          <table xmlns:xsl="http://www.w3.org/1999/XSL/Transform" class="bare">
             <tr>
                <td>
@@ -71,287 +71,131 @@
                   <a href="Device-hai-ltcf-authoring-device.html">hai-ltcf-authoring-device</a>
                </td>
             </tr>
+         </table>
+         <br xmlns:xsl="http://www.w3.org/1999/XSL/Transform"/>
+         <table xmlns:xsl="http://www.w3.org/1999/XSL/Transform" class="bare">
             <tr>
                <td>
-                  <b>Item:</b>
+                  <b>Facility ID</b>
                </td>
-               <td>
-                  <table class="bare">
-                     <tr>
-                        <td>
-                           <b>Link Id:</b>
-                        </td>
-                        <td>facility-id</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Text:</b>
-                        </td>
-                        <td>Facility ID</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Answer:</b>
-                        </td>
-                        <td>
-                           <table class="bare">
-                              <tr>
-                                 <td>urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1</td>
-                              </tr>
-                           </table>
-                        </td>
-                     </tr>
-                  </table>
-               </td>
+               <td>facility-id</td>
+               <td>urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1</td>
             </tr>
             <tr>
                <td>
-                  <b>Item:</b>
+                  <b>Date of First Admission to Facility</b>
                </td>
-               <td>
-                  <table class="bare">
-                     <tr>
-                        <td>
-                           <b>Link Id:</b>
-                        </td>
-                        <td>date-of-first-admission-to-facility</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Text:</b>
-                        </td>
-                        <td>Date of First Admission to Facility</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Answer:</b>
-                        </td>
-                        <td>
-                           <table class="bare">
-                              <tr>
-                                 <td>2018-12-05</td>
-                              </tr>
-                           </table>
-                        </td>
-                     </tr>
-                  </table>
-               </td>
+               <td>date-of-first-admission-to-facility</td>
+               <td>2018-12-05</td>
             </tr>
             <tr>
                <td>
-                  <b>Item:</b>
+                  <b>Date of Current Admission to Facility</b>
                </td>
-               <td>
-                  <table class="bare">
-                     <tr>
-                        <td>
-                           <b>Link Id:</b>
-                        </td>
-                        <td>date-of-current-admission-to-facility</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Text:</b>
-                        </td>
-                        <td>Date of Current Admission to Facility</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Answer:</b>
-                        </td>
-                        <td>
-                           <table class="bare">
-                              <tr>
-                                 <td>2019-01-15</td>
-                              </tr>
-                           </table>
-                        </td>
-                     </tr>
-                  </table>
-               </td>
+               <td>date-of-current-admission-to-facility</td>
+               <td>2019-01-15</td>
             </tr>
             <tr>
                <td>
-                  <b>Item:</b>
+                  <b>Event Details Group</b>
                </td>
-               <td>
-                  <table class="bare">
-                     <tr>
-                        <td>
-                           <b>Link Id:</b>
-                        </td>
-                        <td>event-details-group</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Item:</b>
-                        </td>
-                        <td>
-                           <ul style="list-style:none; padding-left:0; margin:0 0;">
-                              <li>Date Specimen Collected</li>
-                              <li>date-specimen-collected</li>
-                              <li>2019-01-19</li>
-                           </ul>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Item:</b>
-                        </td>
-                        <td>
-                           <ul style="list-style:none; padding-left:0; margin:0 0;">
-                              <li>Specimen Type</li>
-                              <li>specimen-type</li>
-                              <li>stool specimen</li>
-                              <li>Code system: <a href="http://snomed.info/sct">http://snomed.info/sct</a>
-                              </li>
-                              <li>Code: 119339001</li>
-                           </ul>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Item:</b>
-                        </td>
-                        <td>
-                           <ul style="list-style:none; padding-left:0; margin:0 0;">
-                              <li>Resident Care Location</li>
-                              <li>resident-care-location</li>
-                              <li>urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1:1A</li>
-                           </ul>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Item:</b>
-                        </td>
-                        <td>
-                           <ul style="list-style:none; padding-left:0; margin:0 0;">
-                              <li>Primary Resident Service Type</li>
-                              <li>primary-resident-service-type</li>
-                              <li>LTCF General Nursing Unit</li>
-                              <li>Code system: <a href="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259">http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259</a>
-                              </li>
-                              <li>Code: 1258-3</li>
-                           </ul>
-                        </td>
-                     </tr>
-                  </table>
-               </td>
+               <td>event-details-group</td>
+               <tr>
+                  <td>
+                     <b>Date Specimen Collected</b>
+                  </td>
+                  <td>date-specimen-collected</td>
+                  <td>2019-01-19</td>
+               </tr>
+               <tr>
+                  <td>
+                     <b>Specimen Type</b>
+                  </td>
+                  <td>specimen-type</td>
+                  <td>
+                     <ul style="list-style:none; padding-left:0; margin:0 0;">
+                        <li>stool specimen</li>
+                        <li>Code system: <a href="http://snomed.info/sct">http://snomed.info/sct</a>
+                        </li>
+                        <li>Code: 119339001</li>
+                     </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <b>Resident Care Location</b>
+                  </td>
+                  <td>resident-care-location</td>
+                  <td>urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1:1A</td>
+               </tr>
+               <tr>
+                  <td>
+                     <b>Primary Resident Service Type</b>
+                  </td>
+                  <td>primary-resident-service-type</td>
+                  <td>
+                     <ul style="list-style:none; padding-left:0; margin:0 0;">
+                        <li>LTCF General Nursing Unit</li>
+                        <li>Code system: <a href="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259">http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259</a>
+                        </li>
+                        <li>Code: 1258-3</li>
+                     </ul>
+                  </td>
+               </tr>
             </tr>
             <tr>
                <td>
-                  <b>Item:</b>
+                  <b>Encounters Group</b>
                </td>
-               <td>
-                  <table class="bare">
-                     <tr>
-                        <td>
-                           <b>Link Id:</b>
-                        </td>
-                        <td>encounters-group</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Item:</b>
-                        </td>
-                        <td>
-                           <ul style="list-style:none; padding-left:0; margin:0 0;">
-                              <li>Transfer From Acute Care Facility to LTCF in Past Four Weeks</li>
-                              <li>transfer-from-acute-care-facility</li>
-                              <li>true</li>
-                           </ul>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Item:</b>
-                        </td>
-                        <td>
-                           <ul style="list-style:none; padding-left:0; margin:0 0;">
-                              <li>Date of Last Transfer From Acute Care to LTCF</li>
-                              <li>date-of-last-transfer</li>
-                              <li>2019-01-25</li>
-                           </ul>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Item:</b>
-                        </td>
-                        <td>
-                           <ul style="list-style:none; padding-left:0; margin:0 0;">
-                              <li>Resident on Antibiotic Therapy for Specific Organism at Time of Transfer to Facility</li>
-                              <li>antibiotic-at-time-of-transfer</li>
-                              <li>true</li>
-                           </ul>
-                        </td>
-                     </tr>
-                  </table>
-               </td>
+               <td>encounters-group</td>
+               <tr>
+                  <td>
+                     <b>Transfer From Acute Care Facility to LTCF in Past Four Weeks</b>
+                  </td>
+                  <td>transfer-from-acute-care-facility</td>
+                  <td>true</td>
+               </tr>
+               <tr>
+                  <td>
+                     <b>Date of Last Transfer From Acute Care to LTCF</b>
+                  </td>
+                  <td>date-of-last-transfer</td>
+                  <td>2019-01-25</td>
+               </tr>
+               <tr>
+                  <td>
+                     <b>Resident on Antibiotic Therapy for Specific Organism at Time of Transfer to Facility</b>
+                  </td>
+                  <td>antibiotic-at-time-of-transfer</td>
+                  <td>true</td>
+               </tr>
             </tr>
             <tr>
                <td>
-                  <b>Item:</b>
+                  <b>Findings Group</b>
                </td>
-               <td>
-                  <table class="bare">
-                     <tr>
-                        <td>
-                           <b>Link Id:</b>
-                        </td>
-                        <td>findings-group</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Item:</b>
-                        </td>
-                        <td>
-                           <ul style="list-style:none; padding-left:0; margin:0 0;">
-                              <li>Specific Organism Type</li>
-                              <li>specific-organism-type</li>
-                              <li>Clostridium difficile</li>
-                              <li>Code system: <a href="http://snomed.info/sct">http://snomed.info/sct</a>
-                              </li>
-                              <li>Code: 5933001</li>
-                           </ul>
-                        </td>
-                     </tr>
-                  </table>
-               </td>
+               <td>findings-group</td>
+               <tr>
+                  <td>
+                     <b>Specific Organism Type</b>
+                  </td>
+                  <td>specific-organism-type</td>
+                  <td>
+                     <ul style="list-style:none; padding-left:0; margin:0 0;">
+                        <li>Clostridium difficile</li>
+                        <li>Code system: <a href="http://snomed.info/sct">http://snomed.info/sct</a>
+                        </li>
+                        <li>Code: 5933001</li>
+                     </ul>
+                  </td>
+               </tr>
             </tr>
             <tr>
                <td>
-                  <b>Item:</b>
+                  <b>Comments</b>
                </td>
-               <td>
-                  <table class="bare">
-                     <tr>
-                        <td>
-                           <b>Link Id:</b>
-                        </td>
-                        <td>nhsn-comment</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Text:</b>
-                        </td>
-                        <td>Comments</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Answer:</b>
-                        </td>
-                        <td>
-                           <table class="bare">
-                              <tr>
-                                 <td>NHSN text comment that is less than 2000 characters.</td>
-                              </tr>
-                           </table>
-                        </td>
-                     </tr>
-                  </table>
-               </td>
+               <td>nhsn-comment</td>
+               <td>NHSN text comment that is less than 2000 characters.</td>
             </tr>
          </table>
       </div>
@@ -392,6 +236,7 @@
    </item>
    <item>
       <linkId value="event-details-group"/>
+      <text value="Event Details Group"/>
       <item>
          <linkId value="date-specimen-collected"/>
          <text value="Date Specimen Collected"/>
@@ -431,6 +276,7 @@
    </item>
    <item>
       <linkId value="encounters-group"/>
+      <text value="Encounters Group"/>
       <item>
          <linkId value="transfer-from-acute-care-facility"/>
          <text value="Transfer From Acute Care Facility to LTCF in Past Four Weeks"/>
@@ -455,6 +301,7 @@
    </item>
    <item>
       <linkId value="findings-group"/>
+      <text value="Findings Group"/>
       <item>
          <linkId value="specific-organism-type"/>
          <text value="Specific Organism Type"/>

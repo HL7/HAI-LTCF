@@ -9,7 +9,7 @@
    </meta>
    <text>
       <status value="generated"/>
-     <div xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+      <div xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
          <table xmlns:xsl="http://www.w3.org/1999/XSL/Transform" class="bare">
             <tr>
                <td>
@@ -64,228 +64,90 @@
                   <a href="Device-hai-ltcf-authoring-device.html">hai-ltcf-authoring-device</a>
                </td>
             </tr>
+         </table>
+         <br xmlns:xsl="http://www.w3.org/1999/XSL/Transform"/>
+         <table xmlns:xsl="http://www.w3.org/1999/XSL/Transform" class="bare">
             <tr>
                <td>
-                  <b>Item:</b>
+                  <b>Facility ID</b>
                </td>
+               <td>facility-id</td>
+               <td>urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1</td>
+            </tr>
+            <tr>
                <td>
-                  <table class="bare">
-                     <tr>
-                        <td>
-                           <b>Link Id:</b>
-                        </td>
-                        <td>facility-id</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Text:</b>
-                        </td>
-                        <td>Facility ID</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Answer:</b>
-                        </td>
-                        <td>
-                           <table class="bare">
-                              <tr>
-                                 <td>urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1</td>
-                              </tr>
-                           </table>
-                        </td>
-                     </tr>
-                  </table>
+                  <b>First Day of Period Reported</b>
+               </td>
+               <td>report-period-start</td>
+               <td>2019-01-01</td>
+            </tr>
+            <tr>
+               <td>
+                  <b>Last Day of Period Reported</b>
+               </td>
+               <td>report-period-end</td>
+               <td>2019-01-31</td>
+            </tr>
+            <tr>
+               <td>
+                  <b>Facility Location Code</b>
+               </td>
+               <td>facility-location-code</td>
+               <td>
+                  <ul style="list-style:none; padding-left:0; margin:0 0;">
+                     <li>All Inpatient Locations [FACWIDEIN]</li>
+                     <li>Code system: <a href="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259">http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259</a>
+                     </li>
+                     <li>Code: 1250-0</li>
+                  </ul>
                </td>
             </tr>
             <tr>
                <td>
-                  <b>Item:</b>
+                  <b>Summary Data Group</b>
                </td>
-               <td>
-                  <table class="bare">
-                     <tr>
-                        <td>
-                           <b>Link Id:</b>
-                        </td>
-                        <td>report-period-start</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Text:</b>
-                        </td>
-                        <td>First Day of Period Reported</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Answer:</b>
-                        </td>
-                        <td>
-                           <table class="bare">
-                              <tr>
-                                 <td>2019-01-01</td>
-                              </tr>
-                           </table>
-                        </td>
-                     </tr>
-                  </table>
-               </td>
+               <td>summary-data-group</td>
+               <tr>
+                  <td>
+                     <b>Resident Days</b>
+                  </td>
+                  <td>resident-days</td>
+                  <td>100</td>
+               </tr>
+               <tr>
+                  <td>
+                     <b>Resident Admissions</b>
+                  </td>
+                  <td>resident-admissions</td>
+                  <td>20</td>
+               </tr>
+               <tr>
+                  <td>
+                     <b>Number of Admissions on C. diff Treatment</b>
+                  </td>
+                  <td>number-admissions-on-c-diff-treatment</td>
+                  <td>8</td>
+               </tr>
+               <tr>
+                  <td>
+                     <b>Number of C. diff Treatment Starts</b>
+                  </td>
+                  <td>number-c-diff-treatment-starts</td>
+                  <td>2</td>
+               </tr>
             </tr>
             <tr>
                <td>
-                  <b>Item:</b>
+                  <b>Report no events</b>
                </td>
-               <td>
-                  <table class="bare">
-                     <tr>
-                        <td>
-                           <b>Link Id:</b>
-                        </td>
-                        <td>report-period-end</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Text:</b>
-                        </td>
-                        <td>Last Day of Period Reported</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Answer:</b>
-                        </td>
-                        <td>
-                           <table class="bare">
-                              <tr>
-                                 <td>2019-01-31</td>
-                              </tr>
-                           </table>
-                        </td>
-                     </tr>
-                  </table>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Item:</b>
-               </td>
-               <td>
-                  <table class="bare">
-                     <tr>
-                        <td>
-                           <b>Link Id:</b>
-                        </td>
-                        <td>facility-location-code</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Text:</b>
-                        </td>
-                        <td>Facility Location Code</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Answer:</b>
-                        </td>
-                        <td>
-                           <table class="bare">
-                              <tr>
-                                 <td>Code system: <a href="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259">http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259</a>Code: 1250-0All Inpatient Locations [FACWIDEIN]</td>
-                              </tr>
-                           </table>
-                        </td>
-                     </tr>
-                  </table>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Item:</b>
-               </td>
-               <td>
-                  <table class="bare">
-                     <tr>
-                        <td>
-                           <b>Link Id:</b>
-                        </td>
-                        <td>summary-data-group</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Text:</b>
-                        </td>
-                        <td>Summary Data Group</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Item:</b>
-                        </td>
-                        <td>
-                           <ul style="list-style:none; padding-left:0; margin:0 0;">
-                              <li>resident-days</li>
-                              <li>100</li>
-                           </ul>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Item:</b>
-                        </td>
-                        <td>
-                           <ul style="list-style:none; padding-left:0; margin:0 0;">
-                              <li>resident-admissions</li>
-                              <li>20</li>
-                           </ul>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Item:</b>
-                        </td>
-                        <td>
-                           <ul style="list-style:none; padding-left:0; margin:0 0;">
-                              <li>number-admissions-on-c-diff-treatment</li>
-                              <li>8</li>
-                           </ul>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Item:</b>
-                        </td>
-                        <td>
-                           <ul style="list-style:none; padding-left:0; margin:0 0;">
-                              <li>number-c-diff-treatment-starts</li>
-                              <li>2</li>
-                           </ul>
-                        </td>
-                     </tr>
-                  </table>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Item:</b>
-               </td>
-               <td>
-                  <table class="bare">
-                     <tr>
-                        <td>
-                           <b>Link Id:</b>
-                        </td>
-                        <td>report-no-events-group</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <b>Item:</b>
-                        </td>
-                        <td>
-                           <ul style="list-style:none; padding-left:0; margin:0 0;">
-                              <li>no-lab-id-event-vre</li>
-                              <li>true</li>
-                           </ul>
-                        </td>
-                     </tr>
-                  </table>
-               </td>
+               <td>report-no-events-group</td>
+               <tr>
+                  <td>
+                     <b>Report no labID event - All specimens - Vancomycin resistant Enterococcus</b>
+                  </td>
+                  <td>no-lab-id-event-vre</td>
+                  <td>true</td>
+               </tr>
             </tr>
          </table>
       </div>
@@ -340,24 +202,28 @@
       <text value="Summary Data Group"/>
       <item>
          <linkId value="resident-days"/>
+         <text value="Resident Days"/>
          <answer>
             <valueInteger value="100"/>
          </answer>
       </item>
       <item>
          <linkId value="resident-admissions"/>
+         <text value="Resident Admissions"/>
          <answer>
             <valueInteger value="20"/>
          </answer>
       </item>
       <item>
          <linkId value="number-admissions-on-c-diff-treatment"/>
+         <text value="Number of Admissions on C. diff Treatment"/>
          <answer>
             <valueInteger value="8"/>
          </answer>
       </item>
       <item>
          <linkId value="number-c-diff-treatment-starts"/>
+         <text value="Number of C. diff Treatment Starts"/>
          <answer>
             <valueInteger value="2"/>
          </answer>
@@ -365,8 +231,10 @@
    </item>
    <item>
       <linkId value="report-no-events-group"/>
+      <text value="Report no events"/>
       <item>
          <linkId value="no-lab-id-event-vre"/>
+         <text value="Report no labID event - All specimens - Vancomycin resistant Enterococcus"/>
          <answer>
             <valueBoolean value="true"/>
          </answer>
