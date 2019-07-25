@@ -96,7 +96,7 @@
                <td>
                   <ul style="list-style:none; padding-left:0; margin:0 0;">
                      <li>All Inpatient Locations [FACWIDEIN]</li>
-                     <li>Code system: <a href="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259">http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259</a>
+                     <li>Code system: <a href="CodeSystem-2.16.840.1.113883.6.259.html">http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259</a>
                      </li>
                      <li>Code: 1250-0</li>
                   </ul>

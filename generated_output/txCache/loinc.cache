@@ -39,3 +39,69 @@ e: {
   "error" : "java.lang.NullPointerException"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "51897-7",
+  "display" : "Healthcare Associated Infection report Document"
+}, "valueSet" :null, "lang":"en-US"}####
+v: {
+  "display" : "Healthcare Associated Infection report Document",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "51899-3",
+  "display" : "Details Document"
+}, "valueSet" :null, "lang":"en-US"}####
+v: {
+  "display" : "Details Document",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "46240-8",
+  "display" : "Hx of Hospitalizations+OP visits"
+}, "valueSet" :null, "lang":"en-US"}####
+v: {
+  "display" : "History of Hospitalizations+Outpatient visits Narrative",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "18769-0",
+  "display" : "Microbial susceptibility tests Set"
+}, "valueSet" :null, "lang":"en-US"}####
+v: {
+  "display" : "Microbial susceptibility tests Set",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "51900-9",
+  "display" : "Population Summary note"
+}, "valueSet" :null, "lang":"en-US"}####
+v: {
+  "display" : "Population Summary note",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "90252-8",
+  "display" : "Report no events"
+}, "valueSet" :null, "lang":"en-US"}####
+v: {
+  "display" : "Report No Events section",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

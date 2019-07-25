@@ -41,7 +41,7 @@ active: other
 </tr>
 <tr>
 <td>Questionnaire</td>
-<td><a href="Questionnaire-hai-ltcf-questionnaire-mdro-cdi-event.html">Late Onset Sepsis/Meningitis Event (LOS)</a></td>
+<td><a href="Questionnaire-hai-ltcf-questionnaire-mdro-cdi-event.html">hai-ltcf-quesionnaire-mdro-cdi-event</a></td>
 </tr>
 <tr>
 <td>QuestionnaireResponse</td>

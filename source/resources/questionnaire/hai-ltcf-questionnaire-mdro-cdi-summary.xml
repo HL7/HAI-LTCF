@@ -114,7 +114,7 @@
           <td>
             <ul style="list-style:none; padding-left:0; margin:0 0;">
               <li>Summary data reporting outpatient procedure component events at a facility</li>
-              <li>Code system: <a href="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277"
+              <li>Code system: <a href="CodeSystem-2.16.840.1.113883.6.277.html"
                   >http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.277</a>
               </li>
               <li>Code: 1657-6</li>
@@ -175,7 +175,7 @@
           <td>false</td>
           <td />
           <td>
-            <a href="http://hl7.org/fhir/us/hai-ltcf/ValueSet/2.16.840.1.113883.13.19"
+            <a href="ValueSet-2.16.840.1.113883.13.19.html"
               >http://hl7.org/fhir/us/hai-ltcf/ValueSet/2.16.840.1.113883.13.19</a>
           </td>
         </tr>
