@@ -24,7 +24,7 @@ The best standards are those driven by business requirements. A strong set of He
 |-----|-----|-----|-----|
 |Primary Editor:|Sarah Gaunt|Lantana Consulting Group|sarah.gaunt@lantanagroup.com|
 |Primary Editor:|Zabrina Gonzaga|Lantana Consulting Group|zabrina.gonzaga@lantanagroup.com|
-|Primary Editor:|Dave deRoode|Lantana Consulting Group|dave.deroode@lantanagroup.com|
+|Primary Editor:|Dave deRoode|Lantana Consulting Group|david.deroode@lantanagroup.com|
 |Co-Editor:|Jeneita Bell, MD, MPH|CDC|hpq8@cdc.gov|
 |Co-Editor:|Angella Antilla PhD, MSN|CDC|vtb9@cdc.gov|
 |Co-Editor:|Daniel Pollock, M.D.|CDC|DPollock@cdc.gov|
@@ -33,9 +33,9 @@ The best standards are those driven by business requirements. A strong set of He
 |Co-Editor:|Sheri Chernetsky Tejedor, MD|CDC|yei9@cdc.gov|
 |Co-Editor:|Sheila Abner|CDC|sha8@cdc.gov|
 |Co-Chair:|Erin Holt MPH|Tennessee Department of Health|erin.holt@tn.gov|
-|Co-Chair:|Laura Rappleye|Altarum|laura.reppleye@altarum.org|
+|Co-Chair:|Laura Rappleye|Altarum|laura.rappleye@altarum.org|
 |Co-Chair:|Craig Newman|Altarum|craig.newman@altarum.org|
-|Co-Chair:|Danny Wise|Allscrips|danny.wise@allscripts.com|
+|Co-Chair:|Danny Wise|Allscripts|danny.wise@allscripts.com|
 |Co-Chair:|Joginder Madra|Madra Consulting Inc.|hl7@madraconsulting.com|
 |Co-Chair:|Gaye Dolin M.S.N., R.N. |Intelligent Medical Objects |gdolin@imo-online.com|
 |Co-Chair:|Calvin Beebe|Mayo Clinic|cbeebe@mayo.edu|
