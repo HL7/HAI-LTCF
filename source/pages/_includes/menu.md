@@ -26,7 +26,7 @@
 - [Questionnaire Instances & Examples](questionnaireInstancesExamples.html)
 - [Mapping](mapping.html)
 - [Terminology](terminology.html)
-- [Other](other.html)
+- [Other Examples](other.html)
 - [Downloads](downloads.html)
 
 <!-- ******* how to create a dropdown menu in md ********

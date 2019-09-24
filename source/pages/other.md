@@ -1,5 +1,5 @@
 ---
-title: Other Resources Defined for This Guide
+title: Other Examples Defined for This Guide
 layout: default
 active: other
 ---
@@ -12,8 +12,6 @@ active: other
 {:toc} -->
 
 <!-- end TOC -->
-
-### Other Resources
 
 <table>
 <thead>
@@ -34,22 +32,6 @@ active: other
 <tr>
 <td>Patient</td>
 <td><a href="Patient-hai-ltcf-resident-1.html">hai-ltcf-resident-1</a></td>
-</tr>
-<tr>
-<td>Questionnaire</td>
-<td><a href="Questionnaire-hai-ltcf-questionnaire-mdro-cdi-summary.html">hai-ltcf-questionnaire-mdro-cdi-summary</a></td>
-</tr>
-<tr>
-<td>Questionnaire</td>
-<td><a href="Questionnaire-hai-ltcf-questionnaire-mdro-cdi-event.html">hai-ltcf-quesionnaire-mdro-cdi-event</a></td>
-</tr>
-<tr>
-<td>QuestionnaireResponse</td>
-<td><a href="QuestionnaireResponse-hai-ltcf-questionnaireresponse-mdro-cdi-event.html">hai-ltcf-questionnaireresponse-mdro-cdi-event</a></td>
-</tr>
-<tr>
-<td>QuestionnaireResponse</td>
-<td><a href="QuestionnaireResponse-hai-ltcf-questionnaireresponse-mdro-cdi-summary.html">hai-ltcf-questionnaireresponse-mdro-cdi-summary</a></td>
 </tr>
 </tbody>
 </table>
