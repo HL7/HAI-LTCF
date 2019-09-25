@@ -116,13 +116,12 @@
        </li>
 		<li>
                <span style="font-weight:bold">Report no events</span> [<span style="font-style:italic">report-no-events-group</span>]: 
-         <ul>
-                  <span style="text-decoration:underline">
-                     <li>Report no labID event - All specimens - Vancomycin resistant Enterococcus</li>
-                     <li>no-lab-id-event-vre</li>
-                     <li>true</li>
-                  </span>
-         </ul>
+			   
+			   <li>
+               <span style="font-weight:bold">Report no labID event - All specimens - Vancomycin resistant Enterococcus</span> [<span style="font-style:italic">no-lab-id-event-vre</span>]: 
+        <span style="text-decoration:underline">true</span>
+            </li>
+			   
        </li>
 	 </ul>
     </div>
