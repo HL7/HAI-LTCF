@@ -73,131 +73,101 @@
             </tr>
          </table>
          <br xmlns:xsl="http://www.w3.org/1999/XSL/Transform"/>
-         <table xmlns:xsl="http://www.w3.org/1999/XSL/Transform" class="bare">
-            <tr>
-               <td>
-                  <b>Facility ID</b>
-               </td>
-               <td>facility-id</td>
-               <td>urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1</td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Date of First Admission to Facility</b>
-               </td>
-               <td>date-of-first-admission-to-facility</td>
-               <td>2018-12-05</td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Date of Current Admission to Facility</b>
-               </td>
-               <td>date-of-current-admission-to-facility</td>
-               <td>2019-01-15</td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Event Details Group</b>
-               </td>
-               <td>event-details-group</td>
-               <tr>
-                  <td>
-                     <b>Date Specimen Collected</b>
-                  </td>
-                  <td>date-specimen-collected</td>
-                  <td>2019-01-19</td>
-               </tr>
-               <tr>
-                  <td>
-                     <b>Specimen Type</b>
-                  </td>
-                  <td>specimen-type</td>
-                  <td>
-                     <ul style="list-style:none; padding-left:0; margin:0 0;">
-                        <li>stool specimen</li>
-                        <li>Code system: <a href="http://snomed.info/sct">http://snomed.info/sct</a>
+         <h2 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">QuestionnaireResponse Answers</h2>
+		  <ul xmlns:xsl="http://www.w3.org/1999/XSL/Transform" style="list-style:none;">
+            <li>
+               <span style="font-weight:bold">Facility ID</span> [<span style="font-style:italic">facility-id</span>]: 
+				<span style="text-decoration:underline">urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1</span>
+            </li>
+			<li>
+               <span style="font-weight:bold">Date of First Admission to Facility</span> [<span style="font-style:italic">date-of-first-admission-to-facility</span>]: 
+				<span style="text-decoration:underline">2018-12-05</span>
+            </li>
+
+			<li>
+               <span style="font-weight:bold">Date of Current Admission to Facility</span> [<span style="font-style:italic">date-of-current-admission-to-facility</span>]: 
+				<span style="text-decoration:underline">2019-01-15</span>
+            </li>
+
+			<li>
+               <span style="font-weight:bold">Event Details Group</span> [<span style="font-style:italic">event-details-group</span>]: 
+            </li>
+			
+		<ul>
+			<li>
+               <span style="font-weight:bold">Date Specimen Collected</span> [<span style="font-style:italic">date-specimen-collected</span>]: 
+				<span style="text-decoration:underline">2019-01-19</span>
+            </li>
+
+            <li>
+               <span style="font-weight:bold">Specimen Type</span> [<span style="font-style:italic">specimen-type</span>]: 
+				<ul>
+                  <span style="text-decoration:underline">
+                     <li>stool specimen</li>
+						<li>Code system: <a href="http://snomed.info/sct">http://snomed.info/sct</a>
                         </li>
-                        <li>Code: 119339001</li>
-                     </ul>
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                     <b>Resident Care Location</b>
-                  </td>
-                  <td>resident-care-location</td>
-                  <td>urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1:1A</td>
-               </tr>
-               <tr>
-                  <td>
-                     <b>Primary Resident Service Type</b>
-                  </td>
-                  <td>primary-resident-service-type</td>
-                  <td>
-                     <ul style="list-style:none; padding-left:0; margin:0 0;">
-                        <li>LTCF General Nursing Unit</li>
-                        <li>Code system: <a href="CodeSystem-2.16.840.1.113883.6.259.html">http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259</a>
+                     <li>Code: 119339001</li>
+                  </span>
+               </ul>
+            </li>
+
+			<li>
+               <span style="font-weight:bold">Resident Care Location</span> [<span style="font-style:italic">resident-care-location</span>]: 
+				<span style="text-decoration:underline">urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1:1A</span>
+            </li>
+
+			<li>
+               <span style="font-weight:bold">Primary Resident Service Type</span> [<span style="font-style:italic">primary-resident-service-type</span>]: 
+				<ul>
+                  <span style="text-decoration:underline">
+                     <li>LTCF General Nursing Unit</li>
+                     <li>Code system: <a href="CodeSystem-2.16.840.1.113883.6.259.html">http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259</a>
                         </li>
-                        <li>Code: 1258-3</li>
-                     </ul>
-                  </td>
-               </tr>
-            </tr>
-            <tr>
-               <td>
-                  <b>Encounters Group</b>
-               </td>
-               <td>encounters-group</td>
-               <tr>
-                  <td>
-                     <b>Transfer From Acute Care Facility to LTCF in Past Four Weeks</b>
-                  </td>
-                  <td>transfer-from-acute-care-facility</td>
-                  <td>true</td>
-               </tr>
-               <tr>
-                  <td>
-                     <b>Date of Last Transfer From Acute Care to LTCF</b>
-                  </td>
-                  <td>date-of-last-transfer</td>
-                  <td>2019-01-25</td>
-               </tr>
-               <tr>
-                  <td>
-                     <b>Resident on Antibiotic Therapy for Specific Organism at Time of Transfer to Facility</b>
-                  </td>
-                  <td>antibiotic-at-time-of-transfer</td>
-                  <td>true</td>
-               </tr>
-            </tr>
-            <tr>
-               <td>
-                  <b>Findings Group</b>
-               </td>
-               <td>findings-group</td>
-               <tr>
-                  <td>
-                     <b>Specific Organism Type</b>
-                  </td>
-                  <td>specific-organism-type</td>
-                  <td>
-                     <ul style="list-style:none; padding-left:0; margin:0 0;">
-                        <li>Clostridium difficile</li>
-                        <li>Code system: <a href="http://snomed.info/sct">http://snomed.info/sct</a>
-                        </li>
-                        <li>Code: 5933001</li>
-                     </ul>
-                  </td>
-               </tr>
-            </tr>
-            <tr>
-               <td>
-                  <b>Comments</b>
-               </td>
-               <td>nhsn-comment</td>
-               <td>NHSN text comment that is less than 2000 characters.</td>
-            </tr>
-         </table>
+                     <li>Code: 1258-3</li>
+                  </span>
+               </ul>
+            </li>
+		</ul>
+			 
+
+			<li>
+               <span style="font-weight:bold">Encounters Group</span> [<span style="font-style:italic">encounters-group</span>]: 
+            </li>      
+			<ul>
+			<li>
+               <span style="font-weight:bold">Transfer From Acute Care Facility to LTCF in Past Four Weeks</span> [<span style="font-style:italic">transfer-from-acute-care-facility</span>]: 
+				<span style="text-decoration:underline">true</span>
+            </li>
+			<li>
+               <span style="font-weight:bold">Date of Last Transfer From Acute Care to LTCF</span> [<span style="font-style:italic">date-of-last-transfer</span>]: 
+				<span style="text-decoration:underline">2019-01-25</span>
+            </li>
+			<li>
+               <span style="font-weight:bold">Resident on Antibiotic Therapy for Specific Organism at Time of Transfer to Facility</span> [<span style="font-style:italic">antibiotic-at-time-of-transfer</span>]: 
+				<span style="text-decoration:underline">true</span>
+            </li>
+			</ul>
+			
+			<li>
+               <span style="font-weight:bold">Findings Group</span> [<span style="font-style:italic">findings-group</span>]: 
+            </li> 
+				<ul>
+					<li>
+						<span style="font-weight:bold">Specific Organism Type</span> [<span style="font-style:italic">specific-organism-type</span>]: 
+						<ul>
+						<span style="text-decoration:underline">
+							<li>Clostridium difficile</li>
+							<li>Code system: <a href="http://snomed.info/sct">http://snomed.info/sct</a>
+							</li>
+							<li>Code: 5933001</li>
+						</span>
+						</ul>
+					</li>
+				</ul>
+			<li>
+               <span style="font-weight:bold">Comments</span> [<span style="font-style:italic">nhsn-comment</span>]: 
+				<span style="text-decoration:underline">NHSN text comment that is less than 2000 characters.</span>
+            </li>
       </div>
    </text>
    <identifier>
