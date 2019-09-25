@@ -1,294 +1,295 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QuestionnaireResponse xmlns="http://hl7.org/fhir">
-   <id value="hai-ltcf-questionnaireresponse-mdro-cdi-event"/>
-   <meta>
-      <versionId value="1"/>
-      <lastUpdated value="2019-06-25T19:23:28.000-04:00"/>
-      <!-- **TODO** This needs to be un-commented once the HAI has been published (before publication of the HAI-LTCF IG) -->
-      <!--    <profile value="http://hl7.org/fhir/us/hai/StructureDefinition/hai-single-person-report-questionnaireresponse" />-->
-   </meta>
-   <language value="en-US"/>
-   <text>
-      <status value="generated"/>
-      <div xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
-         <table xmlns:xsl="http://www.w3.org/1999/XSL/Transform" class="bare">
-            <tr>
-               <td>
-                  <b>Id:</b>
-               </td>
-               <td>hai-ltcf-questionnaireresponse-mdro-cdi-event</td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Meta:</b>
-               </td>
-               <td>
-                  <ul style="list-style:none; padding-left:0; margin:0 0;">
-                     <li>1</li>
-                     <li>2019-06-25T19:23:28.000-04:00</li>
-                  </ul>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Language:</b>
-               </td>
-               <td>en-US</td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Identifier:</b>
-               </td>
-               <td>
-                  <span>hai-ltcf-questionnaireresponse-mdro-cdi-event-example-1</span>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Questionnaire:</b>
-               </td>
-               <td>http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-event|1.0.0</td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Status:</b>
-               </td>
-               <td>completed</td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Subject:</b>
-               </td>
-               <td>
-                  <a href="Patient-hai-ltcf-resident-1.html">hai-ltcf-resident-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <b>Author:</b>
-               </td>
-               <td>
-                  <a href="Device-hai-ltcf-authoring-device.html">hai-ltcf-authoring-device</a>
-               </td>
-            </tr>
-         </table>
-         <br xmlns:xsl="http://www.w3.org/1999/XSL/Transform"/>
-         <h2 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">QuestionnaireResponse Answers</h2>
-		  <ul xmlns:xsl="http://www.w3.org/1999/XSL/Transform" style="list-style:none;">
-            <li>
-               <span style="font-weight:bold">Facility ID</span> [<span style="font-style:italic">facility-id</span>]: 
-				<span style="text-decoration:underline">urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1</span>
-            </li>
-			<li>
-               <span style="font-weight:bold">Date of First Admission to Facility</span> [<span style="font-style:italic">date-of-first-admission-to-facility</span>]: 
-				<span style="text-decoration:underline">2018-12-05</span>
-            </li>
-
-			<li>
-               <span style="font-weight:bold">Date of Current Admission to Facility</span> [<span style="font-style:italic">date-of-current-admission-to-facility</span>]: 
-				<span style="text-decoration:underline">2019-01-15</span>
-            </li>
-
-			<li>
-               <span style="font-weight:bold">Event Details Group</span> [<span style="font-style:italic">event-details-group</span>]: 
-            </li>
-			
-		<ul>
-			<li>
-               <span style="font-weight:bold">Date Specimen Collected</span> [<span style="font-style:italic">date-specimen-collected</span>]: 
-				<span style="text-decoration:underline">2019-01-19</span>
-            </li>
-
-            <li>
-               <span style="font-weight:bold">Specimen Type</span> [<span style="font-style:italic">specimen-type</span>]: 
-				<ul>
-                  <span style="text-decoration:underline">
-                     <li>stool specimen</li>
-						<li>Code system: <a href="http://snomed.info/sct">http://snomed.info/sct</a>
-                        </li>
-                     <li>Code: 119339001</li>
-                  </span>
-               </ul>
-            </li>
-
-			<li>
-               <span style="font-weight:bold">Resident Care Location</span> [<span style="font-style:italic">resident-care-location</span>]: 
-				<span style="text-decoration:underline">urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1:1A</span>
-            </li>
-
-			<li>
-               <span style="font-weight:bold">Primary Resident Service Type</span> [<span style="font-style:italic">primary-resident-service-type</span>]: 
-				<ul>
-                  <span style="text-decoration:underline">
-                     <li>LTCF General Nursing Unit</li>
-                     <li>Code system: <a href="CodeSystem-2.16.840.1.113883.6.259.html">http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259</a>
-                        </li>
-                     <li>Code: 1258-3</li>
-                  </span>
-               </ul>
-            </li>
-		</ul>
-			 
-
-			<li>
-               <span style="font-weight:bold">Encounters Group</span> [<span style="font-style:italic">encounters-group</span>]: 
-            </li>      
-			<ul>
-			<li>
-               <span style="font-weight:bold">Transfer From Acute Care Facility to LTCF in Past Four Weeks</span> [<span style="font-style:italic">transfer-from-acute-care-facility</span>]: 
-				<span style="text-decoration:underline">true</span>
-            </li>
-			<li>
-               <span style="font-weight:bold">Date of Last Transfer From Acute Care to LTCF</span> [<span style="font-style:italic">date-of-last-transfer</span>]: 
-				<span style="text-decoration:underline">2019-01-25</span>
-            </li>
-			<li>
-               <span style="font-weight:bold">Resident on Antibiotic Therapy for Specific Organism at Time of Transfer to Facility</span> [<span style="font-style:italic">antibiotic-at-time-of-transfer</span>]: 
-				<span style="text-decoration:underline">true</span>
-            </li>
-			</ul>
-			
-			<li>
-               <span style="font-weight:bold">Findings Group</span> [<span style="font-style:italic">findings-group</span>]: 
-            </li> 
-				<ul>
-					<li>
-						<span style="font-weight:bold">Specific Organism Type</span> [<span style="font-style:italic">specific-organism-type</span>]: 
-						<ul>
-						<span style="text-decoration:underline">
-							<li>Clostridium difficile</li>
-							<li>Code system: <a href="http://snomed.info/sct">http://snomed.info/sct</a>
-							</li>
-							<li>Code: 5933001</li>
-						</span>
-						</ul>
-					</li>
-				</ul>
-			<li>
-               <span style="font-weight:bold">Comments</span> [<span style="font-style:italic">nhsn-comment</span>]: 
-				<span style="text-decoration:underline">NHSN text comment that is less than 2000 characters.</span>
-            </li>
-      </div>
-   </text>
-   <identifier>
-      <value value="hai-ltcf-questionnaireresponse-mdro-cdi-event-example-1"/>
-   </identifier>
-   <questionnaire value="http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-event|1.0.0"/>
-   <status value="completed"/>
-   <subject>
-      <reference value="Patient/hai-ltcf-resident-1"/>
-      <display value="hai-ltcf-resident-1"/>
-   </subject>
-   <author>
-      <reference value="Device/hai-ltcf-authoring-device"/>
-      <display value="hai-ltcf-authoring-device"/>
-   </author>
-   <item>
-      <linkId value="facility-id"/>
-      <text value="Facility ID"/>
+  <id value="hai-ltcf-questionnaireresponse-mdro-cdi-event"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2019-06-25T19:23:28.000-04:00"/>
+    <!-- **TODO** This needs to be un-commented once the HAI has been published (before publication of the HAI-LTCF IG) -->
+    <!--    <profile value="http://hl7.org/fhir/us/hai/StructureDefinition/hai-single-person-report-questionnaireresponse" />-->
+  </meta>
+  <language value="en-US"/>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+      <table xmlns:xsl="http://www.w3.org/1999/XSL/Transform" class="bare">
+        <tr>
+          <td>
+            <b>Id:</b>
+          </td>
+          <td>hai-ltcf-questionnaireresponse-mdro-cdi-event</td>
+        </tr>
+        <tr>
+          <td>
+            <b>Meta:</b>
+          </td>
+          <td>
+            <ul style="list-style:none; padding-left:0; margin:0 0;">
+              <li>1</li>
+              <li>2019-06-25T19:23:28.000-04:00</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>Language:</b>
+          </td>
+          <td>en-US</td>
+        </tr>
+        <tr>
+          <td>
+            <b>Identifier:</b>
+          </td>
+          <td>
+            <span>hai-ltcf-questionnaireresponse-mdro-cdi-event-example-1</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>Questionnaire:</b>
+          </td>
+          <td>http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-event|1.0.0</td>
+        </tr>
+        <tr>
+          <td>
+            <b>Status:</b>
+          </td>
+          <td>completed</td>
+        </tr>
+        <tr>
+          <td>
+            <b>Subject:</b>
+          </td>
+          <td>
+            <a href="Patient-hai-ltcf-resident-1.html">hai-ltcf-resident-1</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>Author:</b>
+          </td>
+          <td>
+            <a href="Device-hai-ltcf-authoring-device.html">hai-ltcf-authoring-device</a>
+          </td>
+        </tr>
+      </table>
+      <br xmlns:xsl="http://www.w3.org/1999/XSL/Transform"/>
+      <h2 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">QuestionnaireResponse Answers</h2>
+      <ul xmlns:xsl="http://www.w3.org/1999/XSL/Transform" style="list-style:none;">
+        <li>
+          <span style="font-weight:bold">Facility ID</span> [<span style="font-style:italic">facility-id</span>]: 
+          <span style="text-decoration:underline">urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1</span>
+        </li>
+        <li>
+          <span style="font-weight:bold">Date of First Admission to Facility</span> [<span style="font-style:italic">date-of-first-admission-to-facility</span>]: 
+          <span style="text-decoration:underline">2018-12-05</span>
+        </li>
+        
+        <li>
+          <span style="font-weight:bold">Date of Current Admission to Facility</span> [<span style="font-style:italic">date-of-current-admission-to-facility</span>]: 
+          <span style="text-decoration:underline">2019-01-15</span>
+        </li>
+        
+        <li>
+          <span style="font-weight:bold">Event Details Group</span> [<span style="font-style:italic">event-details-group</span>]: 
+        </li>
+        
+        <ul>
+          <li>
+            <span style="font-weight:bold">Date Specimen Collected</span> [<span style="font-style:italic">date-specimen-collected</span>]: 
+            <span style="text-decoration:underline">2019-01-19</span>
+          </li>
+          
+          <li>
+            <span style="font-weight:bold">Specimen Type</span> [<span style="font-style:italic">specimen-type</span>]: 
+            <ul>
+              <span style="text-decoration:underline">
+                <li>stool specimen</li>
+                <li>Code system: <a href="http://snomed.info/sct">http://snomed.info/sct</a>
+                </li>
+                <li>Code: 119339001</li>
+              </span>
+            </ul>
+          </li>
+          
+          <li>
+            <span style="font-weight:bold">Resident Care Location</span> [<span style="font-style:italic">resident-care-location</span>]: 
+            <span style="text-decoration:underline">urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1:1A</span>
+          </li>
+          
+          <li>
+            <span style="font-weight:bold">Primary Resident Service Type</span> [<span style="font-style:italic">primary-resident-service-type</span>]: 
+            <ul>
+              <span style="text-decoration:underline">
+                <li>LTCF General Nursing Unit</li>
+                <li>Code system: <a href="CodeSystem-2.16.840.1.113883.6.259.html">http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259</a>
+                </li>
+                <li>Code: 1258-3</li>
+              </span>
+            </ul>
+          </li>
+        </ul>
+        
+        
+        <li>
+          <span style="font-weight:bold">Encounters Group</span> [<span style="font-style:italic">encounters-group</span>]: 
+        </li>      
+        <ul>
+          <li>
+            <span style="font-weight:bold">Transfer From Acute Care Facility to LTCF in Past Four Weeks</span> [<span style="font-style:italic">transfer-from-acute-care-facility</span>]: 
+            <span style="text-decoration:underline">true</span>
+          </li>
+          <li>
+            <span style="font-weight:bold">Date of Last Transfer From Acute Care to LTCF</span> [<span style="font-style:italic">date-of-last-transfer</span>]: 
+            <span style="text-decoration:underline">2019-01-25</span>
+          </li>
+          <li>
+            <span style="font-weight:bold">Resident on Antibiotic Therapy for Specific Organism at Time of Transfer to Facility</span> [<span style="font-style:italic">antibiotic-at-time-of-transfer</span>]: 
+            <span style="text-decoration:underline">true</span>
+          </li>
+        </ul>
+        
+        <li>
+          <span style="font-weight:bold">Findings Group</span> [<span style="font-style:italic">findings-group</span>]: 
+        </li> 
+        <ul>
+          <li>
+            <span style="font-weight:bold">Specific Organism Type</span> [<span style="font-style:italic">specific-organism-type</span>]: 
+            <ul>
+              <span style="text-decoration:underline">
+                <li>Clostridium difficile</li>
+                <li>Code system: <a href="http://snomed.info/sct">http://snomed.info/sct</a>
+                </li>
+                <li>Code: 5933001</li>
+              </span>
+            </ul>
+          </li>
+        </ul>
+        <li>
+          <span style="font-weight:bold">Comments</span> [<span style="font-style:italic">nhsn-comment</span>]: 
+          <span style="text-decoration:underline">NHSN text comment that is less than 2000 characters.</span>
+        </li>
+      </ul>
+    </div>
+  </text>
+  <identifier>
+    <value value="hai-ltcf-questionnaireresponse-mdro-cdi-event-example-1"/>
+  </identifier>
+  <questionnaire value="http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-event|1.0.0"/>
+  <status value="completed"/>
+  <subject>
+    <reference value="Patient/hai-ltcf-resident-1"/>
+    <display value="hai-ltcf-resident-1"/>
+  </subject>
+  <author>
+    <reference value="Device/hai-ltcf-authoring-device"/>
+    <display value="hai-ltcf-authoring-device"/>
+  </author>
+  <item>
+    <linkId value="facility-id"/>
+    <text value="Facility ID"/>
+    <answer>
+      <valueUri value="urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1"/>
+    </answer>
+  </item>
+  <item>
+    <linkId value="date-of-first-admission-to-facility"/>
+    <text value="Date of First Admission to Facility"/>
+    <answer>
+      <valueDate value="2018-12-05"/>
+    </answer>
+  </item>
+  <item>
+    <linkId value="date-of-current-admission-to-facility"/>
+    <text value="Date of Current Admission to Facility"/>
+    <answer>
+      <valueDate value="2019-01-15"/>
+    </answer>
+  </item>
+  <item>
+    <linkId value="event-details-group"/>
+    <text value="Event Details Group"/>
+    <item>
+      <linkId value="date-specimen-collected"/>
+      <text value="Date Specimen Collected"/>
       <answer>
-         <valueUri value="urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1"/>
+        <valueDate value="2019-01-19"/>
       </answer>
-   </item>
-   <item>
-      <linkId value="date-of-first-admission-to-facility"/>
-      <text value="Date of First Admission to Facility"/>
+    </item>
+    <item>
+      <linkId value="specimen-type"/>
+      <text value="Specimen Type"/>
       <answer>
-         <valueDate value="2018-12-05"/>
+        <valueCoding>
+          <system value="http://snomed.info/sct"/>
+          <code value="119339001"/>
+          <display value="stool specimen"/>
+        </valueCoding>
       </answer>
-   </item>
-   <item>
-      <linkId value="date-of-current-admission-to-facility"/>
-      <text value="Date of Current Admission to Facility"/>
+    </item>
+    <item>
+      <linkId value="resident-care-location"/>
+      <text value="Resident Care Location"/>
       <answer>
-         <valueDate value="2019-01-15"/>
+        <valueUri value="urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1:1A"/>
       </answer>
-   </item>
-   <item>
-      <linkId value="event-details-group"/>
-      <text value="Event Details Group"/>
-      <item>
-         <linkId value="date-specimen-collected"/>
-         <text value="Date Specimen Collected"/>
-         <answer>
-            <valueDate value="2019-01-19"/>
-         </answer>
-      </item>
-      <item>
-         <linkId value="specimen-type"/>
-         <text value="Specimen Type"/>
-         <answer>
-            <valueCoding>
-               <system value="http://snomed.info/sct"/>
-               <code value="119339001"/>
-               <display value="stool specimen"/>
-            </valueCoding>
-         </answer>
-      </item>
-      <item>
-         <linkId value="resident-care-location"/>
-         <text value="Resident Care Location"/>
-         <answer>
-            <valueUri value="urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1:1A"/>
-         </answer>
-      </item>
-      <item>
-         <linkId value="primary-resident-service-type"/>
-         <text value="Primary Resident Service Type"/>
-         <answer>
-            <valueCoding>
-               <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259"/>
-               <code value="1258-3"/>
-               <display value="LTCF General Nursing Unit"/>
-            </valueCoding>
-         </answer>
-      </item>
-   </item>
-   <item>
-      <linkId value="encounters-group"/>
-      <text value="Encounters Group"/>
-      <item>
-         <linkId value="transfer-from-acute-care-facility"/>
-         <text value="Transfer From Acute Care Facility to LTCF in Past Four Weeks"/>
-         <answer>
-            <valueBoolean value="true"/>
-         </answer>
-      </item>
-      <item>
-         <linkId value="date-of-last-transfer"/>
-         <text value="Date of Last Transfer From Acute Care to LTCF"/>
-         <answer>
-            <valueDate value="2019-01-25"/>
-         </answer>
-      </item>
-      <item>
-         <linkId value="antibiotic-at-time-of-transfer"/>
-         <text value="Resident on Antibiotic Therapy for Specific Organism at Time of Transfer to Facility"/>
-         <answer>
-            <valueBoolean value="true"/>
-         </answer>
-      </item>
-   </item>
-   <item>
-      <linkId value="findings-group"/>
-      <text value="Findings Group"/>
-      <item>
-         <linkId value="specific-organism-type"/>
-         <text value="Specific Organism Type"/>
-         <answer>
-            <valueCoding>
-               <system value="http://snomed.info/sct"/>
-               <code value="5933001"/>
-               <display value="Clostridium difficile"/>
-            </valueCoding>
-         </answer>
-      </item>
-   </item>
-   <item>
-      <linkId value="nhsn-comment"/>
-      <text value="Comments"/>
+    </item>
+    <item>
+      <linkId value="primary-resident-service-type"/>
+      <text value="Primary Resident Service Type"/>
       <answer>
-         <valueString value="NHSN text comment that is less than 2000 characters."/>
+        <valueCoding>
+          <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259"/>
+          <code value="1258-3"/>
+          <display value="LTCF General Nursing Unit"/>
+        </valueCoding>
       </answer>
-   </item>
+    </item>
+  </item>
+  <item>
+    <linkId value="encounters-group"/>
+    <text value="Encounters Group"/>
+    <item>
+      <linkId value="transfer-from-acute-care-facility"/>
+      <text value="Transfer From Acute Care Facility to LTCF in Past Four Weeks"/>
+      <answer>
+        <valueBoolean value="true"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="date-of-last-transfer"/>
+      <text value="Date of Last Transfer From Acute Care to LTCF"/>
+      <answer>
+        <valueDate value="2019-01-25"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="antibiotic-at-time-of-transfer"/>
+      <text value="Resident on Antibiotic Therapy for Specific Organism at Time of Transfer to Facility"/>
+      <answer>
+        <valueBoolean value="true"/>
+      </answer>
+    </item>
+  </item>
+  <item>
+    <linkId value="findings-group"/>
+    <text value="Findings Group"/>
+    <item>
+      <linkId value="specific-organism-type"/>
+      <text value="Specific Organism Type"/>
+      <answer>
+        <valueCoding>
+          <system value="http://snomed.info/sct"/>
+          <code value="5933001"/>
+          <display value="Clostridium difficile"/>
+        </valueCoding>
+      </answer>
+    </item>
+  </item>
+  <item>
+    <linkId value="nhsn-comment"/>
+    <text value="Comments"/>
+    <answer>
+      <valueString value="NHSN text comment that is less than 2000 characters."/>
+    </answer>
+  </item>
 </QuestionnaireResponse>
