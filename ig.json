@@ -143,7 +143,7 @@
 		},
 		{
 			"location": "http://hl7.org/fhir/us/hai",
-			"name": "NHSN Healthcare Associated Infection (HAI) Reports",
+			"name": "NHSNHealthcareAssociatedInfectionReports",
 			"version": "2.0.0",
 			"package": "hl7.fhir.us.hai"
 		}
