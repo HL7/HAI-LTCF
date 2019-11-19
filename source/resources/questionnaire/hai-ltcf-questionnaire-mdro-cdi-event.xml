@@ -4,8 +4,7 @@
    <meta>
       <versionId value="10"/>
       <lastUpdated value="2019-07-04T19:12:37.000-04:00"/>
-     <!-- **TODO** This needs to be un-commented once the HAI has been published (before publication of the HAI-LTCF IG) -->
-<!--      <profile value="http://hl7.org/fhir/us/hai/StructureDefinition/hai-single-person-report-questionnaire"/>-->
+      <profile value="http://hl7.org/fhir/us/hai/StructureDefinition/hai-single-person-report-questionnaire"/>
    </meta>
    <language value="en-US"/>
    <text>
