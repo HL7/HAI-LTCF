@@ -140,6 +140,12 @@
 			"name": "USCoreR4",
 			"version": "3.0.0",
 			"package": "hl7.fhir.us.core"
+		},
+		{
+			"location": "http://hl7.org/fhir/us/hai",
+			"name": "NHSN Healthcare Associated Infection (HAI) Reports",
+			"version": "2.0.0",
+			"package": "hl7.fhir.us.hai"
 		}
 	]
 }
