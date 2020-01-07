@@ -41,6 +41,12 @@
     "uri" : "http://hl7.org/fhir/us/core",
     "packageId" : "hl7.fhir.us.core",
     "version" : "3.0.0"
+  },
+  {
+    "id" : "hl7-fhir-us-hai",
+    "uri" : "http://hl7.org/fhir/us/hai",
+    "packageId" : "hl7.fhir.us.hai",
+    "version" : "2.0.0"
   }],
   "definition" : {
     "resource" : [{
