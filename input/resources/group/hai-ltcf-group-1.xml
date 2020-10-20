@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Group
+    xmlns="http://hl7.org/fhir">
+    <id value="hai-ltcf-group-1"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2020-02-11T23:09:39.188+00:00"/>
+        <source value="#AcaPRBe3L6YLqz35"/>
+    </meta>
+    <text>
+        <status value="generated"/>
+        <div
+            xmlns="http://www.w3.org/1999/xhtml">
+            <p>Example group for population summary report</p>
+        </div>
+    </text>
+    <type value="person"/>
+    <actual value="true"/>
+</Group>

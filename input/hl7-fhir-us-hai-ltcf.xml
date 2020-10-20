@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImplementationGuide
+    xmlns="http://hl7.org/fhir">
+    <id value="hl7-fhir-us-hai-ltcf"/>
+    <meta>
+        <versionId value="24"/>
+        <lastUpdated value="2020-10-20T22:06:49.966+00:00"/>
+        <source value="#xLli1eZvolFtolzR"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/hai-ltcf/ImplementationGuide/hl7-fhir-us-hai-ltcf"/>
+    <version value="0.1.0"/>
+    <name value="HealthcareAssociatedInfectionReportsLongTermCareFacilities"/>
+    <title value="NHSN Healthcare Associated Infection (HAI) Reports Long Term Care Facilities (HAI-LTCF-FHIR), Release 1 - US Realm"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <publisher value="HL7 International - Public Health Work Group"/>
+    <contact>
+        <name value="HL7 International - Public Health Work Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/pher/"/>
+        </telecom>
+    </contact>
+    <description value="This implementation guide (IG) specifies standards for electronic submission of Healthcare Associated Infection (HAI) Long Term Care Facilities (LTCF) reports to the National Healthcare Safety Network (NHSN) of the Centers for Disease Control and Prevention (CDC). This IG contains a library of FHIR profiles for electronic submission of HAI LTCF reports to the NHSN.&#xA;&#xA;As reports are modified and new report types are defined, CDC and Health Level Seven (HL7) will develop and publish additional constraints.&#xA;&#xA;Throughout this process, CDC remains the authority on NHSN data collection protocols. When healthcare enterprises choose to participate in NHSN, they must report to CDC occurrences such as specific reportable procedures, even those without complications, and events such as a bloodstream infection, either confirmed by a positive blood culture or supported by a patients clinical symptoms. This specification opens the channel for data submission by all applications compliant with the data coding requirements defined here.&#xA;&#xA;Note that participation in the NHSN requires enrollment and filing of reporting plans, which are not defined by this specification. For an overview of NHSN and full information on NHSN participation requirements, see: [http://www.cdc.gov/nhsn](http://www.cdc.gov/nhsn). Provisions of the Public Health Service Act protect all data reported to NHSN from discovery through the Freedom of Information Act (FOIA)."/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+        </coding>
+    </jurisdiction>
+    <packageId value="hl7.fhir.us.hai-ltcf"/>
+    <fhirVersion value="4.0.1"/>
+    <dependsOn>
+        <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core-3.0.0"/>
+        <packageId value="hl7.fhir.us.core"/>
+        <version value="3.0.0"/>
+    </dependsOn>
+    <dependsOn>
+        <uri value="http://fhir.org/packages/us.nlm.vsac"/>
+        <packageId value="us.nlm.vsac"/>
+        <version value="0.1.0"/>
+    </dependsOn>
+    <definition>
+        <resource>
+            <reference>
+                <reference value="Device/hai-ltcf-authoring-device"/></reference>
+            <name value="Authoring Device example for Long Term Care Facility"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Group/hai-ltcf-group-1"/></reference>
+            <name value="Long Term Care Facility Group example"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/hai-ltcf-resident-1"/></reference>
+            <name value="Long Term Care Facility Resident example"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Questionnaire/hai-ltcf-questionnaire-mdro-cdi-event"/>
+                <display value="HAI Laboratory Identified MDRO or CDI Event Report for LTCF"/>
+            </reference>
+            <name value="HAI Laboratory Identified MDRO or CDI Event Report for LTCF"/>
+            <description value="This Questionnaire instance records the laboratory identification of a MDRO or CDI microorganism. These reports are submitted if the LTC facility is monitoring the organism specified. Each report records a single organism event. Information regarding the resident's care location, type of primary service and date of current admission are recorded. &#xA;&#xA;Key Encounter data in the report includes:&#xA;* The date of the current admission to the facility location where the specimen was collected.&#xA;* The date of specimen collection.&#xA;Key Finding data in this report includes:&#xA;* Inormation on the type of organism and the date which it was collected.&#xA;&#xA;For further details see the NHSN website [https://www.cdc.gov/nhsn/](https://www.cdc.gov/nhsn/) for reporting healthcare-associated infections in long-term care facilities. The concepts reported in this Questionnaire are defined for the NHSN &quot;*LabID Event Protocol for LTCF*&quot; and the corresponding data collection form &quot;*57.138 LabID Event Form for LTCF*&quot;.&#xA;"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Questionnaire/hai-ltcf-questionnaire-mdro-cdi-summary"/>
+                <display value="MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF"/>
+            </reference>
+            <name value="MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF"/>
+            <description value="This Questionnaire instance defines the questions and possible answers in the MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF. It records the monthly aggregate data for Multi-Drug Resistant Organisms (MDRO) and Clostridium difficile (C. diff, CDI)."/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="QuestionnaireResponse/hai-ltcf-questionnaireresponse-mdro-cdi-summary"/></reference>
+            <name value="MDRO and CDI Monthly Summary Data for LTCF"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="QuestionnaireResponse/hai-ltcf-questionnaireresponse-mdro-cdi-event"/></reference>
+            <name value="MDRO and CDI Event Report for LTCF"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/hai-ltc-ltc-population-summary-questionnaire"/>
+                <display value="HaiLtcPopulationSummaryQuestionnaire"/>
+            </reference>
+            <name value="Healthcare Associated Infection for Long Term Care Population Summary Questionnaire"/>
+            <description value="This profile represents a Healthcare Associated Infection Population Summary form as a FHIR Questionnaire. A Population Summary Report records summary data for a group, such as the patients in a particular ward, during a specified period."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/hai-ltc-ltc-population-summary-questionnaire-response"/>
+                <display value="Healthcare Associated Infection Population Summary QuestionnaireResponse"/>
+            </reference>
+            <name value="Healthcare Associated Infection for Long Term Care Population Summary QuestionnaireResponse"/>
+            <description value="This profile represents a response to the Healthcare Associated Infection Population Summary Questionnaire as a FHIR QuestionnaireResponse profile."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/hai-ltc-ltc-single-person-report-questionnaire"/>
+                <display value="Healthcare Associated Infection Single-Person Report Questionnaire"/>
+            </reference>
+            <name value="Healthcare Associated Infection for Long Term Care Single-Person Report Questionnaire"/>
+            <description value="This profile represents a Healthcare Associated Infection Singe-Person Report form as a FHIR Questionnaire."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/hai-ltc-ltc-single-person-report-questionnaire-response"/>
+                <display value="Healthcare Associated Infection Single-Person Report QuestionnaireResponse"/>
+            </reference>
+            <name value="Healthcare Associated Infection for Long Term Care Single-Person Report QuestionnaireResponse"/>
+            <description value="This profile represents a response to the Healthcare Associated Infection Single-Person Report Questionnaire as a FHIR QuestionnaireResponse profile."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <page>
+            <nameUrl value="index.html"/>
+            <title value="Healthcare Associated Infection Reports (FHIR)"/>
+            <generation value="markdown"/>
+            <page>
+                <nameUrl value="Relationship_to_Another_Standard.html"/>
+                <title value="Relationship to Another Standard"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="Audience.html"/>
+                <title value="Audience"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="Design_Considerations.html"/>
+                <title value="Design Considerations"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="References.html"/>
+                <title value="References"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="Acknowledgements.html"/>
+                <title value="Acknowledgements"/>
+                <generation value="markdown"/>
+            </page>
+        </page>
+        <parameter>
+            <code value="copyrightyear"/>
+            <value value="2020+"/>
+        </parameter>
+        <parameter>
+            <code value="releaselabel"/>
+            <value value="CI Build"/>
+        </parameter>
+    </definition>
+</ImplementationGuide>

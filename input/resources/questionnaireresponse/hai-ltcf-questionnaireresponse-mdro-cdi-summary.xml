@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionnaireResponse
+    xmlns="http://hl7.org/fhir">
+    <id value="hai-ltcf-questionnaireresponse-mdro-cdi-summary"/>
+    <meta>
+        <versionId value="2"/>
+        <lastUpdated value="2020-10-13T22:39:17.768+00:00"/>
+        <source value="#PchA6a7u75sHPru6"/>
+        <profile value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaireresponse"/>
+    </meta>
+        <identifier>
+            <value value="hai-ltcf-questionnaireresponse-mdro-cdi-summary-example-1"/>
+        </identifier>
+        <questionnaire value="http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-summary|1.0.0"/>
+        <status value="completed"/>
+        <subject>
+            <reference value="Group/hai-ltcf-group-1"/>
+            <display value="hai-ltcf-group-1"/>
+        </subject>
+        <author>
+            <reference value="Device/hai-ltcf-authoring-device"/>
+            <display value="hai-ltcf-authoring-device"/>
+        </author>
+        <item>
+            <linkId value="facility-id"/>
+            <text value="Facility ID"/>
+            <answer>
+                <valueUri value="urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1"/>
+            </answer>
+        </item>
+        <item>
+            <linkId value="report-period-start"/>
+            <text value="First Day of Period Reported"/>
+            <answer>
+                <valueDate value="2019-01-01"/>
+            </answer>
+        </item>
+        <item>
+            <linkId value="report-period-end"/>
+            <text value="Last Day of Period Reported"/>
+            <answer>
+                <valueDate value="2019-01-31"/>
+            </answer>
+        </item>
+        <item>
+            <linkId value="facility-location-code"/>
+            <text value="Facility Location Code"/>
+            <answer>
+                <valueCoding>
+                    <system value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/2.16.840.1.113883.6.259"/>
+                    <code value="1250-0"/>
+                    <display value="All Inpatient Locations [FACWIDEIN]"/>
+                </valueCoding>
+            </answer>
+        </item>
+        <item>
+            <linkId value="summary-data-group"/>
+            <text value="Summary Data Group"/>
+            <item>
+                <linkId value="resident-days"/>
+                <text value="Resident Days"/>
+                <answer>
+                    <valueInteger value="100"/>
+                </answer>
+            </item>
+            <item>
+                <linkId value="resident-admissions"/>
+                <text value="Resident Admissions"/>
+                <answer>
+                    <valueInteger value="20"/>
+                </answer>
+            </item>
+            <item>
+                <linkId value="number-admissions-on-c-diff-treatment"/>
+                <text value="Number of Admissions on C. diff Treatment"/>
+                <answer>
+                    <valueInteger value="8"/>
+                </answer>
+            </item>
+            <item>
+                <linkId value="number-c-diff-treatment-starts"/>
+                <text value="Number of C. diff Treatment Starts"/>
+                <answer>
+                    <valueInteger value="2"/>
+                </answer>
+            </item>
+        </item>
+        <item>
+            <linkId value="report-no-events-group"/>
+            <text value="Report no events"/>
+            <item>
+                <linkId value="no-lab-id-event-vre"/>
+                <text value="Report no labID event - All specimens - Vancomycin resistant Enterococcus"/>
+                <answer>
+                    <valueBoolean value="true"/>
+                </answer>
+            </item>
+        </item>
+    </QuestionnaireResponse>
