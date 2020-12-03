@@ -2,85 +2,6 @@
 <ImplementationGuide
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-hai-ltcf"/>
-    <meta>
-        <versionId value="44"/>
-        <lastUpdated value="2020-11-23T16:01:10.680+00:00"/>
-        <source value="#cFIDCFk8JYz3UNsq"/>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="everyone^read"/>
-        </security>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="user^E8rHe8si^write"/>
-        </security>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="user^34EAHd1Q^read"/>
-        </security>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="user^s7DIn2HM^write"/>
-        </security>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="user^7kkN46bK^read"/>
-        </security>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="user^dBvXPzf6^write"/>
-        </security>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="user^dBvXPzf6^read"/>
-        </security>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="user^G4dwOcFt^read"/>
-        </security>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="user^7kkN46bK^write"/>
-        </security>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="user^G4dwOcFt^write"/>
-        </security>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="user^E8rHe8si^read"/>
-        </security>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="user^34EAHd1Q^write"/>
-        </security>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="user^s7DIn2HM^read"/>
-        </security>
-    </meta>
-    <contained>
-        <DocumentReference>
-            <id value="package-list"/>
-            <status value="current"/>
-            <type>
-                <coding>
-                    <code value="package-list"/>
-                </coding>
-            </type>
-            <content>
-                <attachment>
-                    <contentType value="application/json"/>
-                    <data value="ewoJInBhY2thZ2UtaWQiOiAiaGw3LmZoaXIudXMuaGFpLWx0Y2YiLAoJInRpdGxlIjogIkhlYWx0aGNhcmUgQXNzb2NpYXRlZCBJbmZlY3Rpb24gUmVwb3J0cyAoSEFJKSBMb25nIFRlcm0gQ2FyZSBGYWNpbGl0aWVzIChMVENGKSIsCgkiY2Fub25pY2FsIjogImh0dHA6Ly9obDcub3JnL2ZoaXIvdXMvaGFpLWx0Y2YiLAoJImludHJvZHVjdGlvbiI6ICJUaGlzIGltcGxlbWVudGF0aW9uIGd1aWRlIChJRykgc3BlY2lmaWVzIHN0YW5kYXJkcyBmb3IgZWxlY3Ryb25pYyBzdWJtaXNzaW9uIG9mIEhlYWx0aGNhcmUgQXNzb2NpYXRlZCBJbmZlY3Rpb24gKEhBSSkgTG9uZyBUZXJtIENhcmUgRmFjaWxpdGllcyAoTFRDRikgcmVwb3J0cyB0byB0aGUgTmF0aW9uYWwgSGVhbHRoY2FyZSBTYWZldHkgTmV0d29yayAoTkhTTikgb2YgdGhlIENlbnRlcnMgZm9yIERpc2Vhc2UgQ29udHJvbCBhbmQgUHJldmVudGlvbiAoQ0RDKS4iLAoJImxpc3QiOiBbCgkJewoJCQkidmVyc2lvbiI6ICJjdXJyZW50IiwKCQkJImRlc2MiOiAiQ29udGludW91cyBJbnRlZ3JhdGlvbiBCdWlsZCAobGF0ZXN0IGluIHZlcnNpb24gY29udHJvbCkiLAoJCQkicGF0aCI6ICJodHRwOi8vYnVpbGQuZmhpci5vcmcvaWcvSEw3L0hBSS1MVENGIiwKCQkJInN0YXR1cyI6ICJjaS1idWlsZCIsCgkJCSJmaGlyLXZlcnNpb24iOiAiNC4wLjEiLAoJCQkiY3VycmVudCI6IHRydWUsCgkJCSJmaGlydmVyc2lvbiI6ICI0LjAuMSIKCQl9LAoJCXsKCQkJInZlcnNpb24iOiAiMC4xLjAiLAoJCQkiZGF0ZSI6ICIyMDE5LTA4LTAxIiwKCQkJImRlc2MiOiAiQmFsbG90IGZvciBGSElSIFNUVSBSZWxlYXNlIDEiLAoJCQkicGF0aCI6ICJodHRwOi8vaGw3Lm9yZy9maGlyL3VzL2hhaS1sdGNmLzIwMTlTZXAiLAoJCQkic3RhdHVzIjogImJhbGxvdCIsCgkJCSJzZXF1ZW5jZSI6ICJTVFUgMSIsCgkJCSJmaGlyLXZlcnNpb24iOiAiNC4wLjEiLAoJCQkiY3VycmVudCI6IHRydWUsCgkJCSJmaGlydmVyc2lvbiI6ICI0LjAuMSIKCQl9CgldCn0="/>
-                </attachment>
-            </content>
-        </DocumentReference>
-    </contained>
-    <extension url="https://trifolia-fhir.lantanagroup.com/StructureDefinition/extension-ig-package-list">
-        <valueReference>
-            <reference value="#package-list"/>
-        </valueReference>
-    </extension>
     <url value="http://hl7.org/fhir/us/hai-ltcf/ImplementationGuide/hl7-fhir-us-hai-ltcf"/>
     <version value="0.1.0"/>
     <name value="HealthcareAssociatedInfectionReportsLongTermCareFacilities"/>
@@ -179,9 +100,7 @@
             <exampleCanonical value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-single-person-report-questionnaireresponse"/>
         </resource>
         <resource>
-            <extension url="https://trifolia-fhir.lantanagroup.com/StructureDefinition/extension-ig-resource-file-path">
-                <valueString value="structuredefinition/hai-ltc-population-summary-questionnaire.xml"/>
-            </extension>
+           
             <reference>
                 <reference value="StructureDefinition/hai-ltc-population-summary-questionnaire"/>
                 <display value="HaiLtcPopulationSummaryQuestionnaire"/>
@@ -235,121 +154,82 @@
           <description value="Description of client capabilities within a Long Term Care Facility report"/>
             <exampleBoolean value="false"/>
         </resource>
+        <resource>
+            <reference>
+                <reference value="CapabilityStatement/capstat"/>
+                <display value="CapStat"/>
+            </reference>
+            <name value="CapStat"/>
+            <description value="This resource defines the expected capabilities for both client and server reporting to NHSN from LTCF."/>
+            <exampleBoolean value="false"/>
+        </resource>
         <page>
-            <extension url="https://trifolia-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-filename">
-                <valueUri value="index.md"/>
-            </extension>
-            <extension url="https://trifolia-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-reuse-description">
-                <valueBoolean value="true"/>
-            </extension>
             <nameUrl value="index.html"/>
             <title value="Healthcare Associated Infection Reports (FHIR)"/>
             <generation value="markdown"/>
             <page>
-                <extension url="https://trifolia-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-filename">
-                    <valueUri value="background.md"/>
-                </extension>
-                <extension url="https://trifolia-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-nav-menu">
-                    <valueString value="Background"/>
-                </extension>
                 <nameUrl value="background.html"/>
                 <title value="Background"/>
                 <generation value="markdown"/>
                 <page>
-                    <extension url="https://trifolia-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-filename">
-                        <valueUri value="relationship_to_another_standard.md"/>
-                    </extension>
-                    <extension url="https://trifolia-on-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-content">
-                        <valueMarkdown value="HL7 has developed this FHIR implementation guide in parallel with the CDA implementation guide. We anticipate several STU releases on the path to a Normative Release 1 of the HL7 implementation guides for CDA and FHIR for Healthcare Associated Infection (HAI) Reports from Long Term Care Facilities (LTCF). The FHIR and CDA implementation guides will align. A change to one standard will require the same change in the other standard. &#xA;&#xA;In this release, the new forms included in both the CDA and FHIR standards are:&#xA;* **NHSN HAI LTCF Population Summary Report**: MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF&#xA;* **NHSN HAI LTCF Single-Person Event Report**: Laboratory-identified MDRO or CDI Event for LTCF&#xA;&#xA;For further details see the [NHSN website](https://www.cdc.gov/nhsn/) for reporting healthcare-associated infections in long-term care facilities."/>
-                    </extension>
                     <nameUrl value="relationship_to_another_standard.html"/>
                     <title value="Relationship to Another Standard"/>
                     <generation value="markdown"/>
                 </page>
                 <page>
-                    <extension url="https://trifolia-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-filename">
-                        <valueUri value="audience.md"/>
-                    </extension>
-                    <extension url="https://trifolia-on-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-content">
-                        <valueMarkdown value="The audience for this work is all developers of software systems who want to enable their systems for reporting HAI data to the NHSN."/>
-                    </extension>
                     <nameUrl value="audience.html"/>
                     <title value="Audience"/>
                     <generation value="markdown"/>
                 </page>
                 <page>
-                    <extension url="https://trifolia-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-filename">
-                        <valueUri value="design_considerations.md"/>
-                    </extension>
-                    <extension url="https://trifolia-on-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-content">
-                        <valueMarkdown value="This IG specifies a FHIR Questionnaire-based approach. This approach takes advantage of the FHIR Questionnaire resource that has been designed as an organized collection of questions intended to solicit information from individuals involved in the healthcare domain. These Questionnaires closely mirror the actual NHSN forms.&#xA;&#xA;The following profiles are defined in the [HL7 FHIR® Implementation Guide: Healthcare Associated Infection Reports, Release 1 - US Realm](http://hl7.org/fhir/us/hai/2019May/index.html) and are re-used in this IG:&#xA;&#xA;* The Questionnaire profile [Healthcare Associated Infection Single-Person Report Questionnaire](http://hl7.org/fhir/us/hai/2019May/StructureDefinition/hai-single-person-report-questionnaire) defines constraints to which all HAI NHSN single-person reports (Questionnaire instances) must conform.&#xA;&#xA;* The QuestionnaireResponse profile [Healthcare Associated Infection Single-Person Report QuestionnaireResponse](http://hl7.org/fhir/us/hai/2019May/StructureDefinition/hai-single-person-report-questionnaire-response) defines constraints to which all responses to HAI NHSN single-person reports (QuestionnaireResponse instances) must conform.&#xA;&#xA;* The Questionnaire profile [Healthcare Associated Infection Population Summary Questionnaire](http://hl7.org/fhir/us/hai/2019May/StructureDefinition/hai-population-summary-questionnaire) defines constraints to which all HAI NHSN population summary reports (Questionnaire instances) must conform.&#xA;&#xA;* The QuestionnaireResponse profile [Healthcare Associated Infection Population Summary QuestionnaireResponse](http://hl7.org/fhir/us/hai/2019May/StructureDefinition/hai-population-summary-questionnaire-response) defines constraints to which all responses to HAI NHSN population summary reports (QuestionnaireResponse instances) must conform.&#xA;&#xA;Note: The *HL7 FHIR® Implementation Guide: Healthcare Associated Infection Reports, Release 1 - US Realm* containing the above profiles was balloted in the May 2019 ballot cycle. Ballot reconcillation has been completed on the ballot and the agreed changes are in progress (one change of note being that the IG is now based on FHIR R4 rather than FHIR R3). The *HL7 FHIR® Implementation Guide: Healthcare Associated Infection Reports, Release 1 - US Realm* IG will be finalized and published before this IG is published.  "/>
-                    </extension>
                     <nameUrl value="design_considerations.html"/>
                     <title value="Design Considerations"/>
                     <generation value="markdown"/>
                 </page>
                 <page>
-                    <extension url="https://trifolia-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-filename">
-                        <valueUri value="references.md"/>
-                    </extension>
-                    <extension url="https://trifolia-on-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-content">
-                        <valueMarkdown value="| Name | Description |&#xA;|------|-------------|&#xA;| [HL7 CDA® R2 Implementation Guide: National Healthcare Safety Network (NHSN) Healthcare Associated Infection (HAI) Reports for Long Term Care Facilities (HAI-LTCF-CDA), Release 1- US Realm](http://www.hl7.org/special/Committees/projman/searchableProjectIndex.cfm?action=edit&amp;ProjectNumber=1511)    | This project developed an implementation guide constraining CDA Release 2. The implementation guide supports electronic submission of HAI LTCF data to the National Healthcare Safety Network.|&#xA;| [HL7 FHIR® Implementation Guide: Healthcare Associated Infection Reports, Release 1 - US Realm](http://hl7.org/fhir/us/hai/index.html)| This implementation guide (IG) is to specifies standards for electronic submission of Healthcare Associated Infection (HAI) reports to the National Healthcare Safety Network (NHSN) of the Centers for Disease Control and Prevention (CDC). This IG contains a library of FHIR profiles for electronic submission of HAI reports to the NHSN. |&#xA;| [US Core Implementation Guide (v3.0.0)](http://hl7.org/fhir/us/core/index.html)    | The US Core Implementation Guide is based on [FHIR Version 4.0.0](http://hl7.org/fhir/R4/index.html) and defines the minimum conformance requirements for accessing patient data The Argonaut pilot implementations, [ONC 2015 Edition Common Clinical Data Set (CCDS)](https://www.healthit.gov/sites/default/files/ccds_reference_document_v1_1.pdf) and the latest proposed [ONC U.S. Core Data for Interoperability (USCDI)](https://www.healthit.gov/topic/laws-regulation-and-policy/notice-proposed-rulemaking-improve-interoperability-health) provided the requirements for this guide. These profiles are the foundation for future US Realm FHIR implementation guides. In addition to Argonaut, they are used by [DAF-Research](http://hl7.org/fhir/us/daf-research/index.html), [QI-Core](http://hl7.org/fhir/us/qicore/), and [CIMI](https://www.hl7.org/Special/Committees/cimi/overview.cfm). Under the guidance of HL7 and the HL7 US Realm Steering Committee, the content will expand in future versions to meet the needs specific to the US Realm.|"/>
-                    </extension>
                     <nameUrl value="references.html"/>
                     <title value="References"/>
                     <generation value="markdown"/>
                 </page>
                 <page>
-                    <extension url="https://trifolia-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-filename">
-                        <valueUri value="acknowledgements.md"/>
-                    </extension>
-                    <extension url="https://trifolia-on-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-content">
-                        <valueMarkdown value="&lt;div&gt;&#xA;This implementation guide was produced and developed by Lantana Consulting Group in conjunction with the Division of Healthcare Quality Promotion in the National Center for Emerging and Zoonotic Infectious Diseases (NCEZID) at the Centers for Disease Control and Prevention (CDC). Its development and deployment are results of the dedication of the team—led by Daniel A. Pollock, M.D., Surveillance Branch Chief, Division of Healthcare Quality Promotion, NCEZID, CDC and  Jeneita Bell, MD, MPH, Long-term Care Team Lead, DHQP, NCEZID, CDC—and their support of the development of interoperable data standards for the CDC’s National Healthcare Safety Network (NHSN). &#xA;&lt;/div&gt;&#xA;&lt;br /&gt;&#xA;&lt;div&gt;&#xA;Special thanks and acknowledgment to stakeholders who participated in calls and provided feedback. Specifically, we would like to thank  Cindy Frakes, Steve Herron, Jamie Gatzke, Kelly Luden, Prasath Govindarajulu from Cerner;  Laura Ditz, Nancy Chi, Nichole (Nicki) Fetterman, Michael Furman, Patti Barton, Aga Lee from Point Click Care; Donna Doneski from NASL; and  Denise Wassenaar, Doc DeVore, Rob Price from Matrix  Care.&#xA;&lt;/div&gt;&#xA;&lt;br /&gt;&#xA;&lt;div&gt;&#xA;The best standards are those driven by business requirements. A strong set of Healthcare Associated Infection (HAI) surveillance application vendors monitor, evaluate, and test each release of this guide. &#xA;&lt;/div&gt;&#xA;&#xA;&lt;br /&gt;&#xA;&#xA;| | | | |&#xA;|-----|-----|-----|-----|&#xA;|Primary Editor:|Sarah Gaunt|Lantana Consulting Group|sarah.gaunt@lantanagroup.com|&#xA;|Primary Editor:|Zabrina Gonzaga|Lantana Consulting Group|zabrina.gonzaga@lantanagroup.com|&#xA;|Primary Editor:|Dave deRoode|Lantana Consulting Group|david.deroode@lantanagroup.com|&#xA;|Co-Editor:|Jeneita Bell, MD, MPH|CDC|hpq8@cdc.gov|&#xA;|Co-Editor:|Angella Antilla PhD, MSN|CDC|vtb9@cdc.gov|&#xA;|Co-Editor:|Daniel Pollock, M.D.|CDC|DPollock@cdc.gov|&#xA;|Co-Editor:|Ahmed Tahir|Leidos Consultant to CDC/NHSN|nmn8@cdc.gov|&#xA;|Co-Editor:|Mindy Durrance|Leidos Consultant to CDC/NHSN|mdq1@cdc.gov|&#xA;|Co-Editor:|Sheri Chernetsky Tejedor, MD|CDC|yei9@cdc.gov|&#xA;|Co-Editor:|Sheila Abner|CDC|sha8@cdc.gov|&#xA;|Co-Chair:|Erin Holt MPH|Tennessee Department of Health|erin.holt@tn.gov|&#xA;|Co-Chair:|Laura Rappleye|Altarum|laura.rappleye@altarum.org|&#xA;|Co-Chair:|Craig Newman|Altarum|craig.newman@altarum.org|&#xA;|Co-Chair:|Danny Wise|Allscripts|danny.wise@allscripts.com|&#xA;|Co-Chair:|Joginder Madra|Madra Consulting Inc.|hl7@madraconsulting.com|&#xA;|Co-Chair:|Gaye Dolin M.S.N., R.N. |Intelligent Medical Objects |gdolin@imo-online.com|&#xA;|Co-Chair:|Calvin Beebe|Mayo Clinic|cbeebe@mayo.edu|&#xA;|Co-Chair:|Austin Kreisler|Leidos Consultant to CDC/NHSN|duz1@cdc.gov|&#xA;|Co-Chair:|Andrew Statler|Cerner Corp|andrew.statler@cerner.com|&#xA;|Co-Chair:|Sean McIlvenna| Lantana Consulting Group|sean.mcilvenna@lantanagroup.com|&#xA;|Co-Chair:|Benjamin Flessner|Redox|benjamin@redoxengine.com|&#xA;|Co-Editor:|Beau Bannerman|Lantana Consulting Group|beau.bannerman@lantanagroup.com|&#xA;|Technical Editor:|Diana Wright|Lantana Consulting Group|diana.wright@lantanagroup.com|&#xA;|Technical Editor:|Chris Hannigan|Lantana Consulting Group|chris.hannigan@lantanagroup.com|"/>
-                    </extension>
                     <nameUrl value="acknowledgements.html"/>
                     <title value="Acknowledgements"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="mappings.html"/>
+                <title value="Mappings"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="downloads.html"/>
+                <title value="Downloads"/>
                     <generation value="markdown"/>
                 </page>
                 <page>
-                    <extension url="https://trifolia-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-filename">
-                        <valueUri value="mappings.md"/>
-                    </extension>
-                    <extension url="https://trifolia-on-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-content">
-                        <valueMarkdown value="&lt;!-- { :.no_toc } --&gt;&#xA;&#xA;&lt;!-- TOC  the css styling for this is \pages\assets\css\project.css under 'markdown-toc'--&gt;&#xA;&#xA;&lt;!-- * Do not remove this line (it will not be displayed)&#xA;{:toc} --&gt;&#xA;&#xA;&lt;!-- end TOC --&gt;&#xA;&#xA;### Mapping to CDA&#xA;  &#xA;  &lt;p&gt;This implementation guide is the first FHIR release of the HAI LCTF reporting profiles and is being balloted in the same cycle as the HL7 CDA® R2 Implementation Guide: NHSN Healthcare Associated Infection (HAI) Long Term Care Facility (LTCF) Reports&#xA;Release 1, STU 1—US Realm.&lt;/p&gt;&#xA;  &lt;p&gt;The following tables show the mapping between FHIR Questionnaire items and the corresponding CDA templates&lt;/p&gt;&#xA;  &lt;h3&gt;&lt;a href=&quot;Questionnaire-hai-ltcf-questionnaire-mdro-cdi-event.html&quot;&gt;HAI Laboratory Identified MDRO or CDI Event Report for LTCF&lt;/a&gt;&lt;/h3&gt;&#xA;  &lt;table class=&quot;codes&quot;&gt;&#xA;    &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;&#xA;          &lt;b&gt;FHIR Questionnaire Item&lt;/b&gt;&#xA;        &lt;/td&gt;&#xA;        &lt;td&gt;&#xA;          &lt;b&gt;FHIR Questionnaire Item linkId&lt;/b&gt;&#xA;        &lt;/td&gt;&#xA;        &lt;td&gt;&#xA;          &lt;b&gt;CDA Mapping&lt;/b&gt;&#xA;        &lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;    &lt;/thead&gt;&#xA;    &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Facility ID&lt;/td&gt;&#xA;        &lt;td&gt;facility&lt;/td&gt;&#xA;        &lt;td&gt;ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/id&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Resident Id&lt;/td&gt;&#xA;        &lt;td&gt;US Core Patient.identifier&lt;/td&gt;&#xA;        &lt;td&gt;ClinicalDocument/recordTarget/patientRole/id&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Social Security #&lt;/td&gt;&#xA;        &lt;td&gt;US Core Patient.identifier&lt;/td&gt;&#xA;        &lt;td&gt;ClinicalDocument/recordTarget/patientRole/id&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Medicare #&lt;/td&gt;&#xA;        &lt;td&gt;US Core Patient.identifier&lt;/td&gt;&#xA;        &lt;td&gt;ClinicalDocument/recordTarget/patientRole/id&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Resident name: Last&lt;/td&gt;&#xA;        &lt;td&gt;US Core Patient.name.family&lt;/td&gt;&#xA;        &lt;td&gt;ClinicalDocument/recordTarget/name&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Resident name: First&lt;/td&gt;&#xA;        &lt;td&gt;US Core Patient.name.given&lt;/td&gt;&#xA;        &lt;td&gt;ClinicalDocument/recordTarget/name&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Resident name: Middle&lt;/td&gt;&#xA;        &lt;td&gt;US Core Patient.name.given&lt;/td&gt;&#xA;        &lt;td&gt;ClinicalDocument/recordTarget/name&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Gender&lt;/td&gt;&#xA;        &lt;td&gt;US Core Patient.gender&lt;/td&gt;&#xA;        &lt;td&gt;ClinicalDocument/recordTarget/patientRole/patient/administrativeGenderCode&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Date of Birth&lt;/td&gt;&#xA;        &lt;td&gt;US Core Patient.birthDate&lt;/td&gt;&#xA;        &lt;td&gt;ClinicalDocument/recordTarget/patientRole/patient/birthTime&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Ethnicity&lt;/td&gt;&#xA;        &lt;td&gt;US Core Patient.us-core-ethnicity&lt;/td&gt;&#xA;        &lt;td&gt;ClinicalDocument/recordTarget/patientRole/patient/ethnicGroupCode&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Race&lt;/td&gt;&#xA;        &lt;td&gt;US Core Patient.us-core-race&lt;/td&gt;&#xA;        &lt;td&gt;ClinicalDocument/recordTarget/patientRole/patient/raceCode&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Date First Admitted to Facility&lt;/td&gt;&#xA;        &lt;td&gt;date-of-first-admission-to-facility&lt;/td&gt;&#xA;        &lt;td&gt;First Admission Encounter in a Lab Identified Report LTCF/effectiveTime/low&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Date of Current Admission to Facility&lt;/td&gt;&#xA;        &lt;td&gt;date-of-current-admission-to-facility&lt;/td&gt;&#xA;        &lt;td&gt;ClinicalDocument/componentOf/encompassingEncounter/effectiveTime/low&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Date Specimen Collected&lt;/td&gt;&#xA;        &lt;td&gt;date-specimen-collected&lt;/td&gt;&#xA;        &lt;td&gt;Specimen Collection Procedure in a Lab Identified Report LTCF/effectiveTime/low&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Specimen Type&lt;/td&gt;&#xA;        &lt;td&gt;specimen-type&lt;/td&gt;&#xA;        &lt;td&gt;Specimen Collection Procedure in a Lab Identified Report LTCF/participant/participantRole/playingEntity/code&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Specific Organism Type&lt;/td&gt;&#xA;        &lt;td&gt;specific-organism-type&lt;/td&gt;&#xA;        &lt;td&gt;Pathogen Identified Organism in a Lab Identified Report LTCF/value&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Resident Care Location&lt;/td&gt;&#xA;        &lt;td&gt;resident-care-location&lt;/td&gt;&#xA;        &lt;td&gt;ClinicalDocument/componentOf/encompassingEncounter/location/healthcareFacility/id/@extension&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Primary Resident Service Type&lt;/td&gt;&#xA;        &lt;td&gt;primary-resident-service-type&lt;/td&gt;&#xA;        &lt;td&gt;ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/code&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Has resident been transferred from acute care facility in past 4 weeks?&lt;/td&gt;&#xA;        &lt;td&gt;transfer-from-acute-care-facility&lt;/td&gt;&#xA;        &lt;td&gt;Transfer from an Acute Care Facility to LTCF in a Lab Identified Report/value&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Date of transfer from acute care to your facility&lt;/td&gt;&#xA;        &lt;td&gt;date-of-last-transfer&lt;/td&gt;&#xA;        &lt;td&gt;Transfer from an Acute Care Facility to LTCF in a Lab Identified Report/effectiveTime&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;Was resident on antibiotic therapy for this organism type at the time of transfer to your facility&lt;/td&gt;&#xA;        &lt;td&gt;antibiotic-at-time-of-transfer&lt;/td&gt;&#xA;        &lt;td&gt;Antibiotic Treatment at time of Transfer in a Lab Identified Report LTCF/value&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;        &lt;td&gt;NHSN Comment&lt;/td&gt;&#xA;        &lt;td&gt;nhsn-comment&lt;/td&gt;&#xA;        &lt;td&gt;NHSN Comment Section/NHSN Comment&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;    &lt;/tbody&gt;&#xA;  &lt;/table&gt;&#xA;  &#xA;  &lt;h3&gt;&lt;a href=&quot;Questionnaire-hai-ltcf-questionnaire-mdro-cdi-summary.html&quot;&gt;MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;table class=&quot;codes&quot;&gt;&#xA;  &lt;thead&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;&#xA;        &lt;b&gt;FHIR Questionnaire Item&lt;/b&gt;&#xA;      &lt;/td&gt;&#xA;      &lt;td&gt;&#xA;        &lt;b&gt;FHIR Questionnaire Item linkId&lt;/b&gt;&#xA;      &lt;/td&gt;&#xA;      &lt;td&gt;&#xA;        &lt;b&gt;CDA Mapping&lt;/b&gt;&#xA;      &lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Facility ID&lt;/td&gt;&#xA;      &lt;td&gt;facility&lt;/td&gt;&#xA;      &lt;td&gt;ClinicalDocument/participant/associatedEntity/id/@root&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;First Day of Period Reported&lt;/td&gt;&#xA;      &lt;td&gt;report-period-start&lt;/td&gt;&#xA;      &lt;td&gt;ClinicalDocument/documentationOf/serviceEvent/effectiveTime/low&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Last Day of Period Reported&lt;/td&gt;&#xA;      &lt;td&gt;report-period-end&lt;/td&gt;&#xA;      &lt;td&gt;ClinicalDocument/documentationOf/serviceEvent/effectiveTime/high&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Facility Location Code&lt;/td&gt;&#xA;      &lt;td&gt;facility-location-code&lt;/td&gt;&#xA;      &lt;td&gt;ClinicalDocument/participant/associatedEntity/id/@extension&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Resident Days&lt;/td&gt;&#xA;      &lt;td&gt;resident-days&lt;/td&gt;&#xA;      &lt;td&gt;Summary Data Observation LTCF[code/@code=&quot;1369-8']/value&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Resident Admissions&lt;/td&gt;&#xA;      &lt;td&gt;resident-admissions&lt;/td&gt;&#xA;      &lt;td&gt;Summary Data Observation LTCF[code/@code=&quot;1370-6']/value&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Number of Admissions on C. diff Treatment&lt;/td&gt;&#xA;      &lt;td&gt;number-admissions-on-c-diff-treatment&lt;/td&gt;&#xA;      &lt;td&gt;Summary Data Observation LTCF[code/@code=&quot;1371-4']/value&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Number of C. diff Treatment Starts&lt;/td&gt;&#xA;      &lt;td&gt;number-c-diff-treatment-starts&lt;/td&gt;&#xA;      &lt;td&gt;Summary Data Observation LTCF[code/@code=&quot;1372-2']/value&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Report no labID event - All specimens - Methicillin-resistant Staphylococcus aureus&lt;/td&gt;&#xA;      &lt;td&gt;no-lab-id-event-mrsa&lt;/td&gt;&#xA;      &lt;td&gt;Report No Events[code/@code=&quot;3030-4&quot;]/value&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Report no labID event - All specimens - Methicillin-sensitive Staphylococcus aureus&lt;/td&gt;&#xA;      &lt;td&gt;no-lab-id-event-mssa&lt;/td&gt;&#xA;      &lt;td&gt;Report No Events[code/@code=&quot;1307-8&quot;]/value&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Report no labID event - All specimens - Vancomycin resistant Enterococcus&lt;/td&gt;&#xA;      &lt;td&gt;no-lab-id-event-vre&lt;/td&gt;&#xA;      &lt;td&gt;Report No Events[code/@code=&quot;3033-8&quot;]/value&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Report no labID event - All specimens - CephR Klebsiella&lt;/td&gt;&#xA;      &lt;td&gt;no-lab-id-event-cephr-klebsiella&lt;/td&gt;&#xA;      &lt;td&gt;Report No Events[code/@code=&quot;3036-1&quot;]/value&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Report no labID event - All specimens - CRE E. coli&lt;/td&gt;&#xA;      &lt;td&gt;no-lab-id-event-mrsa-cre-e-coli&lt;/td&gt;&#xA;      &lt;td&gt;Report No Events[code/@code=&quot;3039-5&quot;]/value&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Report no labID event - All specimens - CRE Enterobacter&lt;/td&gt;&#xA;      &lt;td&gt;no-lab-id-event-mrsa-cre-enterobacter&lt;/td&gt;&#xA;      &lt;td&gt;Report No Events[code/@code=&quot;3042-9&quot;]/value&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Report no labID event - All specimens - CRE Klebsiella&lt;/td&gt;&#xA;      &lt;td&gt;no-lab-id-event-cre-klebsiella&lt;/td&gt;&#xA;      &lt;td&gt;Report No Events[code/@code=&quot;3045-2&quot;]/value&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Report no labID event - All specimens - Acinetobacter&lt;/td&gt;&#xA;      &lt;td&gt;no-lab-id-event-mdr-acinetobacter&lt;/td&gt;&#xA;      &lt;td&gt;Report No Events[code/@code=&quot;3048-6&quot;]/value&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Report no labID event - All specimens - Clostridium difficile&lt;/td&gt;&#xA;      &lt;td&gt;no-lab-id-event-c-difficile&lt;/td&gt;&#xA;      &lt;td&gt;Report No Events[code/@code=&quot;3051-0&quot;]/value&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;"/>
-                    </extension>
                     <nameUrl value="mappings.html"/>
                     <title value="Mappings"/>
                     <generation value="markdown"/>
                 </page>
             </page>
             <page>
-                <extension url="https://trifolia-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-filename">
-                    <valueUri value="this_specificiation.md"/>
-                </extension>
-                <extension url="https://trifolia-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-nav-menu">
-                    <valueString value="This Specification"/>
-                </extension>
-                <extension url="https://trifolia-on-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-content">
-                    <valueMarkdown value="### FHIR REST API&#xA;&#xA;Submission of HAI event and summary reports from LTC facilities relies on the RESTful paradigm. Implementers need to be aware of and follow all the principles of [RESTful design](https://www.hl7.org/fhir/exchange-module.html#rest). Please refer to that section of the core FHIR spec.&#xA;&#xA;### Actors&#xA;&#xA;The following actors are in-scope of the expected RESTful exchange of this specification:&#xA;&#xA;* Source: An application that exposes a Questionnaire to a consumer. This actor may also be the creator of the QuestionnaireResponse, but could also me an intermediary. This can be thought of as the server in a client/server interaction at a Long Term Care Facility. &#xA;* Consumer: An application that consumes a QuestionnaireResponse instance. This can be thought of as the client in a client/server interaction. &#xA;&#xA;The HAI-LTCF FHIR specification does not define additional rules for sending/receiving information beyond what is already defined in the FHIR core spec and US Core.&#xA;&#xA;### Profiles and Extensions&#xA;&#xA;To claim conformance to a HAI-LTCF FHIR Profile, servers SHALL:&#xA;&#xA;* Be able to populate all profile data elements that have a minimum cardinality &gt;= 1 and/or flagged as Must Support as defined by that profile’s StructureDefinition.&#xA;&#xA;The following profiles and extensions are present in the specification. Details on these profiles and extensions are available on the [Artifact Index page](artifacts.html). &#xA;&#xA;#### Questionnaire/QuestionnaireResponse Profiles&#xA;* [Healthcare Associated Infection for Long Term Care Single-Person Report Questionnaire](http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltcf-single-person-report-questionnaire.html)&#xA;* [Healthcare Associated Infection for Long Term Care Single-Person Report QuestionnaireResponse](http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltcf-single-person-report-questionnaire-response.html)&#xA;* [Healthcare Associated Infection for Long Term Care Population Summary Questionnaire](http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaire.html)&#xA;* [Healthcare Associated Infection for Long Term Care Population Summary QuestionnaireResponse](http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltcf-population-summary-questionnaire-response.html)&#xA;&#xA;&#xA;#### Questionnaire/QuestionnaireResponse Instances &#xA;&#xA;* [HAI-LTCF-Questionnaire-MDRO-CDI-Event](http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-event.html)&#xA;* [HAI-LTCF-Questionnaireresponse-MDRO-CDI-Event](http://hl7.org/fhir/us/hai-ltcf/QuestionnaireResponse/hai-ltcf-questionnaireresponse-mdro-cdi-event.html)&#xA;* [HAI-LTCF-Questionnaire-MDRO-CDI-Summary](http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-summary.html)&#xA;* [HAI-LTCF-Questionnaireresponse-MDRO-CDI-Summary](http://hl7.org/fhir/us/hai-ltcf/QuestionnaireResponse/hai-ltcf-questionnaireresponse-mdro-cdi-summary.html)&#xA;&#xA;&#xA;#### Dependence on US Core and Value Set Authoring Center &#xA;&#xA;This specification relies on the US Core Patient profile to exchange single person event information. Where US Core profiles do not exist, unprofiled (base) resources are referenced. It is expected that US Core will evolve over time, and as it does this specification will be in a position to take advantage of newly profiled resources defined within US Core.&#xA;More information on US Core can be found [here](https://www.hl7.org/fhir/us/core/). &#xA;&#xA;Quesitonnaire and QuestionnaireResponses defined within this specification reference terminologies (ValueSets) defined within the Value Set Authoring Center (VSAC). OIDs for the ValueSets referenced from the Questionnaires and QuestionnaireResponses are:&#xA;* [NHSNHealthcareServiceLocationCode: 2.16.840.1.113883.13.19](https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.13.19/expansion/Latest)&#xA;* [NHSNPrimaryResidentServiceType: 2.16.840.1.113883.10.20.5.1.5.9.3](https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.10.20.5.1.5.9.3/expansion/Latest)&#xA;* [NHSNSignificantPathogenCode: 2.16.840.1.114222.4.11.3194](https://vsac.nlm.nih.gov/valueset/2.16.840.1.114222.4.11.3194/expansion/Latest)&#xA;* [NHSNSpecimenTypeCode: 2.16.840.1.114222.4.11.3249](https://vsac.nlm.nih.gov/valueset/2.16.840.1.114222.4.11.3249/expansion/Latest)&#xA;&#xA;"/>
-                </extension>
                 <nameUrl value="this_specificiation.html"/>
                 <title value="This Specificiation"/>
                 <generation value="markdown"/>
             </page>
             <page>
-                <extension url="https://trifolia-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-nav-menu">
-                    <valueString value="Downloads"/>
-                </extension>
-                <extension url="https://trifolia-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-filename">
-                    <valueUri value="downloads.md"/>
-                </extension>
-                <extension url="https://trifolia-on-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-content">
-                    <valueMarkdown value="**Full Implementation Guide**\n\nThe entire implementation guide (including the HTML files, definitions, validation information, etc.) may be downloaded [here](full-ig.zip).\n\nIn addition there are format specific definitions files.\n\n* [XML](definitions.xml.zip)\n* [JSON](definitions.json.zip)\n* [TTL](definitions.ttl.zip)\n\n**Examples:** all the examples that are used in this Implementation Guide available for download:\n\n* [XML](examples.xml.zip)\n* [JSON](examples.json.zip)\n* [TTl](examples.ttl.zip)"/>
-                </extension>
                 <nameUrl value="downloads.html"/>
                 <title value="Downloads"/>
                 <generation value="markdown"/>
             </page>
         </page>
+        <parameter>
+            <code value="copyrightyear"/>
+            <value value="2020+"/>
+        </parameter>
+        <parameter>
+            <code value="releaselabel"/>
+            <value value="CI Build"/>
+        </parameter>
     </definition>
 </ImplementationGuide>
