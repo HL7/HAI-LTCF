@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CapabilityStatement
+    xmlns="http://hl7.org/fhir">
+    <id value="hair-ltcf-capability-client"/>
+    <meta>
+        <versionId value="5"/>
+        <lastUpdated value="2020-11-20T19:56:30.598+00:00"/>
+        <source value="#eK2Gm1XsxnL6qJdM"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/hai-ltcf/CapabilityStatement/hair-ltcf-capability-client"/>
+    <version value="1.0.0"/>
+    <name value="LTCCapbilityStatementClient"/>
+    <title value="Long Term Care Capability Statement - Client"/>
+    <status value="active"/>
+    <experimental value="false"/>
+    <date value="2020-11-01"/>
+    <kind value="requirements"/>
+    <fhirVersion value="4.0.1"/>
+    <format value="xml"/>
+    <format value="json"/>
+    <rest>
+        <mode value="client"/>
+        <documentation value="The LTCF client is expected to be able to read a Questionnaire instance and be able to generate QuestionnaireResponse based on a Questionnaire profile as well as Patient, Device, Group instances. "/>
+    </rest>
+</CapabilityStatement>
