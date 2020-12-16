@@ -76,7 +76,7 @@
             <text value="Primary Resident Service Type"/>
             <answer>
                 <valueCoding>
-                    <system value="urn:oid:2.16.840.1.113883.6.259"/>
+                    <system value="http://cts.nlm.nih.gov/fhir/cs/hsloc"/>
                     <code value="1258-3"/>
                     <display value="LTCF General Nursing Unit"/>
                 </valueCoding>
