@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hai-ltcf-questionnaire-mdro-cdi-summary"/>
     <meta>
-        <versionId value="11"/>
-        <lastUpdated value="2020-11-24T17:11:02.120+00:00"/>
-        <source value="#6N4AkAj2zMOn8HoN"/>
+        <versionId value="15"/>
+        <lastUpdated value="2020-12-16T01:32:36.625+00:00"/>
+        <source value="#FKBhbEMO9wPLdi75"/>
         <profile value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaire"/>
     </meta>
     <language value="en-US"/>

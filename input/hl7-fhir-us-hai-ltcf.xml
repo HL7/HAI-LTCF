@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-hai-ltcf"/>
     <meta>
-        <versionId value="59"/>
-        <lastUpdated value="2020-12-16T00:20:49.708+00:00"/>
-        <source value="#0fZn4e4HcyUPPOIM"/>
+        <versionId value="61"/>
+        <lastUpdated value="2020-12-16T01:44:33.138+00:00"/>
+        <source value="#HJeJabk16cp7SAAS"/>
     </meta>
     <url value="http://hl7.org/fhir/us/hai-ltcf/ImplementationGuide/hl7-fhir-us-hai-ltcf"/>
     <version value="0.1.0"/>
@@ -56,6 +56,7 @@
                 <display value="Long Term Care Facility Group example"/>
             </reference>
             <name value="Long Term Care Facility Group example"/>
+            <description value="Example of long term care facility group"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
@@ -64,6 +65,7 @@
                 <display value="Long Term Care Facility Resident example"/>
             </reference>
             <name value="Long Term Care Facility Resident example"/>
+            <description value="Example of long term care facility resident"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
@@ -72,7 +74,7 @@
                 <display value="HAI Laboratory Identified MDRO or CDI Event Report for LTCF"/>
             </reference>
             <name value="HAI Laboratory Identified MDRO or CDI Event Report for LTCF"/>
-            <description value="This Questionnaire instance records the laboratory identification of a MDRO or CDI microorganism. These reports are submitted if the LTC facility is monitoring the organism specified. Each report records a single organism event. Information regarding the resident's care location, type of primary service and date of current admission are recorded. &#xA;&#xA;Key Encounter data in the report includes:&#xA;* The date of the current admission to the facility location where the specimen was collected.&#xA;* The date of specimen collection.&#xA;Key Finding data in this report includes:&#xA;* Information on the type of organism and the date which it was collected.&#xA;&#xA;For further details see the NHSN website [https://www.cdc.gov/nhsn/](https://www.cdc.gov/nhsn/) for reporting healthcare-associated infections in long-term care facilities. The concepts reported in this Questionnaire are defined for the NHSN &quot;*LabID Event Protocol for LTCF*&quot; and the corresponding data collection form &quot;*57.138 LabID Event Form for LTCF"/>
+            <description value="Instance of Questionnaire for MDRO or CDI Event Report"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-single-person-report-questionnaire"/>
         </resource>
@@ -82,7 +84,7 @@
                 <display value="MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF"/>
             </reference>
             <name value="MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF"/>
-            <description value="This Questionnaire instance defines the questions and possible answers in the MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF. It records the monthly aggregate data for Multi-Drug Resistant Organisms (MDRO) and Clostridium difficile (C. diff, CDI)."/>
+            <description value="Instance of Questionnaire for MDRO and CDI Event Reporting Monthly Summary"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaire"/>
         </resource>
@@ -90,6 +92,7 @@
             <reference>
                 <reference value="QuestionnaireResponse/hai-ltcf-questionnaireresponse-mdro-cdi-summary"/></reference>
             <name value="MDRO and CDI Monthly Summary Data for LTCF"/>
+            <description value="Instance of QuestionnaireResponse for MDRO and CDI Monthly Summary Data"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaireresponse"/>
         </resource>
@@ -97,6 +100,7 @@
             <reference>
                 <reference value="QuestionnaireResponse/hai-ltcf-questionnaireresponse-mdro-cdi-event"/></reference>
             <name value="MDRO and CDI Event Report for LTCF"/>
+            <description value="Instance of QuestionnaireResponse for MDRO and CDI Event Report"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-single-person-report-questionnaireresponse"/>
         </resource>
