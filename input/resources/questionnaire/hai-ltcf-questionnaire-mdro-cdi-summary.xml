@@ -34,7 +34,7 @@
         <display value="Healthcare Associated Infection report Document"/>
     </code>
     <code>
-        <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html"/>
+        <system value="https://www.cdc.gov/nhsn/terminology/codesystem/cdcnhsn.html"/>
         <code value="1891-1"/>
         <display value="Summary data reporting MDRO and CDI LabID Event for LTCF"/>
     </code>

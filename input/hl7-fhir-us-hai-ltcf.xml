@@ -36,9 +36,9 @@
         <version value="3.0.0"/>
     </dependsOn>
     <dependsOn id="vsac">
-        <uri value="cts.nlm.nih.gov"/>
+        <uri value="http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac"/>
         <packageId value="us.nlm.vsac"/>
-        <version value="0.1.0"/>
+        <version value="0.4.0"/>
     </dependsOn>
     <definition>
         <resource>
