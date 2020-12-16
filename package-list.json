@@ -24,5 +24,6 @@
 	"package-id": "hl7.fhir.us.hai-ltcf",
 	"title": "Healthcare Associated Infection Reports (HAI) Long Term Care Facilities (LTCF)",
 	"canonical": "http://hl7.org/fhir/us/hai-ltcf",
-	"introduction": "This implementation guide (IG) specifies standards for electronic submission of Healthcare Associated Infection (HAI) Long Term Care Facilities (LTCF) reports to the National Healthcare Safety Network (NHSN) of the Centers for Disease Control and Prevention (CDC)."
+	"introduction": "This implementation guide (IG) specifies standards for electronic submission of Healthcare Associated Infection (HAI) Long Term Care Facilities (LTCF) reports to the National Healthcare Safety Network (NHSN) of the Centers for Disease Control and Prevention (CDC).",
+	"category": "Public Health"
 }
