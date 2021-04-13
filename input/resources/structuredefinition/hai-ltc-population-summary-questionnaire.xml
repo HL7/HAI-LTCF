@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hai-ltc-population-summary-questionnaire"/>
     <meta>
-        <versionId value="17"/>
-        <lastUpdated value="2020-12-16T00:10:56.608+00:00"/>
-        <source value="#lcpObAmvrlrb7nRN"/>
+        <versionId value="27"/>
+        <lastUpdated value="2021-02-04T00:12:42.108+00:00"/>
+        <source value="#dNGyUnbEpWzfhK1h"/>
     </meta>
     <url value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaire"/>
     <version value="1.1.0"/>
@@ -13,41 +13,8 @@
     <title value="Healthcare Associated Infection for Long Term Care Population Summary Questionnaire"/>
     <status value="draft"/>
     <publisher value="Lantana Consulting Group"/>
-    <contact>
-        <name value="Sarah Gaunt"/>
-        <telecom>
-            <system value="phone"/>
-            <value value="+61 4 1029 2506"/>
-            <use value="work"/>
-        </telecom>
-        <telecom>
-            <system value="email"/>
-            <value value="sarah.gaunt@lantanagroup.com"/>
-            <use value="work"/>
-        </telecom>
-    </contact>
     <description value="This profile represents a Healthcare Associated Infection Population Summary form as a FHIR Questionnaire. A Population Summary Report records summary data for a group, such as the patients in a particular ward, during a specified period."/>
     <fhirVersion value="4.0.1"/>
-    <mapping>
-        <identity value="rim"/>
-        <uri value="http://hl7.org/v3"/>
-        <name value="RIM Mapping"/>
-    </mapping>
-    <mapping>
-        <identity value="w5"/>
-        <uri value="http://hl7.org/fhir/w5"/>
-        <name value="W5 Mapping"/>
-    </mapping>
-    <mapping>
-        <identity value="objimpl"/>
-        <uri value="http://hl7.org/fhir/object-implementation"/>
-        <name value="Object Implementation Information"/>
-    </mapping>
-    <mapping>
-        <identity value="v2"/>
-        <uri value="http://hl7.org/v2"/>
-        <name value="HL7 v2 Mapping"/>
-    </mapping>
     <kind value="resource"/>
     <abstract value="false"/>
     <type value="Questionnaire"/>
@@ -122,8 +89,8 @@
             <path value="Questionnaire.code"/>
             <slicing>
                 <discriminator>
-                    <type value="pattern"/>
-                    <path value="$this"/>
+                    <type value="value"/>
+                    <path value="code"/>
                 </discriminator>
                 <rules value="open"/>
             </slicing>
@@ -136,11 +103,11 @@
             <sliceName value="HAI"/>
             <min value="1"/>
             <max value="1"/>
-            <patternCoding>
+            <fixedCoding>
                 <system value="http://loinc.org"/>
                 <code value="51897-7"/>
                 <display value="Healthcare Associated Infection report Document"/>
-            </patternCoding>
+            </fixedCoding>
             <mustSupport value="true"/>
         </element>
         <element id="Questionnaire.code:PopulationSummaryReportType">
@@ -151,7 +118,7 @@
             <mustSupport value="true"/>
             <binding>
                 <strength value="required"/>
-                <valueSet value="https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1190.20/expansion/Latest"/>
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1190.20"/>
             </binding>
         </element>
         <element id="Questionnaire.item">
