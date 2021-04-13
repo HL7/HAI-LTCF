@@ -47,7 +47,7 @@
         <text value="Facility Location Code"/>
         <answer>
             <valueCoding>
-                <system value="http://terminology.hl7.org/ValueSet/v3-HealthcareServiceLocation"/>
+                <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html"/>
                 <code value="1250-0"/>
                 <display value="All Inpatient Locations [FACWIDEIN]"/>
             </valueCoding>
