@@ -3,9 +3,15 @@
     xmlns="http://hl7.org/fhir">
     <id value="hai-ltc-population-summary-questionnaire"/>
     <meta>
+<<<<<<< HEAD
         <versionId value="27"/>
         <lastUpdated value="2021-02-04T00:12:42.108+00:00"/>
         <source value="#dNGyUnbEpWzfhK1h"/>
+=======
+        <versionId value="19"/>
+        <lastUpdated value="2020-12-16T01:16:50.296+00:00"/>
+        <source value="#46Q9RTkhzesC0i68"/>
+>>>>>>> 55009e13a449c5a6c77dead4499dfa41e3e88b6d
     </meta>
     <url value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaire"/>
     <version value="1.1.0"/>
