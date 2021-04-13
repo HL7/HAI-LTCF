@@ -76,7 +76,7 @@
             <text value="Primary Resident Service Type"/>
             <answer>
                 <valueCoding>
-                    <system value="http://terminology.hl7.org/ValueSet/v3-HealthcareServiceLocation"/>
+                    <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html"/>
                     <code value="1258-3"/>
                     <display value="Long Term Care Facility General Nursing Unit"/>
                 </valueCoding>
