@@ -3,15 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hai-ltcf-questionnaireresponse-mdro-cdi-summary"/>
     <meta>
-<<<<<<< HEAD
         <versionId value="15"/>
         <lastUpdated value="2021-02-04T00:39:12.987+00:00"/>
         <source value="#yDV50sBrMXnsjreL"/>
-=======
-        <versionId value="13"/>
-        <lastUpdated value="2020-12-16T01:12:08.945+00:00"/>
-        <source value="#0Si8sGhbSyY61knO"/>
->>>>>>> 55009e13a449c5a6c77dead4499dfa41e3e88b6d
         <profile value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaireresponse"/>
     </meta>
     <identifier>
@@ -53,11 +47,7 @@
         <text value="Facility Location Code"/>
         <answer>
             <valueCoding>
-<<<<<<< HEAD
                 <system value="http://terminology.hl7.org/ValueSet/v3-HealthcareServiceLocation"/>
-=======
-                <system value="http://cts.nlm.nih.gov/fhir/cs/hsloc"/>
->>>>>>> 55009e13a449c5a6c77dead4499dfa41e3e88b6d
                 <code value="1250-0"/>
                 <display value="All Inpatient Locations [FACWIDEIN]"/>
             </valueCoding>
