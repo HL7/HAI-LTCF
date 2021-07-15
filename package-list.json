@@ -17,8 +17,18 @@
 			"status": "ballot",
 			"sequence": "STU 1",
 			"fhir-version": "4.0.1",
-			"current": true,
+			"current": false,
 			"fhirversion": "4.0.1"
+		},
+		{
+			"version": "1.0.0",
+			"current": true,
+			"desc": "FHIR STU Release 1",
+			"path": "http://hl7.org/fhir/us/hai-ltcf",
+			"fhirversion": "4.0.1",
+			"date": "2021-07-01",
+			"sequence": "STU 1",
+			"status": "trial-use"
 		}
 	],
 	"package-id": "hl7.fhir.us.hai-ltcf",
