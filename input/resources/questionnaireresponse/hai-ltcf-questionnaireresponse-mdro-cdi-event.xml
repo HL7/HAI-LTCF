@@ -60,7 +60,7 @@
                 <valueCoding>
                     <system value="http://snomed.info/sct"/>
                     <code value="119339001"/>
-                    <display value="stool specimen"/>
+                    <display value="Stool specimen (specimen)"/>
                 </valueCoding>
             </answer>
         </item>
@@ -118,7 +118,7 @@
                 <valueCoding>
                     <system value="http://snomed.info/sct"/>
                     <code value="5933001"/>
-                    <display value="Clostridium difficile"/>
+                    <display value="Clostridioides difficile (organism)"/>
                 </valueCoding>
             </answer>
         </item>
