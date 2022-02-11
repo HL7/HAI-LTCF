@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hair-ltcf-capability-server"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2020-12-15T23:41:56.115+00:00"/>
-        <source value="#aEv7lpcayCTIXAUH"/>
+        <versionId value="7"/>
+        <lastUpdated value="2022-02-10T21:51:25.711+00:00"/>
+        <source value="#qr1blrPpQUydA26i"/>
     </meta>
     <url value="http://hl7.org/fhir/us/hai-ltcf/CapabilityStatement/hair-ltcf-capability-server"/>
     <version value="0.1.0"/>

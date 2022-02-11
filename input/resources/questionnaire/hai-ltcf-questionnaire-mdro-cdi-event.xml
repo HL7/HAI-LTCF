@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hai-ltcf-questionnaire-mdro-cdi-event"/>
     <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2020-12-16T01:19:22.141+00:00"/>
-        <source value="#K3wyYmwiSXQvdyID"/>
+        <versionId value="11"/>
+        <lastUpdated value="2022-02-11T02:56:05.639+00:00"/>
+        <source value="#hupaNpHsgePSf5Fz"/>
         <profile value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-single-person-report-questionnaire"/>
     </meta>
     <language value="en-US"/>
@@ -97,7 +97,7 @@
             <type value="choice"/>
             <required value="true"/>
             <repeats value="false"/>
-            <answerValueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.10.20.5.1.5.9.3"/>
+            <answerValueSet value="http://hl7.org/fhir/us/hai-ltcf/ValueSet/nhsn-primary-resident-service-type"/>
         </item>
     </item>
     <item>

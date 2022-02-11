@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hai-ltc-population-summary-questionnaire"/>
     <meta>
-        <versionId value="27"/>
-        <lastUpdated value="2021-02-04T00:12:42.108+00:00"/>
-        <source value="#dNGyUnbEpWzfhK1h"/>
+        <versionId value="34"/>
+        <lastUpdated value="2022-02-11T03:23:58.176+00:00"/>
+        <source value="#7rNe47zCK0Xv0BPj"/>
     </meta>
     <url value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaire"/>
     <version value="1.1.0"/>
@@ -118,7 +118,7 @@
             <mustSupport value="true"/>
             <binding>
                 <strength value="required"/>
-                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1190.20"/>
+                <valueSet value="http://hl7.org/fhir/us/hai-ltcf/ValueSet/nhsn-population-summary-report-type-code"/>
             </binding>
         </element>
         <element id="Questionnaire.item">

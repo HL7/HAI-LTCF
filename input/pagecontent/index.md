@@ -85,6 +85,3 @@ The best standards are those driven by business requirements. A strong set of He
 </table>
 
 
-
-
-[Next Page - Background](background.html)

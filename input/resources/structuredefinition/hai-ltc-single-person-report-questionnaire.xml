@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hai-ltc-single-person-report-questionnaire"/>
     <meta>
-        <versionId value="10"/>
-        <lastUpdated value="2020-12-16T00:10:47.211+00:00"/>
-        <source value="#xL1rpOhVjV0Hcqcx"/>
+        <versionId value="11"/>
+        <lastUpdated value="2022-02-11T00:43:44.867+00:00"/>
+        <source value="#7MTrgva9y04ADGTm"/>
     </meta>
     <url value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-single-person-report-questionnaire"/>
     <version value="1.1.0"/>
@@ -13,19 +13,6 @@
     <title value="Healthcare Associated Infection for Long Term Care Single-Person Report Questionnaire"/>
     <status value="draft"/>
     <publisher value="Lantana Consulting Group"/>
-    <contact>
-        <name value="Sarah Gaunt"/>
-        <telecom>
-            <system value="phone"/>
-            <value value="+6 141-029-2506"/>
-            <use value="work"/>
-        </telecom>
-        <telecom>
-            <system value="email"/>
-            <value value="sarah.gaunt@lantanagroup.com"/>
-            <use value="work"/>
-        </telecom>
-    </contact>
     <description value="This profile represents a Healthcare Associated Infection Singe-Person Report form as a FHIR Questionnaire."/>
     <fhirVersion value="4.0.1"/>
     <mapping>

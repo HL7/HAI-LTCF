@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="nhsn-primary-resident-service-type"/>
+    <meta>
+        <versionId value="2"/>
+        <lastUpdated value="2022-02-11T03:49:52.418+00:00"/>
+        <source value="#gxGDQEkbnoaUrQHU"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/hai-ltcf/ValueSet/nhsn-primary-resident-service-type"/>
+    <version value="20200627"/>
+    <name value="NHSNPrimaryResidentServiceType"/>
+    <title value="NHSNPrimaryResidentServiceType"/>
+    <status value="active"/>
+    <date value="2020-06-27T01:00:31-04:00"/>
+    <publisher value="CDC NHSN"/>
+    <description value="Location where service was provided for reporting laboratory identification of MDRO or CDI in LTCF to NHSN. The latest version of this value set is located at: [NHSN Primary Resident Service Type [2.16.840.1.113883.10.20.5.1.5.9.3]](https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.10.20.5.1.5.9.3/expansion/Latest)."/>
+    <compose>
+        <include>
+            <system value="urn:oid:2.16.840.1.113883.6.259"/>
+            <concept>
+                <code value="1254-2"/>
+                <display value="Long Term Care Facility Inpatient Hospice Unit"/>
+            </concept>
+            <concept>
+                <code value="1255-9"/>
+                <display value="Long Term Care Facility Dementia Unit"/>
+            </concept>
+            <concept>
+                <code value="1256-7"/>
+                <display value="Long Term Care Facility Psychiatric Unit"/>
+            </concept>
+            <concept>
+                <code value="1257-5"/>
+                <display value="Long Term Care Facility Skilled Nursing-Short Term Rehabilitation Unit"/>
+            </concept>
+            <concept>
+                <code value="1258-3"/>
+                <display value="Long Term Care Facility General Nursing Unit"/>
+            </concept>
+            <concept>
+                <code value="1259-1"/>
+                <display value="Long Term Care Facility Ventilator Dependent Unit"/>
+            </concept>
+            <concept>
+                <code value="1260-9"/>
+                <display value="Long Term Care Facility Bariatric Unit"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

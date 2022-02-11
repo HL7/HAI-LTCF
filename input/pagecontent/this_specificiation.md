@@ -1,5 +1,3 @@
-[Previous Page - Background](background.html)
-
 ### FHIR REST API
 
 Submission of HAI event and summary reports from LTC facilities relies on the RESTful paradigm. Implementers need to be aware of and follow all the principles of [RESTful design](https://www.hl7.org/fhir/exchange-module.html#rest). Please refer to that section of the core FHIR spec.
@@ -62,6 +60,3 @@ The following profiles are defined in the [HL7 FHIR® Implementation Guide: Heal
 
 Note: The *HL7 FHIR® Implementation Guide: Healthcare Associated Infection Reports, Release 1 - US Realm* containing the above profiles was balloted in the May 2019 ballot cycle. Ballot reconcillation has been completed on the ballot and the agreed changes are in progress (one change of note being that the IG is now based on FHIR R4 rather than FHIR R3). The *HL7 FHIR® Implementation Guide: Healthcare Associated Infection Reports, Release 1 - US Realm* IG will be finalized and published before this IG is published.  
 
-
-
-[Next Page - Downloads](downloads.html)

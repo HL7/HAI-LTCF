@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-hai-ltcf"/>
     <meta>
-        <versionId value="61"/>
-        <lastUpdated value="2020-12-16T01:44:33.138+00:00"/>
-        <source value="#HJeJabk16cp7SAAS"/>
+        <versionId value="85"/>
+        <lastUpdated value="2022-02-11T03:20:28.014+00:00"/>
+        <source value="#fcBFXJYEZPjAOkmZ"/>
     </meta>
     <url value="http://hl7.org/fhir/us/hai-ltcf/ImplementationGuide/hl7-fhir-us-hai-ltcf"/>
     <version value="1.0.0"/>
@@ -41,6 +41,12 @@
         <version value="0.4.0"/>
     </dependsOn>
     <definition>
+        <grouping id="questionnaire-instances">
+            <name value="Questionnaire Instances"/>
+        </grouping>
+        <grouping id="questionnaireresponse-instances">
+            <name value="QuestionnaireResponse Instances"/>
+        </grouping>
         <resource>
             <reference>
                 <reference value="Device/hai-ltcf-authoring-device"/>
@@ -77,6 +83,7 @@
             <description value="Instance of Questionnaire for MDRO or CDI Event Report"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-single-person-report-questionnaire"/>
+            <groupingId value="questionnaire-instances"/>
         </resource>
         <resource>
             <reference>
@@ -87,6 +94,7 @@
             <description value="Instance of Questionnaire for MDRO and CDI Event Reporting Monthly Summary"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaire"/>
+            <groupingId value="questionnaire-instances"/>
         </resource>
         <resource>
             <reference>
@@ -95,6 +103,7 @@
             <description value="Instance of QuestionnaireResponse for MDRO and CDI Monthly Summary Data"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaireresponse"/>
+            <groupingId value="questionnaireresponse-instances"/>
         </resource>
         <resource>
             <reference>
@@ -103,6 +112,7 @@
             <description value="Instance of QuestionnaireResponse for MDRO and CDI Event Report"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-single-person-report-questionnaireresponse"/>
+            <groupingId value="questionnaireresponse-instances"/>
         </resource>
         <resource>
             <reference>
@@ -136,7 +146,7 @@
                 <reference value="StructureDefinition/hai-ltc-single-person-report-questionnaireresponse"/>
                 <display value="Healthcare Associated Infection for Long Term Care  Single-Person Report QuestionnaireResponse"/>
             </reference>
-            <name value="Healthcare Associated Infection for Long Term Care Single-Person Report QuestionnaireResponse"/>
+            <name value="Healthcare Associated Infection for Long Term Care  Single-Person Report QuestionnaireResponse"/>
             <description value="This profile represents a response to the Healthcare Associated Infection Single-Person Report Questionnaire as a FHIR QuestionnaireResponse profile."/>
             <exampleBoolean value="false"/>
         </resource>
@@ -156,6 +166,51 @@
             </reference>
             <name value="LTCCapabilityStatementClient"/>
             <description value="This resource defines the expected capabilities for clients reporting to NHSN from LTCF."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/nhsn-population-summary-report-type-code"/>
+                <display value="NHSN Population Summary Report Type Code"/>
+            </reference>
+            <name value="NHSN Population Summary Report Type Code"/>
+            <description value="NHSN surveillance reporting: This value set contains codes describing the type of population summary report. The latest version of this value set is located at: [NHSN Population Summary Report Type Code(CDCNHSN) [2.16.840.1.113762.1.4.1190.20]](https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1190.20/expansion/Latest)."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/hsloc"/>
+                <display value="NHSN Healthcare Facility Patient Care Location (HSLOC)"/>
+            </reference>
+            <name value="NHSN Healthcare Facility Patient Care Location (HSLOC)"/>
+            <description value="A classification of patient care locations within healthcare facilities for public health purposes. The latest version of this code system is located at: [NHSN Healthcare Facility Patient Care Location (HSLOC) [2.16.840.1.113883.6.259]](https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html)."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/nhsn-healthcare-service-location-code"/>
+                <display value="NHSNHealthcareServiceLocationCode"/>
+            </reference>
+            <name value="NHSN Healthcare Service Location Code"/>
+            <description value="NHSN surveillance reporting: A classification of patient care locations within healthcare facilities for public health surveillance purposes. The latest version of this value set is located at: [NHSN Healthcare Service Location Code [2.16.840.1.113883.13.19]](https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.13.19/expansion/Latest)."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/nhsn-primary-resident-service-type"/>
+                <display value="NHSNPrimaryResidentServiceType"/>
+            </reference>
+            <name value="NHSN Primary Resident Service Type"/>
+            <description value="Location where service was provided for reporting laboratory identification of MDRO or CDI in LTCF to NHSN. The latest version of this value set is located at: [NHSN Primary Resident Service Type [2.16.840.1.113883.10.20.5.1.5.9.3]](https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.10.20.5.1.5.9.3/expansion/Latest)."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/cdcnhsn"/>
+                <display value="NHSN Surveillance System Codes (CDCNHSN)"/>
+            </reference>
+            <name value="NHSN Surveillance System Codes (CDCNHSN)"/>
+            <description value="A set of healthcare surveillance vocabulary concepts and associated identifiers intended solely for data submissions to the National Healthcare Safety Network (NHSN). Other uses are not recommended. The latest version of this code system is located at: [NHSN Surveillance System Codes (CDCNHSN) [2.16.840.1.113883.6.277]](https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html)."/>
             <exampleBoolean value="false"/>
         </resource>
         <page>
