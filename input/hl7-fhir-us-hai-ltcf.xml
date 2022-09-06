@@ -1,245 +1,252 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ImplementationGuide
-    xmlns="http://hl7.org/fhir">
-    <id value="hl7-fhir-us-hai-ltcf"/>
-    <meta>
-        <versionId value="85"/>
-        <lastUpdated value="2022-02-11T03:20:28.014+00:00"/>
-        <source value="#fcBFXJYEZPjAOkmZ"/>
-    </meta>
-    <url value="http://hl7.org/fhir/us/hai-ltcf/ImplementationGuide/hl7-fhir-us-hai-ltcf"/>
-    <version value="1.0.0"/>
-    <name value="HealthcareAssociatedInfectionReportsLongTermCareFacilities"/>
-    <title value="NHSN Healthcare Associated Infection (HAI) Reports Long Term Care Facilities (HAI-LTCF-FHIR), Release 1 - US Realm"/>
-    <status value="draft"/>
-    <experimental value="false"/>
-    <publisher value="HL7 International - Public Health Work Group"/>
-    <contact>
-        <name value="HL7 International - Public Health Work Group"/>
-        <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/pher/"/>
-        </telecom>
-    </contact>
-    <description value="This implementation guide (IG) specifies standards for electronic submission of Healthcare Associated Infection (HAI) Long Term Care Facilities (LTCF) reports to the National Healthcare Safety Network (NHSN) of the Centers for Disease Control and Prevention (CDC). This IG contains a library of FHIR profiles for electronic submission of HAI LTCF reports to the NHSN.&#xA;&#xA;As reports are modified and new report types are defined, CDC and Health Level Seven (HL7) will develop and publish additional constraints.&#xA;&#xA;Throughout this process, CDC remains the authority on NHSN data collection protocols. When healthcare enterprises choose to participate in NHSN, they must report to CDC reportable events such as identified MDRO (multidrug-resistant organism) or CDI (C. difficile infection) occurrences such as specific reportable procedures, even those without complications, and events such as a bloodstream infection, either confirmed by a positive blood culture or supported by a patients clinical symptoms. This specification opens the channel for data submission by all applications compliant with the data coding requirements defined here.&#xA;&#xA;Note that participation in the NHSN requires enrollment and filing of reporting plans, which are not defined by this specification. For an overview of NHSN and full information on NHSN participation requirements, see: [http://www.cdc.gov/nhsn](http://www.cdc.gov/nhsn). Provisions of the Public Health Service Act protect all data reported to NHSN from discovery through the Freedom of Information Act (FOIA).&#xA;&#xA;&#xA;### Relationship to Another Standard&#xA;&#xA;HL7 has developed this FHIR implementation guide in parallel with the CDA implementation guide. We anticipate several STU releases on the path to a Normative Release 1 of the HL7 implementation guides for CDA and FHIR for Healthcare Associated Infection (HAI) Reports from Long Term Care Facilities (LTCF). The FHIR and CDA implementation guides will align. A change to one standard will require the same change in the other standard. &#xA;&#xA;In this release, the new forms included in both the CDA and FHIR standards are:&#xA;* **NHSN HAI LTCF Population Summary Report**: MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF&#xA;* **NHSN HAI LTCF Single-Person Event Report**: Laboratory-identified MDRO or CDI Event for LTCF&#xA;&#xA;For further details see the [NHSN website](https://www.cdc.gov/nhsn/) for reporting healthcare-associated infections in long-term care facilities.&#xA;&#xA;&#xA;### Audience&#xA;&#xA;The audience for this work is all developers of software systems who want to enable their systems for reporting HAI data to the NHSN.&#xA;&#xA;### Change Notification Process&#xA;&#xA;CDC maintains an e-mail list of contacts at organizations interested in or responsible for implementations of FHIR for LTCF HAI reporting to NHSN. To be added to the list, send a request with your contact information to nhsncda@cdc.gov. CDC uses the list for e-mail notifications of changes, including new data requirements. Changes may apply to this IG and to other documents such as business rules that are needed to implement and support FHIR for LTCF HAI reporting to NHSN. NHSN CDA related information may be found at https://www.cdc.gov/nhsn/cdaportal/index.html.  &#xA;&#xA;### Acknowledgements&#xA;&#xA;This implementation guide was produced and developed by Lantana Consulting Group in conjunction with the Division of Healthcare Quality Promotion in the National Center for Emerging and Zoonotic Infectious Diseases (NCEZID) at the Centers for Disease Control and Prevention (CDC). Its development and deployment are results of the dedication of the team—led by Daniel A. Pollock, M.D., Surveillance Branch Chief, Division of Healthcare Quality Promotion, NCEZID, CDC and  Jeneita Bell, MD, MPH, Long-term Care Team Lead, DHQP, NCEZID, CDC—and their support of the development of interoperable data standards for the CDC’s National Healthcare Safety Network (NHSN).  &#xA;&#xA;Special thanks and acknowledgment to stakeholders who participated in calls and provided feedback. Specifically, we would like to thank  Cindy Frakes, Steve Herron, Jamie Gatzke, Kelly Luden, Prasath Govindarajulu from Cerner;  Laura Ditz, Nancy Chi, Nichole (Nicki) Fetterman, Michael Furman, Patti Barton, Aga Lee from Point Click Care; Donna Doneski from NASL; and  Denise Wassenaar, Doc DeVore, Rob Price from Matrix  Care. &#xA;&#xA;The best standards are those driven by business requirements. A strong set of Healthcare Associated Infection (HAI) surveillance application vendors monitor, evaluate, and test each release of this guide.  &#xA;&#xA;&#xA;|-----|-----|-----|-----| &#xA;&#xA;|Primary Editor:|Sarah Gaunt|Lantana Consulting Group|sarah.gaunt@lantanagroup.com| &#xA;|Primary Editor:|Zabrina Gonzaga|Lantana Consulting Group|zabrina.gonzaga@lantanagroup.com| &#xA;|Primary Editor:|Dave deRoode|Lantana Consulting Group|david.deroode@lantanagroup.com| &#xA;|Co-Editor:|Jeneita Bell, MD, MPH|CDC|hpq8@cdc.gov| &#xA;|Co-Editor:|Angella Antilla PhD, MSN|CDC|vtb9@cdc.gov| &#xA;|Co-Editor:|Daniel Pollock, M.D.|CDC|DPollock@cdc.gov| &#xA;|Co-Editor:|Ahmed Tahir|Leidos Consultant to CDC/NHSN|nmn8@cdc.gov| &#xA;|Co-Editor:|Mindy Durrance|Leidos Consultant to CDC/NHSN|mdq1@cdc.gov| &#xA;|Co-Editor:|Sheri Chernetsky Tejedor, MD|CDC|yei9@cdc.gov| &#xA;|Co-Editor:|Sheila Abner|CDC|sha8@cdc.gov| &#xA;|Co-Chair:|Erin Holt MPH|Tennessee Department of Health|erin.holt@tn.gov| &#xA;|Co-Chair:|Laura Rappleye|Altarum|laura.rappleye@altarum.org| &#xA;|Co-Chair:|Craig Newman|Altarum|craig.newman@altarum.org| &#xA;|Co-Chair:|Danny Wise|Allscripts|danny.wise@allscripts.com| &#xA;|Co-Chair:|Joginder Madra|Madra Consulting Inc.|hl7@madraconsulting.com| &#xA;|Co-Chair:|Gaye Dolin M.S.N., R.N. |Intelligent Medical Objects |gdolin@imo-online.com| &#xA;|Co-Chair:|Calvin Beebe|Mayo Clinic|cbeebe@mayo.edu| &#xA;|Co-Chair:|Austin Kreisler|Leidos Consultant to CDC/NHSN|duz1@cdc.gov| &#xA;|Co-Chair:|Andrew Statler|Cerner Corp|andrew.statler@cerner.com| &#xA;|Co-Chair:|Sean McIlvenna| Lantana Consulting Group|sean.mcilvenna@lantanagroup.com| &#xA;|Co-Chair:|Benjamin Flessner|Redox|benjamin@redoxengine.com| &#xA;|Co-Editor:|Beau Bannerman|Lantana Consulting Group|beau.bannerman@lantanagroup.com| &#xA;|Technical Editor:|Diana Wright|Lantana Consulting Group|diana.wright@lantanagroup.com| &#xA;|Technical Editor:|Chris Hannigan|Lantana Consulting Group|chris.hannigan@lantanagroup.com| &#xA;"/>
-    <jurisdiction>
-        <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="US"/>
-        </coding>
-    </jurisdiction>
-    <packageId value="hl7.fhir.us.hai-ltcf"/>
-    <fhirVersion value="4.0.1"/>
-    <dependsOn id="core">
-        <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
-        <packageId value="hl7.fhir.us.core"/>
-        <version value="3.1.1"/>
-    </dependsOn>
-    <dependsOn id="vsac">
-        <uri value="http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac"/>
-        <packageId value="us.nlm.vsac"/>
-        <version value="0.4.0"/>
-    </dependsOn>
-    <definition>
-        <grouping id="questionnaire-instances">
-            <name value="Questionnaire Instances"/>
-        </grouping>
-        <grouping id="questionnaireresponse-instances">
-            <name value="QuestionnaireResponse Instances"/>
-        </grouping>
-        <resource>
-            <reference>
-                <reference value="Device/hai-ltcf-authoring-device"/>
-                <display value="Authoring Device example for Long Term Care Facility"/>
-            </reference>
-            <name value="Authoring Device example for Long Term Care Facility"/>
-            <description value="An example of a device authoring an HAI report from a Long Term Care Facility"/>
-            <exampleBoolean value="true"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Group/hai-ltcf-group-1"/>
-                <display value="Long Term Care Facility Group example"/>
-            </reference>
-            <name value="Long Term Care Facility Group example"/>
-            <description value="Example of long term care facility group"/>
-            <exampleBoolean value="true"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Patient/hai-ltcf-resident-1"/>
-                <display value="Long Term Care Facility Resident example"/>
-            </reference>
-            <name value="Long Term Care Facility Resident example"/>
-            <description value="Example of long term care facility resident"/>
-            <exampleBoolean value="true"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Questionnaire/hai-ltcf-questionnaire-mdro-cdi-event"/>
-                <display value="HAI Laboratory Identified MDRO or CDI Event Report for LTCF"/>
-            </reference>
-            <name value="HAI Laboratory Identified MDRO or CDI Event Report for LTCF"/>
-            <description value="Instance of Questionnaire for MDRO or CDI Event Report"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-single-person-report-questionnaire"/>
-            <groupingId value="questionnaire-instances"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Questionnaire/hai-ltcf-questionnaire-mdro-cdi-summary"/>
-                <display value="MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF"/>
-            </reference>
-            <name value="MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF"/>
-            <description value="Instance of Questionnaire for MDRO and CDI Event Reporting Monthly Summary"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaire"/>
-            <groupingId value="questionnaire-instances"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="QuestionnaireResponse/hai-ltcf-questionnaireresponse-mdro-cdi-summary"/></reference>
-            <name value="MDRO and CDI Monthly Summary Data for LTCF"/>
-            <description value="Instance of QuestionnaireResponse for MDRO and CDI Monthly Summary Data"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaireresponse"/>
-            <groupingId value="questionnaireresponse-instances"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="QuestionnaireResponse/hai-ltcf-questionnaireresponse-mdro-cdi-event"/></reference>
-            <name value="MDRO and CDI Event Report for LTCF"/>
-            <description value="Instance of QuestionnaireResponse for MDRO and CDI Event Report"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-single-person-report-questionnaireresponse"/>
-            <groupingId value="questionnaireresponse-instances"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/hai-ltc-population-summary-questionnaire"/>
-                <display value="HaiLtcPopulationSummaryQuestionnaire"/>
-            </reference>
-            <name value="Healthcare Associated Infection for Long Term Care Population Summary Questionnaire"/>
-            <description value="This profile represents a Healthcare Associated Infection Population Summary form as a FHIR Questionnaire. A Population Summary Report records summary data for a group, such as the patients in a particular ward, during a specified period."/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/hai-ltc-population-summary-questionnaireresponse"/>
-                <display value="Healthcare Associated Infection for Long Term Care Population Summary QuestionnaireResponse"/>
-            </reference>
-            <name value="Healthcare Associated Infection for Long Term Care Population Summary QuestionnaireResponse"/>
-            <description value="This profile represents a response to the Healthcare Associated Infection Population Summary Questionnaire as a FHIR QuestionnaireResponse profile."/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/hai-ltc-single-person-report-questionnaire"/>
-                <display value="Healthcare Associated Infection Single-Person Report Questionnaire"/>
-            </reference>
-            <name value="Healthcare Associated Infection for Long Term Care Single-Person Report Questionnaire"/>
-            <description value="This profile represents a Healthcare Associated Infection Singe-Person Report form as a FHIR Questionnaire."/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/hai-ltc-single-person-report-questionnaireresponse"/>
-                <display value="Healthcare Associated Infection for Long Term Care  Single-Person Report QuestionnaireResponse"/>
-            </reference>
-            <name value="Healthcare Associated Infection for Long Term Care  Single-Person Report QuestionnaireResponse"/>
-            <description value="This profile represents a response to the Healthcare Associated Infection Single-Person Report Questionnaire as a FHIR QuestionnaireResponse profile."/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="CapabilityStatement/hair-ltcf-capability-server"/>
-                <display value="HAI LTCF Capability Statement"/>
-            </reference>
-            <name value="LTCCapabilityStatementServer"/>
-            <description value="This resource defines the expected capabilities for servers reporting to NHSN from LTCF."/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="CapabilityStatement/hair-ltcf-capability-client"/>
-                <display value="Long Term Care Cailibity STatement - Client"/>
-            </reference>
-            <name value="LTCCapabilityStatementClient"/>
-            <description value="This resource defines the expected capabilities for clients reporting to NHSN from LTCF."/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/nhsn-population-summary-report-type-code"/>
-                <display value="NHSN Population Summary Report Type Code"/>
-            </reference>
-            <name value="NHSN Population Summary Report Type Code"/>
-            <description value="NHSN surveillance reporting: This value set contains codes describing the type of population summary report. The latest version of this value set is located at: [NHSN Population Summary Report Type Code(CDCNHSN) [2.16.840.1.113762.1.4.1190.20]](https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1190.20/expansion/Latest)."/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="CodeSystem/hsloc"/>
-                <display value="NHSN Healthcare Facility Patient Care Location (HSLOC)"/>
-            </reference>
-            <name value="NHSN Healthcare Facility Patient Care Location (HSLOC)"/>
-            <description value="A classification of patient care locations within healthcare facilities for public health purposes. The latest version of this code system is located at: [NHSN Healthcare Facility Patient Care Location (HSLOC) [2.16.840.1.113883.6.259]](https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html)."/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/nhsn-healthcare-service-location-code"/>
-                <display value="NHSNHealthcareServiceLocationCode"/>
-            </reference>
-            <name value="NHSN Healthcare Service Location Code"/>
-            <description value="NHSN surveillance reporting: A classification of patient care locations within healthcare facilities for public health surveillance purposes. The latest version of this value set is located at: [NHSN Healthcare Service Location Code [2.16.840.1.113883.13.19]](https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.13.19/expansion/Latest)."/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/nhsn-primary-resident-service-type"/>
-                <display value="NHSNPrimaryResidentServiceType"/>
-            </reference>
-            <name value="NHSN Primary Resident Service Type"/>
-            <description value="Location where service was provided for reporting laboratory identification of MDRO or CDI in LTCF to NHSN. The latest version of this value set is located at: [NHSN Primary Resident Service Type [2.16.840.1.113883.10.20.5.1.5.9.3]](https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.10.20.5.1.5.9.3/expansion/Latest)."/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="CodeSystem/cdcnhsn"/>
-                <display value="NHSN Surveillance System Codes (CDCNHSN)"/>
-            </reference>
-            <name value="NHSN Surveillance System Codes (CDCNHSN)"/>
-            <description value="A set of healthcare surveillance vocabulary concepts and associated identifiers intended solely for data submissions to the National Healthcare Safety Network (NHSN). Other uses are not recommended. The latest version of this code system is located at: [NHSN Surveillance System Codes (CDCNHSN) [2.16.840.1.113883.6.277]](https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html)."/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <page>
-            <nameUrl value="index.html"/>
-            <title value="Healthcare Associated Infection Reports (FHIR)"/>
-            <generation value="markdown"/>
-            <page>
-                <nameUrl value="background.html"/>
-                <title value="Background"/>
-                <generation value="markdown"/>
-            </page>
-            <page>
-                <nameUrl value="this_specificiation.html"/>
-                <title value="This Specificiation"/>
-                <generation value="markdown"/>
-            </page>
-            <page>
-                <nameUrl value="downloads.html"/>
-                <title value="Downloads"/>
-                <generation value="markdown"/>
-            </page>
-        </page>
-        <parameter>
-            <code value="copyrightyear"/>
-            <value value="2020+"/>
-        </parameter>
-        <parameter>
-            <code value="releaselabel"/>
-            <value value="CI Build"/>
-        </parameter>
-    </definition>
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="hl7-fhir-us-hai-ltcf" />
+  <meta>
+    <versionId value="85" />
+    <lastUpdated value="2022-02-11T03:20:28.014+00:00" />
+    <source value="#fcBFXJYEZPjAOkmZ" />
+  </meta>
+  <url value="http://hl7.org/fhir/us/hai-ltcf/ImplementationGuide/hl7-fhir-us-hai-ltcf" />
+  <version value="1.0.0" />
+  <name value="HealthcareAssociatedInfectionReportsLongTermCareFacilities" />
+  <title value="NHSN Healthcare Associated Infection (HAI) Reports Long Term Care Facilities (HAI-LTCF-FHIR), Release 1 - US Realm" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)" />
+  <contact>
+    <name value="HL7 International - Public Health" />
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/pher" />
+    </telecom>
+  </contact>
+  <description
+    value="This implementation guide (IG) specifies standards for electronic submission of Healthcare Associated Infection (HAI) Long Term Care Facilities (LTCF) reports to the National Healthcare Safety Network (NHSN) of the Centers for Disease Control and Prevention (CDC). This IG contains a library of FHIR profiles for electronic submission of HAI LTCF reports to the NHSN.&#xA;&#xA;As reports are modified and new report types are defined, CDC and Health Level Seven (HL7) will develop and publish additional constraints.&#xA;&#xA;Throughout this process, CDC remains the authority on NHSN data collection protocols. When healthcare enterprises choose to participate in NHSN, they must report to CDC reportable events such as identified MDRO (multidrug-resistant organism) or CDI (C. difficile infection) occurrences such as specific reportable procedures, even those without complications, and events such as a bloodstream infection, either confirmed by a positive blood culture or supported by a patients clinical symptoms. This specification opens the channel for data submission by all applications compliant with the data coding requirements defined here.&#xA;&#xA;Note that participation in the NHSN requires enrollment and filing of reporting plans, which are not defined by this specification. For an overview of NHSN and full information on NHSN participation requirements, see: [http://www.cdc.gov/nhsn](http://www.cdc.gov/nhsn). Provisions of the Public Health Service Act protect all data reported to NHSN from discovery through the Freedom of Information Act (FOIA).&#xA;&#xA;&#xA;### Relationship to Another Standard&#xA;&#xA;HL7 has developed this FHIR implementation guide in parallel with the CDA implementation guide. We anticipate several STU releases on the path to a Normative Release 1 of the HL7 implementation guides for CDA and FHIR for Healthcare Associated Infection (HAI) Reports from Long Term Care Facilities (LTCF). The FHIR and CDA implementation guides will align. A change to one standard will require the same change in the other standard. &#xA;&#xA;In this release, the new forms included in both the CDA and FHIR standards are:&#xA;* **NHSN HAI LTCF Population Summary Report**: MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF&#xA;* **NHSN HAI LTCF Single-Person Event Report**: Laboratory-identified MDRO or CDI Event for LTCF&#xA;&#xA;For further details see the [NHSN website](https://www.cdc.gov/nhsn/) for reporting healthcare-associated infections in long-term care facilities.&#xA;&#xA;&#xA;### Audience&#xA;&#xA;The audience for this work is all developers of software systems who want to enable their systems for reporting HAI data to the NHSN.&#xA;&#xA;### Change Notification Process&#xA;&#xA;CDC maintains an e-mail list of contacts at organizations interested in or responsible for implementations of FHIR for LTCF HAI reporting to NHSN. To be added to the list, send a request with your contact information to nhsncda@cdc.gov. CDC uses the list for e-mail notifications of changes, including new data requirements. Changes may apply to this IG and to other documents such as business rules that are needed to implement and support FHIR for LTCF HAI reporting to NHSN. NHSN CDA related information may be found at https://www.cdc.gov/nhsn/cdaportal/index.html.  &#xA;&#xA;### Acknowledgements&#xA;&#xA;This implementation guide was produced and developed by Lantana Consulting Group in conjunction with the Division of Healthcare Quality Promotion in the National Center for Emerging and Zoonotic Infectious Diseases (NCEZID) at the Centers for Disease Control and Prevention (CDC). Its development and deployment are results of the dedication of the team—led by Daniel A. Pollock, M.D., Surveillance Branch Chief, Division of Healthcare Quality Promotion, NCEZID, CDC and  Jeneita Bell, MD, MPH, Long-term Care Team Lead, DHQP, NCEZID, CDC—and their support of the development of interoperable data standards for the CDC’s National Healthcare Safety Network (NHSN).  &#xA;&#xA;Special thanks and acknowledgment to stakeholders who participated in calls and provided feedback. Specifically, we would like to thank  Cindy Frakes, Steve Herron, Jamie Gatzke, Kelly Luden, Prasath Govindarajulu from Cerner;  Laura Ditz, Nancy Chi, Nichole (Nicki) Fetterman, Michael Furman, Patti Barton, Aga Lee from Point Click Care; Donna Doneski from NASL; and  Denise Wassenaar, Doc DeVore, Rob Price from Matrix  Care. &#xA;&#xA;The best standards are those driven by business requirements. A strong set of Healthcare Associated Infection (HAI) surveillance application vendors monitor, evaluate, and test each release of this guide.  &#xA;&#xA;&#xA;|-----|-----|-----|-----| &#xA;&#xA;|Primary Editor:|Sarah Gaunt|Lantana Consulting Group|sarah.gaunt@lantanagroup.com| &#xA;|Primary Editor:|Zabrina Gonzaga|Lantana Consulting Group|zabrina.gonzaga@lantanagroup.com| &#xA;|Primary Editor:|Dave deRoode|Lantana Consulting Group|david.deroode@lantanagroup.com| &#xA;|Co-Editor:|Jeneita Bell, MD, MPH|CDC|hpq8@cdc.gov| &#xA;|Co-Editor:|Angella Antilla PhD, MSN|CDC|vtb9@cdc.gov| &#xA;|Co-Editor:|Daniel Pollock, M.D.|CDC|DPollock@cdc.gov| &#xA;|Co-Editor:|Ahmed Tahir|Leidos Consultant to CDC/NHSN|nmn8@cdc.gov| &#xA;|Co-Editor:|Mindy Durrance|Leidos Consultant to CDC/NHSN|mdq1@cdc.gov| &#xA;|Co-Editor:|Sheri Chernetsky Tejedor, MD|CDC|yei9@cdc.gov| &#xA;|Co-Editor:|Sheila Abner|CDC|sha8@cdc.gov| &#xA;|Co-Chair:|Erin Holt MPH|Tennessee Department of Health|erin.holt@tn.gov| &#xA;|Co-Chair:|Laura Rappleye|Altarum|laura.rappleye@altarum.org| &#xA;|Co-Chair:|Craig Newman|Altarum|craig.newman@altarum.org| &#xA;|Co-Chair:|Danny Wise|Allscripts|danny.wise@allscripts.com| &#xA;|Co-Chair:|Joginder Madra|Madra Consulting Inc.|hl7@madraconsulting.com| &#xA;|Co-Chair:|Gaye Dolin M.S.N., R.N. |Intelligent Medical Objects |gdolin@imo-online.com| &#xA;|Co-Chair:|Calvin Beebe|Mayo Clinic|cbeebe@mayo.edu| &#xA;|Co-Chair:|Austin Kreisler|Leidos Consultant to CDC/NHSN|duz1@cdc.gov| &#xA;|Co-Chair:|Andrew Statler|Cerner Corp|andrew.statler@cerner.com| &#xA;|Co-Chair:|Sean McIlvenna| Lantana Consulting Group|sean.mcilvenna@lantanagroup.com| &#xA;|Co-Chair:|Benjamin Flessner|Redox|benjamin@redoxengine.com| &#xA;|Co-Editor:|Beau Bannerman|Lantana Consulting Group|beau.bannerman@lantanagroup.com| &#xA;|Technical Editor:|Diana Wright|Lantana Consulting Group|diana.wright@lantanagroup.com| &#xA;|Technical Editor:|Chris Hannigan|Lantana Consulting Group|chris.hannigan@lantanagroup.com| &#xA;" />
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166" />
+      <code value="US" />
+    </coding>
+  </jurisdiction>
+  <packageId value="hl7.fhir.us.hai-ltcf" />
+  <fhirVersion value="4.0.1" />
+  <dependsOn id="core">
+    <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core" />
+    <packageId value="hl7.fhir.us.core" />
+    <version value="3.1.1" />
+  </dependsOn>
+  <dependsOn id="vsac">
+    <uri value="http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac" />
+    <packageId value="us.nlm.vsac" />
+    <version value="0.4.0" />
+  </dependsOn>
+  <definition>
+    <grouping id="questionnaire-instances">
+      <name value="Questionnaire Instances" />
+    </grouping>
+    <grouping id="questionnaireresponse-instances">
+      <name value="QuestionnaireResponse Instances" />
+    </grouping>
+    <resource>
+      <reference>
+        <reference value="Device/hai-ltcf-authoring-device" />
+        <display value="Authoring Device example for Long Term Care Facility" />
+      </reference>
+      <name value="Authoring Device example for Long Term Care Facility" />
+      <description value="An example of a device authoring an HAI report from a Long Term Care Facility" />
+      <exampleBoolean value="true" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Group/hai-ltcf-group-1" />
+        <display value="Long Term Care Facility Group example" />
+      </reference>
+      <name value="Long Term Care Facility Group example" />
+      <description value="Example of long term care facility group" />
+      <exampleBoolean value="true" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/hai-ltcf-resident-1" />
+        <display value="Long Term Care Facility Resident example" />
+      </reference>
+      <name value="Long Term Care Facility Resident example" />
+      <description value="Example of long term care facility resident" />
+      <exampleBoolean value="true" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Questionnaire/hai-ltcf-questionnaire-mdro-cdi-event" />
+        <display value="HAI Laboratory Identified MDRO or CDI Event Report for LTCF" />
+      </reference>
+      <name value="HAI Laboratory Identified MDRO or CDI Event Report for LTCF" />
+      <description value="Instance of Questionnaire for MDRO or CDI Event Report" />
+      <exampleBoolean value="false" />
+      <exampleCanonical value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-single-person-report-questionnaire" />
+      <groupingId value="questionnaire-instances" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Questionnaire/hai-ltcf-questionnaire-mdro-cdi-summary" />
+        <display value="MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF" />
+      </reference>
+      <name value="MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF" />
+      <description value="Instance of Questionnaire for MDRO and CDI Event Reporting Monthly Summary" />
+      <exampleBoolean value="false" />
+      <exampleCanonical value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaire" />
+      <groupingId value="questionnaire-instances" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="QuestionnaireResponse/hai-ltcf-questionnaireresponse-mdro-cdi-summary" />
+      </reference>
+      <name value="MDRO and CDI Monthly Summary Data for LTCF" />
+      <description value="Instance of QuestionnaireResponse for MDRO and CDI Monthly Summary Data" />
+      <exampleBoolean value="false" />
+      <exampleCanonical value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaireresponse" />
+      <groupingId value="questionnaireresponse-instances" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="QuestionnaireResponse/hai-ltcf-questionnaireresponse-mdro-cdi-event" />
+      </reference>
+      <name value="MDRO and CDI Event Report for LTCF" />
+      <description value="Instance of QuestionnaireResponse for MDRO and CDI Event Report" />
+      <exampleBoolean value="false" />
+      <exampleCanonical value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-single-person-report-questionnaireresponse" />
+      <groupingId value="questionnaireresponse-instances" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/hai-ltc-population-summary-questionnaire" />
+        <display value="HaiLtcPopulationSummaryQuestionnaire" />
+      </reference>
+      <name value="Healthcare Associated Infection for Long Term Care Population Summary Questionnaire" />
+      <description value="This profile represents a Healthcare Associated Infection Population Summary form as a FHIR Questionnaire. A Population Summary Report records summary data for a group, such as the patients in a particular ward, during a specified period." />
+      <exampleBoolean value="false" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/hai-ltc-population-summary-questionnaireresponse" />
+        <display value="Healthcare Associated Infection for Long Term Care Population Summary QuestionnaireResponse" />
+      </reference>
+      <name value="Healthcare Associated Infection for Long Term Care Population Summary QuestionnaireResponse" />
+      <description value="This profile represents a response to the Healthcare Associated Infection Population Summary Questionnaire as a FHIR QuestionnaireResponse profile." />
+      <exampleBoolean value="false" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/hai-ltc-single-person-report-questionnaire" />
+        <display value="Healthcare Associated Infection Single-Person Report Questionnaire" />
+      </reference>
+      <name value="Healthcare Associated Infection for Long Term Care Single-Person Report Questionnaire" />
+      <description value="This profile represents a Healthcare Associated Infection Singe-Person Report form as a FHIR Questionnaire." />
+      <exampleBoolean value="false" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/hai-ltc-single-person-report-questionnaireresponse" />
+        <display value="Healthcare Associated Infection for Long Term Care  Single-Person Report QuestionnaireResponse" />
+      </reference>
+      <name value="Healthcare Associated Infection for Long Term Care  Single-Person Report QuestionnaireResponse" />
+      <description value="This profile represents a response to the Healthcare Associated Infection Single-Person Report Questionnaire as a FHIR QuestionnaireResponse profile." />
+      <exampleBoolean value="false" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CapabilityStatement/hair-ltcf-capability-server" />
+        <display value="HAI LTCF Capability Statement" />
+      </reference>
+      <name value="LTCCapabilityStatementServer" />
+      <description value="This resource defines the expected capabilities for servers reporting to NHSN from LTCF." />
+      <exampleBoolean value="false" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CapabilityStatement/hair-ltcf-capability-client" />
+        <display value="Long Term Care Cailibity STatement - Client" />
+      </reference>
+      <name value="LTCCapabilityStatementClient" />
+      <description value="This resource defines the expected capabilities for clients reporting to NHSN from LTCF." />
+      <exampleBoolean value="false" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/nhsn-population-summary-report-type-code" />
+        <display value="NHSN Population Summary Report Type Code" />
+      </reference>
+      <name value="NHSN Population Summary Report Type Code" />
+      <description
+        value="NHSN surveillance reporting: This value set contains codes describing the type of population summary report. The latest version of this value set is located at: [NHSN Population Summary Report Type Code(CDCNHSN) [2.16.840.1.113762.1.4.1190.20]](https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1190.20/expansion/Latest)." />
+      <exampleBoolean value="false" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/hsloc" />
+        <display value="NHSN Healthcare Facility Patient Care Location (HSLOC)" />
+      </reference>
+      <name value="NHSN Healthcare Facility Patient Care Location (HSLOC)" />
+      <description
+        value="A classification of patient care locations within healthcare facilities for public health purposes. The latest version of this code system is located at: [NHSN Healthcare Facility Patient Care Location (HSLOC) [2.16.840.1.113883.6.259]](https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html)." />
+      <exampleBoolean value="false" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/nhsn-healthcare-service-location-code" />
+        <display value="NHSNHealthcareServiceLocationCode" />
+      </reference>
+      <name value="NHSN Healthcare Service Location Code" />
+      <description
+        value="NHSN surveillance reporting: A classification of patient care locations within healthcare facilities for public health surveillance purposes. The latest version of this value set is located at: [NHSN Healthcare Service Location Code [2.16.840.1.113883.13.19]](https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.13.19/expansion/Latest)." />
+      <exampleBoolean value="false" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/nhsn-primary-resident-service-type" />
+        <display value="NHSNPrimaryResidentServiceType" />
+      </reference>
+      <name value="NHSN Primary Resident Service Type" />
+      <description
+        value="Location where service was provided for reporting laboratory identification of MDRO or CDI in LTCF to NHSN. The latest version of this value set is located at: [NHSN Primary Resident Service Type [2.16.840.1.113883.10.20.5.1.5.9.3]](https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.10.20.5.1.5.9.3/expansion/Latest)." />
+      <exampleBoolean value="false" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/cdcnhsn" />
+        <display value="NHSN Surveillance System Codes (CDCNHSN)" />
+      </reference>
+      <name value="NHSN Surveillance System Codes (CDCNHSN)" />
+      <description
+        value="A set of healthcare surveillance vocabulary concepts and associated identifiers intended solely for data submissions to the National Healthcare Safety Network (NHSN). Other uses are not recommended. The latest version of this code system is located at: [NHSN Surveillance System Codes (CDCNHSN) [2.16.840.1.113883.6.277]](https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html)." />
+      <exampleBoolean value="false" />
+    </resource>
+    <page>
+      <nameUrl value="index.html" />
+      <title value="Healthcare Associated Infection Reports (FHIR)" />
+      <generation value="markdown" />
+      <page>
+        <nameUrl value="background.html" />
+        <title value="Background" />
+        <generation value="markdown" />
+      </page>
+      <page>
+        <nameUrl value="this_specificiation.html" />
+        <title value="This Specificiation" />
+        <generation value="markdown" />
+      </page>
+      <page>
+        <nameUrl value="downloads.html" />
+        <title value="Downloads" />
+        <generation value="markdown" />
+      </page>
+    </page>
+    <parameter>
+      <code value="copyrightyear" />
+      <value value="2020+" />
+    </parameter>
+    <parameter>
+      <code value="releaselabel" />
+      <value value="CI Build" />
+    </parameter>
+  </definition>
 </ImplementationGuide>

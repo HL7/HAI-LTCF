@@ -3,3 +3,6 @@
 /publisher.bat
 /publisher.sh
 /input-old
+/input-cache
+/output
+/template
