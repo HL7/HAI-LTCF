@@ -220,6 +220,14 @@
         value="A set of healthcare surveillance vocabulary concepts and associated identifiers intended solely for data submissions to the National Healthcare Safety Network (NHSN). Other uses are not recommended. The latest version of this code system is located at: [NHSN Surveillance System Codes (CDCNHSN) [2.16.840.1.113883.6.277]](https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html)." />
       <exampleBoolean value="false" />
     </resource>
+    <resource>
+      <reference>
+        <reference value="Parameters/expansion-parameters-lctf" />
+      </reference>
+      <name value="expansion-parameters-lctf" />
+      <description value="References US SNOMED CT version." />
+      <exampleBoolean value="false" />
+    </resource>
     <page>
       <nameUrl value="index.html" />
       <title value="Healthcare Associated Infection Reports (FHIR)" />
@@ -240,6 +248,10 @@
         <generation value="markdown" />
       </page>
     </page>
+    <parameter>
+      <code value="path-expansion-params" />
+      <value value="resources/parameters/expansion-parameters-lctf.xml" />
+    </parameter>
     <parameter>
       <code value="copyrightyear" />
       <value value="2020+" />
