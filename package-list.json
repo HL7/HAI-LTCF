@@ -24,9 +24,9 @@
 			"version": "1.0.0",
 			"current": true,
 			"desc": "FHIR STU Release 1",
-			"path": "http://hl7.org/fhir/us/hai-ltcf",
+			"path": "http://hl7.org/fhir/us/hai-ltcf/STU1",
 			"fhirversion": "4.0.1",
-			"date": "2021-07-01",
+			"date": "2022-09-30",
 			"sequence": "STU 1",
 			"status": "trial-use"
 		}
