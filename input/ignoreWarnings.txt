@@ -1,1 +1,3 @@
 == Suppressed Messages ==
+# There is no US Core Questionnaire profile in the version of US Core this IG is dependent on (3.0.0)
+US FHIR Usage rules require that all profiles on QuestionnaireResponse derive from the core US profile
