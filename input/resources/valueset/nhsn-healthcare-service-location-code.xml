@@ -18,7 +18,7 @@
     value="NHSN surveillance reporting: A classification of patient care locations within healthcare facilities for public health surveillance purposes. The latest version of this value set is located at: [NHSN Healthcare Service Location Code [2.16.840.1.113883.13.19]](https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.13.19/expansion/Latest)." />
   <compose>
     <include>
-      <system value="urn:oid:2.16.840.1.113883.6.259" />
+      <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html" />
       <concept>
         <code value="1005-8" />
         <display value="Cardiac Catheterization Room/Suite" />

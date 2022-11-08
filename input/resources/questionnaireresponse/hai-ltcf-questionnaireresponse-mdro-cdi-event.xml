@@ -145,7 +145,7 @@
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <span>
                             <span>
-                                <a href="CodeSystem-hsloc.html">urn:oid:2.16.840.1.113883.6.259</a> 1258-3: Long Term Care Facility General Nursing Unit
+                              <a href="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html">https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html</a> 1258-3: Long Term Care Facility General Nursing Unit
                             </span>
                         </span>
                     </td>
@@ -318,7 +318,7 @@
             <text value="Primary Resident Service Type"/>
             <answer>
                 <valueCoding>
-                    <system value="urn:oid:2.16.840.1.113883.6.259"/>
+                  <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html"/>
                     <code value="1258-3"/>
                     <display value="Long Term Care Facility General Nursing Unit"/>
                 </valueCoding>

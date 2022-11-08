@@ -18,7 +18,7 @@
     value="Location where service was provided for reporting laboratory identification of MDRO or CDI in LTCF to NHSN. The latest version of this value set is located at: [NHSN Primary Resident Service Type [2.16.840.1.113883.10.20.5.1.5.9.3]](https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.10.20.5.1.5.9.3/expansion/Latest)." />
   <compose>
     <include>
-      <system value="urn:oid:2.16.840.1.113883.6.259" />
+      <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html" />
       <concept>
         <code value="1254-2" />
         <display value="Long Term Care Facility Inpatient Hospice Unit" />
