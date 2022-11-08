@@ -34,7 +34,7 @@
         <display value="Healthcare Associated Infection report Document"/>
     </code>
     <code>
-        <system value="http://terminology.hl7.org/CodeSystem/cdcNHSN"/>
+        <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html"/>
         <code value="1891-1"/>
         <display value="Summary data reporting MDRO and CDI LabID Event for LTCF"/>
     </code>
@@ -86,7 +86,7 @@
         <item>
             <linkId value="resident-days"/>
             <code>
-                <system value="http://terminology.hl7.org/CodeSystem/cdcNHSN"/>
+                <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html"/>
                 <code value="1369-8"/>
                 <display value="Resident days"/>
             </code>
@@ -98,7 +98,7 @@
         <item>
             <linkId value="resident-admissions"/>
             <code>
-                <system value="http://terminology.hl7.org/CodeSystem/cdcNHSN"/>
+                <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html"/>
                 <code value="1370-6"/>
                 <display value="Resident admissions"/>
             </code>
@@ -110,7 +110,7 @@
         <item>
             <linkId value="number-admissions-on-c-diff-treatment"/>
             <code>
-                <system value="http://terminology.hl7.org/CodeSystem/cdcNHSN"/>
+                <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html"/>
                 <code value="1371-4"/>
                 <display value="Number of admissions on C. difficile treatment"/>
             </code>
@@ -122,7 +122,7 @@
         <item>
             <linkId value="number-c-diff-treatment-starts"/>
             <code>
-                <system value="http://terminology.hl7.org/CodeSystem/cdcNHSN"/>
+                <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html"/>
                 <code value="1372-2"/>
                 <display value="Number of C. difficile treatment starts"/>
             </code>
@@ -151,7 +151,7 @@
         <item>
             <linkId value="no-lab-id-event-mrsa"/>
             <code>
-                <system value="http://terminology.hl7.org/CodeSystem/cdcNHSN"/>
+                <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html"/>
                 <code value="3030-4"/>
                 <display value="Report No Events: LabID Event (All specimens): MRSA"/>
             </code>
@@ -163,7 +163,7 @@
         <item>
             <linkId value="no-lab-id-event-mssa"/>
             <code>
-                <system value="http://terminology.hl7.org/CodeSystem/cdcNHSN"/>
+                <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html"/>
                 <code value="1307-8"/>
                 <display value="Report No Events: LabID Event (All specimens): MSSA"/>
             </code>
@@ -175,7 +175,7 @@
         <item>
             <linkId value="no-lab-id-event-vre"/>
             <code>
-                <system value="http://terminology.hl7.org/CodeSystem/cdcNHSN"/>
+                <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html"/>
                 <code value="3033-8"/>
                 <display value="Report No Events: LabID Event (All specimens): VRE"/>
             </code>
@@ -187,7 +187,7 @@
         <item>
             <linkId value="no-lab-id-event-cephr-klebsiella"/>
             <code>
-                <system value="http://terminology.hl7.org/CodeSystem/cdcNHSN"/>
+                <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html"/>
                 <code value="3036-1"/>
                 <display value="Report No Events: LabID Event (All specimens): CephR Klebsiella"/>
             </code>
@@ -199,7 +199,7 @@
         <item>
             <linkId value="no-lab-id-event-mrsa-cre-e-coli"/>
             <code>
-                <system value="http://terminology.hl7.org/CodeSystem/cdcNHSN"/>
+                <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html"/>
                 <code value="3039-5"/>
                 <display value="Report No Events: LabID Event (All specimens): CRE-E. coli"/>
             </code>
@@ -211,7 +211,7 @@
         <item>
             <linkId value="no-lab-id-event-mrsa-cre-enterobacter"/>
             <code>
-                <system value="http://terminology.hl7.org/CodeSystem/cdcNHSN"/>
+                <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html"/>
                 <code value="3042-9"/>
                 <display value="Report No Events: LabID Event (All specimens): CRE-Enterobacter"/>
             </code>
@@ -223,7 +223,7 @@
         <item>
             <linkId value="no-lab-id-event-cre-klebsiella"/>
             <code>
-                <system value="http://terminology.hl7.org/CodeSystem/cdcNHSN"/>
+                <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html"/>
                 <code value="3045-2"/>
                 <display value="Report No Events: LabID Event (All specimens): CRE-Klebsiella"/>
             </code>
@@ -235,7 +235,7 @@
         <item>
             <linkId value="no-lab-id-event-mdr-acinetobacter"/>
             <code>
-                <system value="http://terminology.hl7.org/CodeSystem/cdcNHSN"/>
+                <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html"/>
                 <code value="3048-6"/>
                 <display value="Report No Events: LabID Event (All specimens): MDR-Acinetobacter"/>
             </code>
@@ -247,7 +247,7 @@
         <item>
             <linkId value="no-lab-id-event-c-difficile"/>
             <code>
-                <system value="http://terminology.hl7.org/CodeSystem/cdcNHSN"/>
+                <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html"/>
                 <code value="3051-0"/>
                 <display value="Report No Events: LabID Event (All specimens): C. difficile"/>
             </code>

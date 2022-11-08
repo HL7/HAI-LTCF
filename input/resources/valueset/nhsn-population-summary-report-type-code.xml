@@ -18,7 +18,7 @@
     value="NHSN surveillance reporting: This value set contains codes describing the type of population summary report. The latest version of this value set is located at: [NHSN Population Summary Report Type Code(CDCNHSN) [2.16.840.1.113762.1.4.1190.20]](https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1190.20/expansion/Latest)." />
   <compose>
     <include>
-      <system value="http://terminology.hl7.org/CodeSystem/cdcNHSN" />
+      <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
       <concept>
         <code value="1657-6" />
         <display value="Summary data reporting outpatient procedure component events at a facility" />
