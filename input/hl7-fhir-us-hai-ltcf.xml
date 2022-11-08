@@ -180,7 +180,7 @@
         value="NHSN surveillance reporting: This value set contains codes describing the type of population summary report. The latest version of this value set is located at: [NHSN Population Summary Report Type Code(CDCNHSN) [2.16.840.1.113762.1.4.1190.20]](https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1190.20/expansion/Latest)." />
       <exampleBoolean value="false" />
     </resource>
-    <resource>
+    <!--<resource>
       <reference>
         <reference value="CodeSystem/hsloc" />
         <display value="NHSN Healthcare Facility Patient Care Location (HSLOC)" />
@@ -189,7 +189,7 @@
       <description
         value="A classification of patient care locations within healthcare facilities for public health purposes. The latest version of this code system is located at: [NHSN Healthcare Facility Patient Care Location (HSLOC) [2.16.840.1.113883.6.259]](https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html)." />
       <exampleBoolean value="false" />
-    </resource>
+    </resource>-->
     <resource>
       <reference>
         <reference value="ValueSet/nhsn-healthcare-service-location-code" />
