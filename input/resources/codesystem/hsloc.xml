@@ -7,7 +7,7 @@
         <lastUpdated value="2022-02-11T02:46:51.863+00:00"/>
         <source value="#xlhxJWnc0SFyZeyM"/>
     </meta>
-    <url value="urn:oid:2.16.840.1.113883.6.259"/>
+  <url value="http://hl7.org/fhir/us/hai-ltcf/CodeSystem/hsloc"/>
     <identifier>
         <value value="2.16.840.1.113883.6.259"/>
     </identifier>

@@ -210,7 +210,7 @@
         value="Location where service was provided for reporting laboratory identification of MDRO or CDI in LTCF to NHSN. The latest version of this value set is located at: [NHSN Primary Resident Service Type [2.16.840.1.113883.10.20.5.1.5.9.3]](https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.10.20.5.1.5.9.3/expansion/Latest)." />
       <exampleBoolean value="false" />
     </resource>
-    <resource>
+    <!--<resource>
       <reference>
         <reference value="CodeSystem/cdcnhsn" />
         <display value="NHSN Surveillance System Codes (CDCNHSN)" />
@@ -219,7 +219,7 @@
       <description
         value="A set of healthcare surveillance vocabulary concepts and associated identifiers intended solely for data submissions to the National Healthcare Safety Network (NHSN). Other uses are not recommended. The latest version of this code system is located at: [NHSN Surveillance System Codes (CDCNHSN) [2.16.840.1.113883.6.277]](https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html)." />
       <exampleBoolean value="false" />
-    </resource>
+    </resource>-->
     <resource>
       <reference>
         <reference value="Parameters/expansion-parameters-lctf" />
