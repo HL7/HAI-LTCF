@@ -1,0 +1,12 @@
+{
+  "package-id": "hl7.fhir.us.hai-ltcf",
+	"version": "1.0.0",
+	"path": "http://hl7.org/fhir/us/hai-ltcf/STU1",
+	"status": "trial-use",
+	"sequence": "STU 1",
+	"desc": "FHIR STU Release 1",
+	"descmd": "FHIR STU Release 1",
+	"title": "Healthcare Associated Infection Reports (HAI) Long Term Care Facilities (LTCF)",
+	"category": "Public Health",
+	"introduction": "This implementation guide (IG) specifies standards for electronic submission of Healthcare Associated Infection (HAI) Long Term Care Facilities (LTCF) reports to the National Healthcare Safety Network (NHSN) of the Centers for Disease Control and Prevention (CDC)."
+}
