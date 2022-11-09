@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Group
-    xmlns="http://hl7.org/fhir">
-    <id value="hai-ltcf-group-1"/>
-    <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2022-02-10T21:51:55.801+00:00"/>
-        <source value="#0bBQhAgvKWPq6BFP"/>
-    </meta>
-    <text>
-        <status value="generated"/>
-        <div
-            xmlns="http://www.w3.org/1999/xhtml">
-            <p>Example group for population summary report</p>
-        </div>
-    </text>
-    <type value="person"/>
-    <actual value="true"/>
+<Group xmlns="http://hl7.org/fhir">
+  <id value="hai-ltcf-group-1" />
+  <meta>
+    <versionId value="3" />
+    <lastUpdated value="2022-02-10T21:51:55.801+00:00" />
+    <source value="#0bBQhAgvKWPq6BFP" />
+  </meta>
+  <text>
+    <status value="generated" />
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>Example group for population summary report</p>
+    </div>
+  </text>
+  <type value="person" />
+  <actual value="true" />
 </Group>

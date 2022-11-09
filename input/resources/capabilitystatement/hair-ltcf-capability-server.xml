@@ -1,127 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CapabilityStatement
-    xmlns="http://hl7.org/fhir">
-    <id value="hair-ltcf-capability-server"/>
-    <meta>
-        <versionId value="7"/>
-        <lastUpdated value="2022-02-10T21:51:25.711+00:00"/>
-        <source value="#qr1blrPpQUydA26i"/>
-    </meta>
-    <url value="http://hl7.org/fhir/us/hai-ltcf/CapabilityStatement/hair-ltcf-capability-server"/>
-    <version value="0.1.0"/>
-    <name value="LTCCapabilityStatementServer"/>
-    <title value="HAI LTCF Capability Statement - Server"/>
-    <status value="draft"/>
-    <experimental value="false"/>
-    <date value="2020-10-28"/>
-    <description value="This resource defines the expected capabilities for servers reporting to NHSN from LTCF."/>
-    <kind value="requirements"/>
-    <fhirVersion value="4.0.1"/>
-    <format value="xml"/>
-    <format value="json"/>
-    <rest>
-        <mode value="server"/>
-        <documentation value="The NHSN server is expected to support the following profiles and assocaited RESTful interactions"/>
-        <resource>
-            <type value="Questionnaire"/>
-            <profile value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-single-person-report-questionnaire"/>
-            <documentation value="NHSN Server is expected to support the below interactions on the HAI LTC Single Person Event Questionnaire profile"/>
-            <interaction>
-                <code value="read"/>
-            </interaction>
-            <interaction>
-                <code value="patch"/>
-            </interaction>
-            <interaction>
-                <code value="search-type"/>
-            </interaction>
-            <interaction>
-                <code value="history-type"/>
-            </interaction>
-            <interaction>
-                <code value="history-instance"/>
-            </interaction>
-            <interaction>
-                <code value="vread"/>
-            </interaction>
-        </resource>
-        <resource>
-            <type value="QuestionnaireResponse"/>
-            <profile value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-single-person-report-questionnaireresponse"/>
-            <documentation value="NHSN Server is expected to support the below interactions on the HAI LTC Single Person Report QuestionnaireResponse profile"/>
-            <interaction>
-                <code value="create"/>
-            </interaction>
-            <interaction>
-                <code value="search-type"/>
-            </interaction>
-            <interaction>
-                <code value="read"/>
-            </interaction>
-            <interaction>
-                <code value="vread"/>
-            </interaction>
-            <interaction>
-                <code value="update"/>
-            </interaction>
-            <interaction>
-                <code value="patch"/>
-            </interaction>
-            <interaction>
-                <code value="delete"/>
-            </interaction>
-            <interaction>
-                <code value="history-instance"/>
-            </interaction>
-            <interaction>
-                <code value="history-type"/>
-            </interaction>
-        </resource>
-        <resource>
-            <type value="Device"/>
-            <interaction>
-                <code value="create"/>
-            </interaction>
-            <interaction>
-                <code value="read"/>
-            </interaction>
-            <interaction>
-                <code value="update"/>
-            </interaction>
-            <interaction>
-                <code value="delete"/>
-            </interaction>
-        </resource>
-        <resource>
-            <type value="Group"/>
-            <interaction>
-                <code value="create"/>
-            </interaction>
-            <interaction>
-                <code value="read"/>
-            </interaction>
-            <interaction>
-                <code value="update"/>
-            </interaction>
-            <interaction>
-                <code value="delete"/>
-            </interaction>
-        </resource>
-        <resource>
-            <type value="Patient"/>
-            <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-            <interaction>
-                <code value="create"/>
-            </interaction>
-            <interaction>
-                <code value="read"/>
-            </interaction>
-            <interaction>
-                <code value="update"/>
-            </interaction>
-            <interaction>
-                <code value="delete"/>
-            </interaction>
-        </resource>
-    </rest>
+<CapabilityStatement xmlns="http://hl7.org/fhir">
+  <id value="hair-ltcf-capability-server" />
+  <meta>
+    <versionId value="7" />
+    <lastUpdated value="2022-02-10T21:51:25.711+00:00" />
+    <source value="#qr1blrPpQUydA26i" />
+  </meta>
+  <url value="http://hl7.org/fhir/us/hai-ltcf/CapabilityStatement/hair-ltcf-capability-server" />
+  <version value="0.1.0" />
+  <name value="LTCCapabilityStatementServer" />
+  <title value="HAI LTCF Capability Statement - Server" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2020-10-28" />
+  <description value="This resource defines the expected capabilities for servers reporting to NHSN from LTCF." />
+  <kind value="requirements" />
+  <fhirVersion value="4.0.1" />
+  <format value="xml" />
+  <format value="json" />
+  <rest>
+    <mode value="server" />
+    <documentation value="The NHSN server is expected to support the following profiles and assocaited RESTful interactions" />
+    <resource>
+      <type value="Questionnaire" />
+      <profile value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-single-person-report-questionnaire" />
+      <documentation value="NHSN Server is expected to support the below interactions on the HAI LTC Single Person Event Questionnaire profile" />
+      <interaction>
+        <code value="read" />
+      </interaction>
+      <interaction>
+        <code value="patch" />
+      </interaction>
+      <interaction>
+        <code value="search-type" />
+      </interaction>
+      <interaction>
+        <code value="history-type" />
+      </interaction>
+      <interaction>
+        <code value="history-instance" />
+      </interaction>
+      <interaction>
+        <code value="vread" />
+      </interaction>
+    </resource>
+    <resource>
+      <type value="QuestionnaireResponse" />
+      <profile value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-single-person-report-questionnaireresponse" />
+      <documentation value="NHSN Server is expected to support the below interactions on the HAI LTC Single Person Report QuestionnaireResponse profile" />
+      <interaction>
+        <code value="create" />
+      </interaction>
+      <interaction>
+        <code value="search-type" />
+      </interaction>
+      <interaction>
+        <code value="read" />
+      </interaction>
+      <interaction>
+        <code value="vread" />
+      </interaction>
+      <interaction>
+        <code value="update" />
+      </interaction>
+      <interaction>
+        <code value="patch" />
+      </interaction>
+      <interaction>
+        <code value="delete" />
+      </interaction>
+      <interaction>
+        <code value="history-instance" />
+      </interaction>
+      <interaction>
+        <code value="history-type" />
+      </interaction>
+    </resource>
+    <resource>
+      <type value="Device" />
+      <interaction>
+        <code value="create" />
+      </interaction>
+      <interaction>
+        <code value="read" />
+      </interaction>
+      <interaction>
+        <code value="update" />
+      </interaction>
+      <interaction>
+        <code value="delete" />
+      </interaction>
+    </resource>
+    <resource>
+      <type value="Group" />
+      <interaction>
+        <code value="create" />
+      </interaction>
+      <interaction>
+        <code value="read" />
+      </interaction>
+      <interaction>
+        <code value="update" />
+      </interaction>
+      <interaction>
+        <code value="delete" />
+      </interaction>
+    </resource>
+    <resource>
+      <type value="Patient" />
+      <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient" />
+      <interaction>
+        <code value="create" />
+      </interaction>
+      <interaction>
+        <code value="read" />
+      </interaction>
+      <interaction>
+        <code value="update" />
+      </interaction>
+      <interaction>
+        <code value="delete" />
+      </interaction>
+    </resource>
+  </rest>
 </CapabilityStatement>

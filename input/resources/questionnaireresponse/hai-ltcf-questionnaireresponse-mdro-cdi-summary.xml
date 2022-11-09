@@ -1,278 +1,248 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<QuestionnaireResponse
-    xmlns="http://hl7.org/fhir">
-    <id value="hai-ltcf-questionnaireresponse-mdro-cdi-summary"/>
-    <meta>
-        <versionId value="24"/>
-        <lastUpdated value="2022-02-11T03:59:57.021+00:00"/>
-        <source value="#Tf6HPn4puMKG0a5Z"/>
-        <profile value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaireresponse"/>
-    </meta>
-    <text>
-        <status value="generated"/>
-        <div
-            xmlns="http://www.w3.org/1999/xhtml">
-            <table border="1" cellpadding="0" cellspacing="0" style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;">
-                <tr style="border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top">
-                    <th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
-                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="The linkId for the item">LinkId</a>
-                    </th>
-                    <th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
-                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="Text for the item">Text</a>
-                    </th>
-                    <th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
-                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the itemcan appear in the instance">Definition</a>
-                    </th>
-                    <th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
-                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="The type of the item">Answer</a>
-                        <span style="float: right">
-                            <a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format">
-                                <img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/>
-                            </a>
-                        </span>
-                    </th>
-                </tr>
-                <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white">
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy">
-                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="icon_q_root.gif" alt="." style="background-color: white; background-color: inherit" title="QuestionnaireResponseRoot" class="hierarchy"/>
-                        hai-ltcf-questionnaireresponse-mdro-cdi-summary
-                    </td>
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">QuestionnaireResponse</td>
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
-                </tr>
-                <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7">
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy">
-                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Item" class="hierarchy"/> facility-id
-                    </td>
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Facility
-                        ID</td>
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1</td>
-                </tr>
-                <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white">
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy">
-                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="icon-q-string.png" alt="." style="background-color: white; background-color: inherit" title="Item" class="hierarchy"/> report-period-start
-                    </td>
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">First Day of
-                        Period Reported</td>
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">2019-01-01</td>
-                </tr>
-                <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7">
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy">
-                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Item" class="hierarchy"/> report-period-end
-                    </td>
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Last Day of
-                        Period Reported</td>
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">2019-01-31</td>
-                </tr>
-                <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white">
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy">
-                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="icon-q-string.png" alt="." style="background-color: white; background-color: inherit" title="Item" class="hierarchy"/> facility-location-code
-                    </td>
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Facility
-                        Location Code</td>
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
-                        <span>
-                            <span>
-                              <a href="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html">https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html</a> 1250-0: Facility-wide Inpatient (FacWIDEIn)
-                            </span>
-                        </span>
-                    </td>
-                </tr>
-                <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7">
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy">
-                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="icon-q-group.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Group" class="hierarchy"/> summary-data-group
-                    </td>
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Summary Data
-                        Group</td>
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
-                </tr>
-                <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white">
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy">
-                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="icon-q-string.png" alt="." style="background-color: white; background-color: inherit" title="Item" class="hierarchy"/> resident-days
-                    </td>
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Resident
-                        Days</td>
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">100</td>
-                </tr>
-                <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7">
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy">
-                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Item" class="hierarchy"/> resident-admissions
-                    </td>
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Resident
-                        Admissions</td>
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">20</td>
-                </tr>
-                <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white">
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy">
-                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="icon-q-string.png" alt="." style="background-color: white; background-color: inherit" title="Item" class="hierarchy"/>
-                        number-admissions-on-c-diff-treatment
-                    </td>
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Number of
-                        admissions on C. difficile treatment</td>
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">8</td>
-                </tr>
-                <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7">
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy">
-                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Item" class="hierarchy"/>
-                        number-c-diff-treatment-starts
-                    </td>
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Number of C.
-                        difficile treatment starts</td>
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">2</td>
-                </tr>
-                <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white">
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy">
-                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="icon-q-group.png" alt="." style="background-color: white; background-color: inherit" title="Group" class="hierarchy"/> report-no-events-group
-                    </td>
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Report no
-                        events</td>
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
-                    <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
-                </tr>
-                <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7">
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000.png)" class="hierarchy">
-                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/>
-                        <img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Item" class="hierarchy"/> no-lab-id-event-vre
-                    </td>
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Report No
-                        Events: LabID Event (All specimens): VRE</td>
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
-                    <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">true</td>
-                </tr>
-                <tr>
-                    <td colspan="4" class="hierarchy">
-                        <br/>
-                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format">
-                            <img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format
-                        </a>
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </text>
-    <identifier>
-        <value value="hai-ltcf-questionnaireresponse-mdro-cdi-summary-example-1"/>
-    </identifier>
-    <questionnaire value="http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-summary"/>
-    <status value="completed"/>
-    <subject>
-        <reference value="Group/hai-ltcf-group-1"/>
-        <display value="hai-ltcf-group-1"/>
-    </subject>
-    <author>
-        <reference value="Device/hai-ltcf-authoring-device"/>
-        <display value="hai-ltcf-authoring-device"/>
-    </author>
+<QuestionnaireResponse xmlns="http://hl7.org/fhir">
+  <id value="hai-ltcf-questionnaireresponse-mdro-cdi-summary" />
+  <meta>
+    <versionId value="24" />
+    <lastUpdated value="2022-02-11T03:59:57.021+00:00" />
+    <source value="#Tf6HPn4puMKG0a5Z" />
+    <profile value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaireresponse" />
+  </meta>
+  <text>
+    <status value="generated" />
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <table border="1" cellpadding="0" cellspacing="0" style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;">
+        <tr style="border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top">
+          <th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+            <a href="http://hl7.org/fhir/R4/formats.html#table" title="The linkId for the item">LinkId</a>
+          </th>
+          <th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+            <a href="http://hl7.org/fhir/R4/formats.html#table" title="Text for the item">Text</a>
+          </th>
+          <th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+            <a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the itemcan appear in the instance">Definition</a>
+          </th>
+          <th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+            <a href="http://hl7.org/fhir/R4/formats.html#table" title="The type of the item">Answer</a>
+            <span style="float: right">
+              <a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format">
+                <img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit" />
+              </a>
+            </span>
+          </th>
+        </tr>
+        <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white">
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy">
+            <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="icon_q_root.gif" alt="." style="background-color: white; background-color: inherit" title="QuestionnaireResponseRoot" class="hierarchy" /> hai-ltcf-questionnaireresponse-mdro-cdi-summary </td>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy" />
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">QuestionnaireResponse</td>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy" />
+        </tr>
+        <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7">
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy">
+            <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Item" class="hierarchy" /> facility-id </td>
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Facility ID</td>
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy" />
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1</td>
+        </tr>
+        <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white">
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy">
+            <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="icon-q-string.png" alt="." style="background-color: white; background-color: inherit" title="Item" class="hierarchy" /> report-period-start </td>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">First Day of Period Reported</td>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy" />
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">2019-01-01</td>
+        </tr>
+        <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7">
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy">
+            <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Item" class="hierarchy" /> report-period-end </td>
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Last Day of Period Reported</td>
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy" />
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">2019-01-31</td>
+        </tr>
+        <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white">
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy">
+            <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="icon-q-string.png" alt="." style="background-color: white; background-color: inherit" title="Item" class="hierarchy" /> facility-location-code </td>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Facility Location Code</td>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy" />
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+            <span>
+              <span>
+                <a href="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html">https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html</a> 1250-0: Facility-wide Inpatient (FacWIDEIn) </span>
+            </span>
+          </td>
+        </tr>
+        <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7">
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy">
+            <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="icon-q-group.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Group" class="hierarchy" /> summary-data-group </td>
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Summary Data Group</td>
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy" />
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy" />
+        </tr>
+        <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white">
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy">
+            <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="icon-q-string.png" alt="." style="background-color: white; background-color: inherit" title="Item" class="hierarchy" /> resident-days </td>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Resident Days</td>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy" />
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">100</td>
+        </tr>
+        <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7">
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy">
+            <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Item" class="hierarchy" /> resident-admissions </td>
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Resident Admissions</td>
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy" />
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">20</td>
+        </tr>
+        <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white">
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy">
+            <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="icon-q-string.png" alt="." style="background-color: white; background-color: inherit" title="Item" class="hierarchy" /> number-admissions-on-c-diff-treatment </td>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Number of admissions on C. difficile treatment</td>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy" />
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">8</td>
+        </tr>
+        <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7">
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy">
+            <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Item" class="hierarchy" /> number-c-diff-treatment-starts </td>
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Number of C. difficile treatment starts</td>
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy" />
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">2</td>
+        </tr>
+        <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white">
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy">
+            <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="icon-q-group.png" alt="." style="background-color: white; background-color: inherit" title="Group" class="hierarchy" /> report-no-events-group </td>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Report no events</td>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy" />
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy" />
+        </tr>
+        <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7">
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000.png)" class="hierarchy">
+            <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Item" class="hierarchy" /> no-lab-id-event-vre </td>
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Report No Events: LabID Event (All specimens): VRE</td>
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy" />
+          <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">true</td>
+        </tr>
+        <tr>
+          <td colspan="4" class="hierarchy">
+            <br />
+            <a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format">
+              <img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit" /> Documentation for this format </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </text>
+  <identifier>
+    <value value="hai-ltcf-questionnaireresponse-mdro-cdi-summary-example-1" />
+  </identifier>
+  <questionnaire value="http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-summary" />
+  <status value="completed" />
+  <subject>
+    <reference value="Group/hai-ltcf-group-1" />
+    <display value="hai-ltcf-group-1" />
+  </subject>
+  <author>
+    <reference value="Device/hai-ltcf-authoring-device" />
+    <display value="hai-ltcf-authoring-device" />
+  </author>
+  <item>
+    <linkId value="facility-id" />
+    <text value="Facility ID" />
+    <answer>
+      <valueUri value="urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1" />
+    </answer>
+  </item>
+  <item>
+    <linkId value="report-period-start" />
+    <text value="First Day of Period Reported" />
+    <answer>
+      <valueDate value="2019-01-01" />
+    </answer>
+  </item>
+  <item>
+    <linkId value="report-period-end" />
+    <text value="Last Day of Period Reported" />
+    <answer>
+      <valueDate value="2019-01-31" />
+    </answer>
+  </item>
+  <item>
+    <linkId value="facility-location-code" />
+    <text value="Facility Location Code" />
+    <answer>
+      <valueCoding>
+        <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html" />
+        <code value="1250-0" />
+        <display value="Facility-wide Inpatient (FacWIDEIn)" />
+      </valueCoding>
+    </answer>
+  </item>
+  <item>
+    <linkId value="summary-data-group" />
+    <text value="Summary Data Group" />
     <item>
-        <linkId value="facility-id"/>
-        <text value="Facility ID"/>
-        <answer>
-            <valueUri value="urn:hl7ii:2.16.840.1.113883.3.117.1.1.5.1.1"/>
-        </answer>
+      <linkId value="resident-days" />
+      <text value="Resident Days" />
+      <answer>
+        <valueInteger value="100" />
+      </answer>
     </item>
     <item>
-        <linkId value="report-period-start"/>
-        <text value="First Day of Period Reported"/>
-        <answer>
-            <valueDate value="2019-01-01"/>
-        </answer>
+      <linkId value="resident-admissions" />
+      <text value="Resident Admissions" />
+      <answer>
+        <valueInteger value="20" />
+      </answer>
     </item>
     <item>
-        <linkId value="report-period-end"/>
-        <text value="Last Day of Period Reported"/>
-        <answer>
-            <valueDate value="2019-01-31"/>
-        </answer>
+      <linkId value="number-admissions-on-c-diff-treatment" />
+      <text value="Number of admissions on C. difficile treatment" />
+      <answer>
+        <valueInteger value="8" />
+      </answer>
     </item>
     <item>
-        <linkId value="facility-location-code"/>
-        <text value="Facility Location Code"/>
-        <answer>
-            <valueCoding>
-              <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html"/>
-                <code value="1250-0"/>
-                <display value="Facility-wide Inpatient (FacWIDEIn)"/>
-            </valueCoding>
-        </answer>
+      <linkId value="number-c-diff-treatment-starts" />
+      <text value="Number of C. difficile treatment starts" />
+      <answer>
+        <valueInteger value="2" />
+      </answer>
     </item>
+  </item>
+  <item>
+    <linkId value="report-no-events-group" />
+    <text value="Report no events" />
     <item>
-        <linkId value="summary-data-group"/>
-        <text value="Summary Data Group"/>
-        <item>
-            <linkId value="resident-days"/>
-            <text value="Resident Days"/>
-            <answer>
-                <valueInteger value="100"/>
-            </answer>
-        </item>
-        <item>
-            <linkId value="resident-admissions"/>
-            <text value="Resident Admissions"/>
-            <answer>
-                <valueInteger value="20"/>
-            </answer>
-        </item>
-        <item>
-            <linkId value="number-admissions-on-c-diff-treatment"/>
-            <text value="Number of admissions on C. difficile treatment"/>
-            <answer>
-                <valueInteger value="8"/>
-            </answer>
-        </item>
-        <item>
-            <linkId value="number-c-diff-treatment-starts"/>
-            <text value="Number of C. difficile treatment starts"/>
-            <answer>
-                <valueInteger value="2"/>
-            </answer>
-        </item>
+      <linkId value="no-lab-id-event-vre" />
+      <text value="Report No Events: LabID Event (All specimens): VRE" />
+      <answer>
+        <valueBoolean value="true" />
+      </answer>
     </item>
-    <item>
-        <linkId value="report-no-events-group"/>
-        <text value="Report no events"/>
-        <item>
-            <linkId value="no-lab-id-event-vre"/>
-            <text value="Report No Events: LabID Event (All specimens): VRE"/>
-            <answer>
-                <valueBoolean value="true"/>
-            </answer>
-        </item>
-    </item>
+  </item>
 </QuestionnaireResponse>
