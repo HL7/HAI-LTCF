@@ -102,11 +102,11 @@
       <sliceName value="HAI" />
       <min value="1" />
       <max value="1" />
-      <fixedCoding>
+      <patternCoding>
         <system value="http://loinc.org" />
         <code value="51897-7" />
         <display value="Healthcare Associated Infection report Document" />
-      </fixedCoding>
+      </patternCoding>
       <mustSupport value="true" />
     </element>
     <element id="Questionnaire.code:PopulationSummaryReportType">
