@@ -6,8 +6,5 @@
 	"status": "trial-use",
 	"sequence": "STU 1",
 	"desc": "FHIR STU Release 1",
-	"descmd": "FHIR STU Release 1",
-	"title": "Healthcare Associated Infection Reports (HAI) Long Term Care Facilities (LTCF)",
-	"category": "Public Health",
-	"introduction": "This implementation guide (IG) specifies standards for electronic submission of Healthcare Associated Infection (HAI) Long Term Care Facilities (LTCF) reports to the National Healthcare Safety Network (NHSN) of the Centers for Disease Control and Prevention (CDC)."
+	"descmd": "FHIR STU Release 1"
 }
