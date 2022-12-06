@@ -148,7 +148,7 @@
         <reference value="StructureDefinition/hai-ltc-single-person-report-questionnaireresponse" />
         <display value="Healthcare Associated Infection for Long Term Care Single-Person Report QuestionnaireResponse" />
       </reference>
-      <name value="Healthcare Associated Infection for Long Term Care  Single-Person Report QuestionnaireResponse" />
+      <name value="Healthcare Associated Infection for Long Term Care Single-Person Report QuestionnaireResponse" />
       <description value="This profile represents a response to the Healthcare Associated Infection Single-Person Report Questionnaire as a FHIR QuestionnaireResponse profile." />
       <exampleBoolean value="false" />
     </resource>
