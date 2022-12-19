@@ -37,11 +37,10 @@ Special thanks and acknowledgment to stakeholders who participated in calls and 
 The best standards are those driven by business requirements. A strong set of Healthcare Associated Infection (HAI) surveillance application vendors monitor, evaluate, and test each release of this guide.  
 
 
-|-----|-----|-----|-----| 
 
+|Primary Editor:|Dave deRoode|Lantana Consulting Group|david.deroode@lantanagroup.com|
 |Primary Editor:|Sarah Gaunt|Lantana Consulting Group|sarah.gaunt@lantanagroup.com| 
 |Primary Editor:|Zabrina Gonzaga|Lantana Consulting Group|zabrina.gonzaga@lantanagroup.com| 
-|Primary Editor:|Dave deRoode|Lantana Consulting Group|david.deroode@lantanagroup.com| 
 |Co-Editor:|Jeneita Bell, MD, MPH|CDC|hpq8@cdc.gov| 
 |Co-Editor:|Angella Antilla PhD, MSN|CDC|vtb9@cdc.gov| 
 |Co-Editor:|Daniel Pollock, M.D.|CDC|DPollock@cdc.gov| 
@@ -63,7 +62,6 @@ The best standards are those driven by business requirements. A strong set of He
 |Co-Editor:|Beau Bannerman|Lantana Consulting Group|beau.bannerman@lantanagroup.com| 
 |Technical Editor:|Diana Wright|Lantana Consulting Group|diana.wright@lantanagroup.com| 
 |Technical Editor:|Chris Hannigan|Lantana Consulting Group|chris.hannigan@lantanagroup.com| 
-
 
 
 
