@@ -164,7 +164,7 @@
     <resource>
       <reference>
         <reference value="CapabilityStatement/hair-ltcf-capability-client" />
-        <display value="Long Term Care Cailibity STatement - Client" />
+        <display value="Long Term Care Cabability Statement - Client" />
       </reference>
       <name value="LTCCapabilityStatementClient" />
       <description value="This resource defines the expected capabilities for clients reporting to NHSN from LTCF." />
