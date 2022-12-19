@@ -207,8 +207,8 @@
       <value value="2020+" />
     </parameter>
     <parameter>
-      <code value="releaselabel" />
-      <value value="CI Build" />
+      <code value="releaselabel"/>
+      <value value="STU 1"/>
     </parameter>
   </definition>
 </ImplementationGuide>
