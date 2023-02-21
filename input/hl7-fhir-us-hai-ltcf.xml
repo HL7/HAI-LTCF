@@ -203,7 +203,7 @@
     </parameter>
     <parameter>
       <code value="releaselabel"/>
-      <value value="STU 1"/>
+      <value value="STU 1.1"/>
     </parameter>
   </definition>
 </ImplementationGuide>
