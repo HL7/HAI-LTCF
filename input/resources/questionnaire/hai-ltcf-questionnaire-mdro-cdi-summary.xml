@@ -125,8 +125,7 @@
           <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" id="item.summary-data-group-denom-display" class="hierarchy"><img src="tbl_spacer.png" alt="."
               style="background-color: inherit" class="hierarchy" /><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy" /><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy" /><img src="tbl_vjoin.png" alt="."
               style="background-color: inherit" class="hierarchy" /><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy" /> summary-data-group-denom-display</td>
-          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">The Summary Data Group - Denominator is a set of summary data reported using the CDC NHSN form: [Denominators for LTCF (CDC
-            57.142](https://www.cdc.gov/nhsn/forms/57.142_DenominatorLTCF_BLANK.pdf).</td>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">The Summary Data Group - Denominator is a set of summary data reported using the CDC NHSN form: <a href="https://www.cdc.gov/nhsn/forms/57.142_DenominatorLTCF_BLANK.pdf">Denominators for LTCF (CDC 57.142)</a>.</td>
           <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
           <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
             <a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a>
@@ -192,8 +191,7 @@
           <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" id="item.summary-data-group-mdro-cdi-display" class="hierarchy"><img src="tbl_spacer.png" alt="."
               style="background-color: inherit" class="hierarchy" /><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy" /><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy" /><img src="tbl_vjoin.png" alt="."
               style="background-color: inherit" class="hierarchy" /><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy" /> summary-data-group-mdro-cdi-display</td>
-          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">The Summary Data Group - Denominator is a set of summary data reported using the CDC NHSN form: [MDRO and CDI Monthly Monitoring for LTCF (CDC
-            57.139)](https://www.cdc.gov/nhsn/forms/57.139_MDROMonthlyReporting_LTCF_BLANK.pdf).</td>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">The Summary Data Group - MDRO/CDI is a set of summary data reported using the CDC NHSN form: <a href="https://www.cdc.gov/nhsn/forms/57.139_MDROMonthlyReporting_LTCF_BLANK.pdf">MDRO and CDI Monthly Monitoring for LTCF (CDC 57.139)</a>.</td>
           <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
           <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
             <a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a>
@@ -259,8 +257,7 @@
           <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" id="item.summary-data-group-prevention-process-measures-display" class="hierarchy"><img
               src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy" /><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy" /><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy" /><img src="tbl_vjoin.png"
               alt="." style="background-color: inherit" class="hierarchy" /><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy" /> summary-data-group-prevention-process-measures-display</td>
-          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">The Summary Data Group - Preventions Process Measures is a set of summary data reported using the CDC NHSN form: [Prevention Process Measures
-            Form for LTCF (CDC 57.143)](https://www.cdc.gov/nhsn/forms/57.143_ProcessMeasureSummaryforLTCF_BLANK.pdf).</td>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">The Summary Data Group - Preventions Process Measures is a set of summary data reported using the CDC NHSN form: <a href="https://www.cdc.gov/nhsn/forms/57.143_ProcessMeasureSummaryforLTCF_BLANK.pdf">Prevention Process Measures Form for LTCF (CDC 57.143)</a>.</td>
           <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
           <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
             <a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a>
@@ -598,7 +595,7 @@
       <repeats value="false" />
       <item>
         <linkId value="summary-data-group-mdro-cdi-display" />
-        <text value="The Summary Data Group - Denominator is a set of summary data reported using the CDC NHSN form: [MDRO and CDI Monthly Monitoring for LTCF (CDC 57.139)](https://www.cdc.gov/nhsn/forms/57.139_MDROMonthlyReporting_LTCF_BLANK.pdf)." />
+        <text value="The Summary Data Group - MDRO/CDI is a set of summary data reported using the CDC NHSN form: [MDRO and CDI Monthly Monitoring for LTCF (CDC 57.139)](https://www.cdc.gov/nhsn/forms/57.139_MDROMonthlyReporting_LTCF_BLANK.pdf)." />
         <type value="display" />
       </item>
       <item>
