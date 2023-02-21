@@ -1,7 +1,4 @@
 == Suppressed Messages ==
-# There is no US Core Questionnaire profile in the version of US Core this IG is dependent on (3.1.1)
-US FHIR Usage rules require that all profiles on QuestionnaireResponse derive from the core US profile
-
 # External code system
 Code System URI 'https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html' is unknown so the code cannot be validated
 Code System URI 'https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html' is unknown so the code cannot be validated
