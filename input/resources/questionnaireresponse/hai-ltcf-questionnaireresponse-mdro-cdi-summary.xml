@@ -206,32 +206,65 @@
     <linkId value="summary-data-group" />
     <text value="Summary Data Group" />
     <item>
-      <linkId value="summary-data-group-mdro-cdi" />
-      <text value="Summary Data Group - MDRO/CDI" />
+      <linkId value="summary-data-group-denom" />
+      <text value="Summary Data Group - Denominator" />
       <item>
-        <linkId value="resident-days" />
-        <text value="Resident Days" />
+        <linkId value="total-resident-days" />
+        <text value="Total Resident Days" />
         <answer>
           <valueInteger value="100" />
         </answer>
       </item>
       <item>
-        <linkId value="resident-admissions" />
-        <text value="Resident Admissions" />
+        <linkId value="urinary-catheter-days" />
+        <text value="Urinary Catheter Days" />
         <answer>
           <valueInteger value="20" />
         </answer>
       </item>
       <item>
-        <linkId value="number-admissions-on-c-diff-treatment" />
-        <text value="Number of admissions on C. difficile treatment" />
+        <linkId value="new-antibiotic-starts-for-uti-indication" />
+        <text value="New Antibiotic Starts for UTI Indication" />
         <answer>
           <valueInteger value="8" />
         </answer>
       </item>
       <item>
-        <linkId value="number-c-diff-treatment-starts" />
-        <text value="Number of C. difficile treatment starts" />
+        <linkId value="number-urine-cultures-ordered" />
+        <text value="Number of Urine Cultures Ordered" />
+        <answer>
+          <valueInteger value="2" />
+        </answer>
+      </item>
+    </item>
+    
+    <item>
+      <linkId value="summary-data-group-prevention-process-measures" />
+      <text value="Summary Data Group - Prevention Process Measures" />
+      <item>
+        <linkId value="hand-hygiene-performed" />
+        <text value="Hand Hygiene Performed" />
+        <answer>
+          <valueInteger value="100" />
+        </answer>
+      </item>
+      <item>
+        <linkId value="hand-hygiene-indicated" />
+        <text value="Hand Hygiene Indicated" />
+        <answer>
+          <valueInteger value="20" />
+        </answer>
+      </item>
+      <item>
+        <linkId value="gown-and-gloves-used" />
+        <text value="Gown and Gloves Used" />
+        <answer>
+          <valueInteger value="8" />
+        </answer>
+      </item>
+      <item>
+        <linkId value="gown-and-gloves-indicated" />
+        <text value="Gown and Gloves Indicated" />
         <answer>
           <valueInteger value="2" />
         </answer>
