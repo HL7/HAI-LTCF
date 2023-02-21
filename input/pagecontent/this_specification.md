@@ -21,18 +21,17 @@ The following profiles and extensions are present in the specification. Details 
 
 ### Questionnaire/QuestionnaireResponse Profiles
 
-* [Healthcare Associated Infection for Long Term Care Single-Person Report Questionnaire](hai-ltcf-single-person-report-questionnaire.html)
-* [Healthcare Associated Infection for Long Term Care Single-Person Report QuestionnaireResponse](hai-ltcf-single-person-report-questionnaire-response.html)
-* [Healthcare Associated Infection for Long Term Care Population Summary Questionnaire](hai-ltc-population-summary-questionnaire.html)
-* [Healthcare Associated Infection for Long Term Care Population Summary QuestionnaireResponse](hai-ltcf-population-summary-questionnaire-response.html)
-
+* [Healthcare Associated Infection for Long Term Care Single-Person Report Questionnaire](StructureDefinition-hai-ltcf-single-person-report-questionnaire.html)
+* [Healthcare Associated Infection for Long Term Care Single-Person Report QuestionnaireResponse](StructureDefinition-hai-ltcf-single-person-report-questionnaire-response.html)
+* [Healthcare Associated Infection for Long Term Care Population Summary Questionnaire](StructureDefinition-hai-ltc-population-summary-questionnaire.html)
+* [Healthcare Associated Infection for Long Term Care Population Summary QuestionnaireResponse](StructureDefinition-hai-ltcf-population-summary-questionnaire-response.html)
 
 #### Questionnaire/QuestionnaireResponse Instances
 
-* [HAI-LTCF-Questionnaire-MDRO-CDI-Event](hai-ltcf-questionnaire-mdro-cdi-event.html)
-* [HAI-LTCF-Questionnaireresponse-MDRO-CDI-Event](hai-ltcf-questionnaireresponse-mdro-cdi-event.html)
-* [HAI-LTCF-Questionnaire-MDRO-CDI-Summary](hai-ltcf-questionnaire-mdro-cdi-summary.html)
-* [HAI-LTCF-Questionnaireresponse-MDRO-CDI-Summary](hai-ltcf-questionnaireresponse-mdro-cdi-summary.html)
+* [HAI-LTCF-Questionnaire-MDRO-CDI-Event](Questionnaire-hai-ltcf-questionnaire-mdro-cdi-event.html)
+* [HAI-LTCF-Questionnaireresponse-MDRO-CDI-Event](QuestionnaireResponse-hai-ltcf-questionnaireresponse-mdro-cdi-event.html)
+* [HAI-LTCF-Questionnaire-MDRO-CDI-Summary](Questionnaire-hai-ltcf-questionnaire-mdro-cdi-summary.html)
+* [HAI-LTCF-Questionnaireresponse-MDRO-CDI-Summary](QuestionnaireResponse-hai-ltcf-questionnaireresponse-mdro-cdi-summary.html)
 
 
 ### Dependence on US Core and Value Set Authoring Center
