@@ -206,32 +206,36 @@
     <linkId value="summary-data-group" />
     <text value="Summary Data Group" />
     <item>
-      <linkId value="resident-days" />
-      <text value="Resident Days" />
-      <answer>
-        <valueInteger value="100" />
-      </answer>
-    </item>
-    <item>
-      <linkId value="resident-admissions" />
-      <text value="Resident Admissions" />
-      <answer>
-        <valueInteger value="20" />
-      </answer>
-    </item>
-    <item>
-      <linkId value="number-admissions-on-c-diff-treatment" />
-      <text value="Number of admissions on C. difficile treatment" />
-      <answer>
-        <valueInteger value="8" />
-      </answer>
-    </item>
-    <item>
-      <linkId value="number-c-diff-treatment-starts" />
-      <text value="Number of C. difficile treatment starts" />
-      <answer>
-        <valueInteger value="2" />
-      </answer>
+      <linkId value="summary-data-group-mdro-cdi" />
+      <text value="Summary Data Group - MDRO/CDI" />
+      <item>
+        <linkId value="resident-days" />
+        <text value="Resident Days" />
+        <answer>
+          <valueInteger value="100" />
+        </answer>
+      </item>
+      <item>
+        <linkId value="resident-admissions" />
+        <text value="Resident Admissions" />
+        <answer>
+          <valueInteger value="20" />
+        </answer>
+      </item>
+      <item>
+        <linkId value="number-admissions-on-c-diff-treatment" />
+        <text value="Number of admissions on C. difficile treatment" />
+        <answer>
+          <valueInteger value="8" />
+        </answer>
+      </item>
+      <item>
+        <linkId value="number-c-diff-treatment-starts" />
+        <text value="Number of C. difficile treatment starts" />
+        <answer>
+          <valueInteger value="2" />
+        </answer>
+      </item>
     </item>
   </item>
   <item>
