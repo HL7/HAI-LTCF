@@ -2,23 +2,19 @@
 <Questionnaire xmlns="http://hl7.org/fhir">
   <id value="hai-ltcf-questionnaire-mdro-cdi-summary" />
   <meta>
-    <versionId value="28" />
-    <lastUpdated value="2022-02-11T03:42:58.063+00:00" />
-    <source value="#K2RsXoEFureVKCw2" />
     <profile value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaire" />
   </meta>
   <language value="en-US" />
   <url value="http://hl7.org/fhir/us/hai-ltcf/Questionnaire/hai-ltcf-questionnaire-mdro-cdi-summary" />
   <identifier>
-    <value value="hai-ltcf-questionnaire-mdro-cdi-summary-v1" />
+    <value value="hai-ltcf-questionnaire-mdro-cdi-summary-v1.1" />
   </identifier>
-  <version value="1.0.0" />
+  <version value="1.1.0" />
   <name value="HAI_LTCF_questionnaire_mdro_cdi_summary" />
   <title value="MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF" />
   <status value="draft" />
   <experimental value="false" />
   <subjectType value="Group" />
-  <date value="2019-08-01" />
   <publisher value="HL7" />
   <description value="This Questionnaire instance defines the questions and possible answers in the MDRO and CDI LabID Event Reporting Monthly Summary Data for LTCF. It records the monthly aggregate data for Multi-Drug Resistant Organisms (MDRO) and Clostridium difficile (C. diff, CDI)." />
   <jurisdiction>
@@ -79,57 +75,133 @@
     <repeats value="false" />
     <item>
       <linkId value="summary-data-group-display" />
-      <text value="The Summary Data Group a set of summary data for a population in the defined NHSN protocol." />
+      <text value="The Summary Data Group is a set of summary data for a population in the defined NHSN protocol." />
       <type value="display" />
     </item>
     <item>
-      <linkId value="resident-days" />
-      <code>
-        <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
-        <code value="1369-8" />
-        <display value="Resident days" />
-      </code>
-      <text value="Resident Days" />
-      <type value="integer" />
+      <linkId value="summary-data-group-denom" />
+      <text value="Summary Data Group - Denominator" />
+      <type value="group" />
       <required value="true" />
       <repeats value="false" />
+      <item>
+        <linkId value="summary-data-group-denom-display" />
+        <text value="The Summary Data Group - Denominator is a set of summary data for a population in the defined Denominators for Long Term Care Locations NHSN protocol (57.142)." />
+        <type value="display" />
+      </item>
+      <item>
+        <linkId value="total-resident-days" />
+        <code>
+          <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
+          <code value="temp-code-total-resident-days" />
+          <display value="Total Resident Days" />
+        </code>
+        <text value="Resident Days" />
+        <type value="integer" />
+        <required value="true" />
+        <repeats value="false" />
+      </item>
+      <item>
+        <linkId value="urinary-catheter-days" />
+        <code>
+          <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
+          <code value="1853-1" />
+          <display value="Number of urinary catheter days" />
+        </code>
+        <text value="Urinary Catheter Days" />
+        <type value="integer" />
+        <required value="true" />
+        <repeats value="false" />
+      </item>
+      <item>
+        <linkId value="new-antibiotic-starts-for-uti-indication" />
+        <code>
+          <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
+          <code value="temp-code-new-antibiotic-starts" />
+          <display value="New antibiotic starts for UTI indication" />
+        </code>
+        <text value="New Antibiotic Starts for UTI Indication" />
+        <type value="integer" />
+        <required value="true" />
+        <repeats value="false" />
+      </item>
+      <item>
+        <linkId value="number-urine-cultures-ordered" />
+        <code>
+          <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
+          <code value="temp-code-number-urine-cultures-ordered" />
+          <display value="Number of urine cultures ordered" />
+        </code>
+        <text value="Number of Urine Cultures Ordered" />
+        <type value="integer" />
+        <required value="true" />
+        <repeats value="false" />
+      </item>
     </item>
+  
+  
     <item>
-      <linkId value="resident-admissions" />
-      <code>
-        <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
-        <code value="1370-6" />
-        <display value="Resident admissions" />
-      </code>
-      <text value="Resident Admissions" />
-      <type value="integer" />
+      <linkId value="summary-data-group-mdro-cdi" />
+      <text value="Summary Data Group - MDRO/CDI" />
+      <type value="group" />
       <required value="true" />
       <repeats value="false" />
+      <item>
+        <linkId value="summary-data-group-mdro-cdi-display" />
+        <text value="The Summary Data Group - Denominator is a set of summary data for a population in the defined MDRO and CDI LabID Event Reporting NHSN protocol (57.139)[https://www.cdc.gov/nhsn/forms/57.139_MDROMonthlyReporting_LTCF_BLANK.pdf]." />
+        <type value="display" />
+      </item>
+      <item>
+        <linkId value="total-resident-days" />
+        <code>
+          <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
+          <code value="temp-code-total-resident-days" />
+          <display value="Total Resident Days" />
+        </code>
+        <text value="Resident Days" />
+        <type value="integer" />
+        <required value="true" />
+        <repeats value="false" />
+      </item>
+      <item>
+        <linkId value="urinary-catheter-days" />
+        <code>
+          <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
+          <code value="1853-1" />
+          <display value="Number of urinary catheter days" />
+        </code>
+        <text value="Urinary Catheter Days" />
+        <type value="integer" />
+        <required value="true" />
+        <repeats value="false" />
+      </item>
+      <item>
+        <linkId value="new-antibiotic-starts-for-uti-indication" />
+        <code>
+          <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
+          <code value="temp-code-new-antibiotic-starts" />
+          <display value="New antibiotic starts for UTI indication" />
+        </code>
+        <text value="New Antibiotic Starts for UTI Indication" />
+        <type value="integer" />
+        <required value="true" />
+        <repeats value="false" />
+      </item>
+      <item>
+        <linkId value="number-urine-cultures-ordered" />
+        <code>
+          <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
+          <code value="temp-code-number-urine-cultures-ordered" />
+          <display value="Number of urine cultures ordered" />
+        </code>
+        <text value="Number of Urine Cultures Ordered" />
+        <type value="integer" />
+        <required value="true" />
+        <repeats value="false" />
+      </item>
     </item>
-    <item>
-      <linkId value="number-admissions-on-c-diff-treatment" />
-      <code>
-        <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
-        <code value="1371-4" />
-        <display value="Number of admissions on C. difficile treatment" />
-      </code>
-      <text value="Number of admissions on C. difficile treatment" />
-      <type value="integer" />
-      <required value="true" />
-      <repeats value="false" />
-    </item>
-    <item>
-      <linkId value="number-c-diff-treatment-starts" />
-      <code>
-        <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
-        <code value="1372-2" />
-        <display value="Number of C. difficile treatment starts" />
-      </code>
-      <text value="Number of C. difficile treatment starts" />
-      <type value="integer" />
-      <required value="true" />
-      <repeats value="false" />
-    </item>
+    
+  
   </item>
   <item>
     <linkId value="report-no-events-group" />
@@ -146,6 +218,18 @@
       <linkId value="report-no-events-group-display" />
       <text value="The Report No Events Group contains statements that there are no events to report for a particular type of event." />
       <type value="display" />
+    </item>
+    <item>
+      <linkId value="no-lab-id-uti-event" />
+      <code>
+        <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
+        <code value="temp-code-report-no-events-uti-event" />
+        <display value="Report No Events: UTI Event" />
+      </code>
+      <text value="Report No Events: UTI Event" />
+      <type value="boolean" />
+      <required value="false" />
+      <repeats value="false" />
     </item>
     <item>
       <linkId value="no-lab-id-event-mrsa" />
