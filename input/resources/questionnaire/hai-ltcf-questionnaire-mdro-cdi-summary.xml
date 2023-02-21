@@ -141,8 +141,8 @@
         <repeats value="false" />
       </item>
     </item>
-  
-  
+
+
     <item>
       <linkId value="summary-data-group-mdro-cdi" />
       <text value="Summary Data Group - MDRO/CDI" />
@@ -157,53 +157,53 @@
       <item>
         <linkId value="resident-days" />
         <code>
-          <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html"/>
-          <code value="1369-8"/>
-          <display value="Resident days"/>
+          <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
+          <code value="1369-8" />
+          <display value="Resident days" />
         </code>
-        <text value="Resident Days"/>
+        <text value="Resident Days" />
         <type value="integer" />
         <required value="true" />
         <repeats value="false" />
       </item>
       <item>
-        <linkId value="urinary-catheter-days" />
+        <linkId value="resident-admissions" />
         <code>
           <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
-          <code value="1853-1" />
-          <display value="Number of urinary catheter days" />
+          <code value="1370-6" />
+          <display value="Resident admissions" />
         </code>
-        <text value="Urinary Catheter Days" />
+        <text value="Resident Admissions" />
         <type value="integer" />
         <required value="true" />
         <repeats value="false" />
       </item>
       <item>
-        <linkId value="new-antibiotic-starts-for-uti-indication" />
+        <linkId value="number-admissions-on-c-diff-treatment" />
         <code>
           <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
-          <code value="temp-code-new-antibiotic-starts" />
-          <display value="New antibiotic starts for UTI indication" />
+          <code value="1371-4" />
+          <display value="Number of admissions on C. difficile treatment" />
         </code>
-        <text value="New Antibiotic Starts for UTI Indication" />
+        <text value="Number of admissions on C. difficile treatment" />
         <type value="integer" />
         <required value="true" />
         <repeats value="false" />
       </item>
       <item>
-        <linkId value="number-urine-cultures-ordered" />
+        <linkId value="number-c-diff-treatment-starts" />
         <code>
           <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
-          <code value="temp-code-number-urine-cultures-ordered" />
-          <display value="Number of urine cultures ordered" />
+          <code value="1372-2" />
+          <display value="Number of C. difficile treatment starts" />
         </code>
-        <text value="Number of Urine Cultures Ordered" />
+        <text value="Number of C. difficile treatment starts" />
         <type value="integer" />
         <required value="true" />
         <repeats value="false" />
       </item>
     </item>
-    
+
     <item>
       <linkId value="summary-data-group-prevention-process-measures" />
       <text value="Summary Data Group - Prevention Process Measures" />
@@ -264,8 +264,8 @@
         <repeats value="false" />
       </item>
     </item>
-    
-  
+
+
   </item>
   <item>
     <linkId value="report-no-events-group" />
