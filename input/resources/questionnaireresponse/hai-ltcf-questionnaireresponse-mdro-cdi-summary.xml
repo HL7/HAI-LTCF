@@ -7,7 +7,7 @@
     <source value="#Tf6HPn4puMKG0a5Z" />
     <profile value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaireresponse" />
   </meta>
-  <text>
+  <!--<text>
     <status value="generated" />
     <div xmlns="http://www.w3.org/1999/xhtml">
       <table border="1" cellpadding="0" cellspacing="0" style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;">
@@ -156,7 +156,7 @@
         </tr>
       </table>
     </div>
-  </text>
+  </text>-->
   <identifier>
     <value value="hai-ltcf-questionnaireresponse-mdro-cdi-summary-example-1" />
   </identifier>
