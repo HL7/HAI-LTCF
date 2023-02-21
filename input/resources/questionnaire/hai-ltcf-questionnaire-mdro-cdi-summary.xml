@@ -34,14 +34,11 @@
         <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white">
           <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"
                /><img src="icon_q_root.gif" alt="." style="background-color: white; background-color: inherit" title="QuestionnaireRoot" class="hierarchy" /> HAI_LTCF_questionnaire_mdro_cdi_summary</td>
-          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">This Questionnaire instance defines the questions and possible answers in the following CDC NHSN forms:<br/>
-            &bull;<a href="https://www.cdc.gov/nhsn/forms/57.139_MDROMonthlyReporting_LTCF_BLANK.pdf">MDRO and CDI Monthly Monitoring for LTCF (CDC 57.139)</a><br/>
-            &bull;<a href="https://www.cdc.gov/nhsn/forms/57.142_DenominatorLTCF_BLANK.pdf">Denominators for LTCF (CDC 57.142)</a><br/>
-            &bull;<a href="https://www.cdc.gov/nhsn/forms/57.143_ProcessMeasureSummaryforLTCF_BLANK.pdf">Prevention Process Measures Form for LTCF (CDC 57.143)</a><br/>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">This Questionnaire instance defines the questions and possible answers in the following CDC NHSN forms:
             <ul>
-              <li><a href="https://www.cdc.gov/nhsn/forms/57.139_MDROMonthlyReporting_LTCF_BLANK.pdf">MDRO and CDI Monthly Monitoring for LTCF (CDC 57.139)</a></li>
-              <li><a href="https://www.cdc.gov/nhsn/forms/57.142_DenominatorLTCF_BLANK.pdf">Denominators for LTCF (CDC 57.142)</a></li>
-              <li><a href="https://www.cdc.gov/nhsn/forms/57.143_ProcessMeasureSummaryforLTCF_BLANK.pdf">Prevention Process Measures Form for LTCF (CDC 57.143)</a></li>
+              <li style="font-size: 11px; font-family: verdana;"><a href="https://www.cdc.gov/nhsn/forms/57.139_MDROMonthlyReporting_LTCF_BLANK.pdf">MDRO and CDI Monthly Monitoring for LTCF (CDC 57.139)</a></li>
+              <li style="font-size: 11px; font-family: verdana;"><a href="https://www.cdc.gov/nhsn/forms/57.142_DenominatorLTCF_BLANK.pdf">Denominators for LTCF (CDC 57.142)</a></li>
+              <li style="font-size: 11px; font-family: verdana;"><a href="https://www.cdc.gov/nhsn/forms/57.143_ProcessMeasureSummaryforLTCF_BLANK.pdf">Prevention Process Measures Form for LTCF (CDC 57.143)</a></li>
             </ul> 
           </td>
           <td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy" />
