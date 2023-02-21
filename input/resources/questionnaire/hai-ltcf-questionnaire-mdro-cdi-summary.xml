@@ -106,7 +106,7 @@
           <code value="temp-code-total-resident-days" />
           <display value="Total Resident Days" />
         </code>
-        <text value="Resident Days" />
+        <text value="Total Resident Days" />
         <type value="quantity" />
         <required value="true" />
         <repeats value="false" />
@@ -155,8 +155,6 @@
         <repeats value="false" />
       </item>
     </item>
-
-
     <item>
       <linkId value="summary-data-group-mdro-cdi" />
       <text value="Summary Data Group - MDRO/CDI" />
@@ -224,7 +222,6 @@
         <repeats value="false" />
       </item>
     </item>
-
     <item>
       <linkId value="summary-data-group-prevention-process-measures" />
       <text value="Summary Data Group - Prevention Process Measures" />
@@ -285,8 +282,6 @@
         <repeats value="false" />
       </item>
     </item>
-
-
   </item>
   <item>
     <linkId value="report-no-events-group" />
