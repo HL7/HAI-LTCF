@@ -155,13 +155,13 @@
         <type value="display" />
       </item>
       <item>
-        <linkId value="total-resident-days" />
+        <linkId value="resident-days" />
         <code>
-          <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
-          <code value="temp-code-total-resident-days" />
-          <display value="Total Resident Days" />
+          <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html"/>
+          <code value="1369-8"/>
+          <display value="Resident days"/>
         </code>
-        <text value="Resident Days" />
+        <text value="Resident Days"/>
         <type value="integer" />
         <required value="true" />
         <repeats value="false" />
