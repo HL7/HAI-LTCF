@@ -21,10 +21,10 @@ The following profiles and extensions are present in the specification. Details 
 
 ### Questionnaire/QuestionnaireResponse Profiles
 
-* [Healthcare Associated Infection for Long Term Care Single-Person Report Questionnaire](StructureDefinition-hai-ltcf-single-person-report-questionnaire.html)
-* [Healthcare Associated Infection for Long Term Care Single-Person Report QuestionnaireResponse](StructureDefinition-hai-ltcf-single-person-report-questionnaire-response.html)
+* [Healthcare Associated Infection for Long Term Care Single-Person Report Questionnaire](StructureDefinition-hai-ltc-single-person-report-questionnaire.html)
+* [Healthcare Associated Infection for Long Term Care Single-Person Report QuestionnaireResponse](StructureDefinition-hai-ltc-single-person-report-questionnaireresponse.html)
 * [Healthcare Associated Infection for Long Term Care Population Summary Questionnaire](StructureDefinition-hai-ltc-population-summary-questionnaire.html)
-* [Healthcare Associated Infection for Long Term Care Population Summary QuestionnaireResponse](StructureDefinition-hai-ltcf-population-summary-questionnaire-response.html)
+* [Healthcare Associated Infection for Long Term Care Population Summary QuestionnaireResponse](StructureDefinition-hai-ltc-population-summary-questionnaireresponse.html)
 
 #### Questionnaire/QuestionnaireResponse Instances
 
