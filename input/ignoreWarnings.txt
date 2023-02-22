@@ -4,3 +4,4 @@ Code System URI 'https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnh
 Code System URI 'https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html' is unknown so the code cannot be validated
 Resolved system http://snomed.info/sct, but the definition is not complete, so assuming value set include is correct
 Resolved system https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html, but the definition is not complete, so assuming value set include is correct
+Code System URI 'urn:oid:2.16.840.1.113883.6.238' is unknown so the code cannot be validated
