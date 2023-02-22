@@ -547,7 +547,7 @@
         <linkId value="total-resident-days" />
         <code>
           <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
-          <code value="temp-code-total-resident-days" />
+          <code value="1345-8" />
           <display value="Total Resident Days" />
         </code>
         <text value="Total Resident Days" />
@@ -578,7 +578,7 @@
         <linkId value="new-antibiotic-starts-for-uti-indication" />
         <code>
           <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
-          <code value="temp-code-new-antibiotic-starts" />
+          <code value="1343-3" />
           <display value="New antibiotic starts for UTI indication" />
         </code>
         <text value="New Antibiotic Starts for UTI Indication" />
@@ -590,7 +590,7 @@
         <linkId value="number-urine-cultures-ordered" />
         <code>
           <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
-          <code value="temp-code-number-urine-cultures-ordered" />
+          <code value="1344-1" />
           <display value="Number of urine cultures ordered" />
         </code>
         <text value="Number of Urine Cultures Ordered" />
@@ -747,7 +747,7 @@
       <linkId value="no-lab-id-uti-event" />
       <code>
         <system value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html" />
-        <code value="temp-code-report-no-events-uti-event" />
+        <code value="1342-5" />
         <display value="Report No Events: UTI Event" />
       </code>
       <text value="Report No Events: UTI Event" />
