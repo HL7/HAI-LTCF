@@ -39,8 +39,8 @@
     <grouping id="questionnaire-instances">
       <name value="Questionnaire Instances" />
     </grouping>
-    <grouping id="questionnaireresponse-instances">
-      <name value="QuestionnaireResponse Instances" />
+    <grouping id="questionnaireresponse-examples">
+      <name value="QuestionnaireResponse Examples" />
     </grouping>
     <resource>
       <reference>
@@ -99,7 +99,7 @@
       <description value="Instance of QuestionnaireResponse for MDRO and CDI Monthly Summary Data" />
       <exampleBoolean value="false" />
       <exampleCanonical value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-population-summary-questionnaireresponse" />
-      <groupingId value="questionnaireresponse-instances" />
+      <groupingId value="questionnaireresponse-examples" />
     </resource>
     <resource>
       <reference>
@@ -109,7 +109,7 @@
       <description value="Instance of QuestionnaireResponse for MDRO and CDI Event Report" />
       <exampleBoolean value="false" />
       <exampleCanonical value="http://hl7.org/fhir/us/hai-ltcf/StructureDefinition/hai-ltc-single-person-report-questionnaireresponse" />
-      <groupingId value="questionnaireresponse-instances" />
+      <groupingId value="questionnaireresponse-examples" />
     </resource>
     <resource>
       <reference>
