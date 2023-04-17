@@ -2,7 +2,7 @@
   "package-id": "hl7.fhir.us.hai-ltcf",
 	"version": "1.1.0",
 	"path": "http://hl7.org/fhir/us/hai-ltcf/STU1.1",
-	"milestone": true,
+	"mode": "milestone",
 	"status": "trial-use",
 	"sequence": "STU 1.1",
 	"desc": "FHIR STU Release 1.1",
